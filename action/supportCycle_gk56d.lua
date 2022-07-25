@@ -26,4 +26,9 @@ while AGAIN == true do
 	freeCycle = freeCycle + 1
 end
 
-EnableImage(true,'toAssess')
+if FIRST_CYCLE == true then
+	EnableImage(true,'toRecordRoom')
+	FIRST_CYCLE = false
+else
+	EnableImage(true,'toAssess')
+end

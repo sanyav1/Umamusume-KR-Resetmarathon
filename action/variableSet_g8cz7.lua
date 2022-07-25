@@ -1,7 +1,9 @@
 STARTIMAGE = 'guiErrorCheck'
 FIRST_RUN = true
+FIRST_CYCLE = true
 
 err = 0
+NETWORK_RESET_TIME = 600
 ERR_NETWORK = 0
 
 freeCycle= 1
