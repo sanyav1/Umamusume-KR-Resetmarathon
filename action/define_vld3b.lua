@@ -4,7 +4,7 @@ GROUPS = {
 'errorCallback'
 }
 
-uma_off()
+UmaOff()
 
 found_uma_list = {}
 SAVE_SCREENSHOT_TRUE = false

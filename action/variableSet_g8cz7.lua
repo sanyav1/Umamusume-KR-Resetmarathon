@@ -50,4 +50,4 @@ SR_SEARCH_ON = true
 SUCCESS = false
 SCREENSHOT_FLAG = false
 
-uma_off()
+UmaOff()

@@ -19,7 +19,7 @@ if SUCCESS == true then
 		GotoImage("alarm2")
 	end
 else
-	uma_off()
+	UmaOff()
 	print("It's a long way to go")
 	EnableImage(true,'initialize')
 	GotoImage('variableSet')
