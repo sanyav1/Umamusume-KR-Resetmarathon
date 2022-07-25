@@ -56,7 +56,7 @@ SAVE_SCREENSHOT_TRUE = true
 
 -- saveData
 head_command = "cd ../../ADB && "
-adb_command = "adb -s "..selected_device.." shell /system/xbin/bstk/su -c mv /data/data/com.kakaogames.umamusume/shared_prefs /data/data/com.kakaogames.umamusume/account/"..save_name
+adb_command = "adb -s "..device_name.." shell /system/xbin/bstk/su -c mv /data/data/com.kakaogames.umamusume/shared_prefs /data/data/com.kakaogames.umamusume/account/"..save_name
 command = head_command..adb_command
 
 local f = io.popen(command)
