@@ -44,7 +44,7 @@
         <CaptureMode>1</CaptureMode>
         <ReactSpeed>1</ReactSpeed>
         <InputType>1</InputType>
-        <ImageCount>103</ImageCount>
+        <ImageCount>116</ImageCount>
         <Image_1>
             <Name>initialize.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
@@ -1314,6 +1314,38 @@
             </Act_1>
         </Image_52>
         <Image_53>
+            <Name>toRecordRoom</Name>
+            <Rect>(0, 0, 0, 0)</Rect>
+            <ROI>(0, 0, 0, 0)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>0</Param1>
+            <Param2>0</Param2>
+            <Param3>0</Param3>
+            <Param4>0</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>3</ActCount>
+            <Act_1>
+                <Name>인식 활성/비활성</Name>
+                <Enable>1</Enable>
+                <Param>Enable( 58 recordRoom 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="58" ImageName="recordRoom" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+            </Act_1>
+            <Act_2>
+                <Name>인식 활성/비활성</Name>
+                <Enable>1</Enable>
+                <Param>Enable( 50 supportGacha 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="50" ImageName="supportGacha" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+            </Act_2>
+            <Act_3>
+                <Name>인식 활성/비활성</Name>
+                <Enable>1</Enable>
+                <Param>Enable( 52 toRecordRoom 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="52" ImageName="toRecordRoom" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+            </Act_3>
+        </Image_53>
+        <Image_54>
             <Name>toAssess</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1329,8 +1361,8 @@
             <Act_1>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 57 umaAssess 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="57" ImageName="umaAssess" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 69 umaAssess 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="69" ImageName="umaAssess" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_1>
             <Act_2>
                 <Name>인식 활성/비활성</Name>
@@ -1341,11 +1373,11 @@
             <Act_3>
                 <Name>인식 활성/비활성</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 52 toAssess 0 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="52" ImageName="toAssess" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 53 toAssess 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="53" ImageName="toAssess" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_3>
-        </Image_53>
-        <Image_54>
+        </Image_54>
+        <Image_55>
             <Name>supportPick</Name>
             <Rect>(267, 453, 43, 22)</Rect>
             <ROI>(267, 453, 43, 22)</ROI>
@@ -1370,8 +1402,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_54>
-        <Image_55>
+        </Image_55>
+        <Image_56>
             <Name>pickAgain</Name>
             <Rect>(238, 654, 97, 27)</Rect>
             <ROI>(238, 654, 97, 27)</ROI>
@@ -1396,8 +1428,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_55>
-        <Image_56>
+        </Image_56>
+        <Image_57>
             <Name>confirmPick</Name>
             <Rect>(167, 215, 69, 27)</Rect>
             <ROI>(167, 215, 69, 27)</ROI>
@@ -1422,8 +1454,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_56>
-        <Image_57>
+        </Image_57>
+        <Image_58>
             <Name>noJewel</Name>
             <Rect>(206, 417, 53, 17)</Rect>
             <ROI>(206, 417, 53, 17)</ROI>
@@ -1448,8 +1480,282 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_57>
-        <Image_58>
+        </Image_58>
+        <Image_59>
+            <Name>recordRoom.grp</Name>
+            <Rect>(0, 0, 0, 0)</Rect>
+            <ROI>(0, 0, 0, 0)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>0</Param1>
+            <Param2>0</Param2>
+            <Param3>0</Param3>
+            <Param4>0</Param4>
+            <Enable>0</Enable>
+            <Group>1</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>0</ActCount>
+        </Image_59>
+        <Image_60>
+            <Name>toTheRoom</Name>
+            <Rect>(0, 0, 0, 0)</Rect>
+            <ROI>(0, 0, 0, 0)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>0</Param1>
+            <Param2>0</Param2>
+            <Param3>0</Param3>
+            <Param4>0</Param4>
+            <Enable>1</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>1</ActCount>
+            <Act_1>
+                <Name>스크립트 입력</Name>
+                <Enable>1</Enable>
+                <Param>Script( toTheRoom_n2k4r Loop )</Param>
+                <Attr LuaFile="toTheRoom_n2k4r" Text="Loop"/>
+            </Act_1>
+        </Image_60>
+        <Image_61>
+            <Name>toSelectGacha3</Name>
+            <Rect>(0, 0, 0, 0)</Rect>
+            <ROI>(0, 0, 0, 0)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>0</Param1>
+            <Param2>0</Param2>
+            <Param3>0</Param3>
+            <Param4>0</Param4>
+            <Enable>1</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>3</ActCount>
+            <Act_1>
+                <Name>인식 활성/비활성</Name>
+                <Enable>1</Enable>
+                <Param>Enable( 34 selectGacha 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="34" ImageName="selectGacha" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+            </Act_1>
+            <Act_2>
+                <Name>인식 활성/비활성</Name>
+                <Enable>1</Enable>
+                <Param>Enable( 58 recordRoom 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="58" ImageName="recordRoom" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+            </Act_2>
+            <Act_3>
+                <Name>인식 순서 변경</Name>
+                <Enable>1</Enable>
+                <Param>Goto( 34 selectGacha 0 )</Param>
+                <Attr ImageSelect="34" ImageName="selectGacha" GotoCount="0"/>
+            </Act_3>
+        </Image_61>
+        <Image_62>
+            <Name>toHome</Name>
+            <Rect>(180, 672, 41, 28)</Rect>
+            <ROI>(180, 672, 41, 28)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>10551296</Param1>
+            <Param2>1719293</Param2>
+            <Param3>0</Param3>
+            <Param4>1658761222</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>이미지 표시</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>마우스 입력</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_62>
+        <Image_63>
+            <Name>toMenu</Name>
+            <Rect>(346, 30, 20, 16)</Rect>
+            <ROI>(346, 30, 20, 16)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>8192000</Param1>
+            <Param2>474109</Param2>
+            <Param3>0</Param3>
+            <Param4>1658761252</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>이미지 표시</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>마우스 입력</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_63>
+        <Image_64>
+            <Name>toRecord</Name>
+            <Rect>(111, 333, 39, 26)</Rect>
+            <ROI>(111, 333, 39, 26)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>14221313</Param1>
+            <Param2>1063929</Param2>
+            <Param3>0</Param3>
+            <Param4>1658761277</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>이미지 표시</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>마우스 입력</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_64>
+        <Image_65>
+            <Name>skipRecord</Name>
+            <Rect>(353, 666, 25, 21)</Rect>
+            <ROI>(353, 666, 25, 21)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>12320768</Param1>
+            <Param2>80882</Param2>
+            <Param3>0</Param3>
+            <Param4>1658761310</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>이미지 표시</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>마우스 입력</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_65>
+        <Image_66>
+            <Name>closeRecord</Name>
+            <Rect>(178, 660, 45, 24)</Rect>
+            <ROI>(178, 660, 45, 24)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>14483457</Param1>
+            <Param2>605154</Param2>
+            <Param3>0</Param3>
+            <Param4>1658761330</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>이미지 표시</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>마우스 입력</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_66>
+        <Image_67>
+            <Name>closeReward</Name>
+            <Rect>(179, 589, 45, 23)</Rect>
+            <ROI>(179, 589, 45, 23)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>14548993</Param1>
+            <Param2>670716</Param2>
+            <Param3>0</Param3>
+            <Param4>1658761358</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>이미지 표시</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>마우스 입력</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_67>
+        <Image_68>
+            <Name>exitRecord</Name>
+            <Rect>(21, 589, 47, 22)</Rect>
+            <ROI>(21, 589, 47, 22)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>14155777</Param1>
+            <Param2>670709</Param2>
+            <Param3>0</Param3>
+            <Param4>1658761390</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>이미지 표시</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>마우스 입력</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_68>
+        <Image_69>
+            <Name>closeMenu</Name>
+            <Rect>(179, 644, 44, 24)</Rect>
+            <ROI>(179, 644, 44, 24)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>14614529</Param1>
+            <Param2>736227</Param2>
+            <Param3>0</Param3>
+            <Param4>1658761466</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>이미지 표시</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>마우스 입력</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_69>
+        <Image_70>
             <Name>umaAssess.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1462,8 +1768,8 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_58>
-        <Image_59>
+        </Image_70>
+        <Image_71>
             <Name>primAssess</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1482,8 +1788,8 @@
                 <Param>Script( primAssess_qm44c print('MAIN_FLAG = '..tostring(MAIN_FLAG))\n print("MUST : " ..tostring(CalculateMustfind()[1]))\n print("SELECT : " ..tostring(CalculateSelectfind()[1]))\n print("SCORE : " ..tostring(CalculateScore )</Param>
                 <Attr LuaFile="primAssess_qm44c" Text="print(&apos;MAIN_FLAG = &apos;..tostring(MAIN_FLAG))\n print(&quot;MUST : &quot; ..tostring(CalculateMustfind()[1]))\n print(&quot;SELECT : &quot; ..tostring(CalculateSelectfind()[1]))\n print(&quot;SCORE : &quot; ..tostring(CalculateScore"/>
             </Act_1>
-        </Image_59>
-        <Image_60>
+        </Image_71>
+        <Image_72>
             <Name>saveDat</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1502,8 +1808,8 @@
                 <Param>Script( saveDat_zc4l4 err = Loopstep("doNotPick", "exitGacha", LOOP_ERR_SMALL, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return 0 end\n \n err = Loopstep("exitGacha", "toInventory", LOOP_ERR_LARGE, {true, 0,0})\n if Erro )</Param>
                 <Attr LuaFile="saveDat_zc4l4" Text="err = Loopstep(&quot;doNotPick&quot;, &quot;exitGacha&quot;, LOOP_ERR_SMALL, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return 0 end\n \n err = Loopstep(&quot;exitGacha&quot;, &quot;toInventory&quot;, LOOP_ERR_LARGE, {true, 0,0})\n if Erro"/>
             </Act_1>
-        </Image_60>
-        <Image_61>
+        </Image_72>
+        <Image_73>
             <Name>isFinished</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1522,8 +1828,8 @@
                 <Param>Script( isFinished_c7aqp if SUCCESS == true then\n 	print("All Conditions are met")\n \n 	for k, v in pairs(found_uma_list)\n 	do\n 		if v &gt; 1 then\n 			print(UMA_LIST[k], v)\n 		end\n 	end\n \n 	print('Reset Marthons Done : )</Param>
                 <Attr LuaFile="isFinished_c7aqp" Text="if SUCCESS == true then\n 	print(&quot;All Conditions are met&quot;)\n \n 	for k, v in pairs(found_uma_list)\n 	do\n 		if v &gt; 1 then\n 			print(UMA_LIST[k], v)\n 		end\n 	end\n \n 	print(&apos;Reset Marthons Done :"/>
             </Act_1>
-        </Image_61>
-        <Image_62>
+        </Image_73>
+        <Image_74>
             <Name>doNotPick</Name>
             <Rect>(86, 447, 56, 32)</Rect>
             <ROI>(86, 447, 56, 32)</ROI>
@@ -1548,8 +1854,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_62>
-        <Image_63>
+        </Image_74>
+        <Image_75>
             <Name>exitGacha</Name>
             <Rect>(83, 655, 63, 26)</Rect>
             <ROI>(83, 655, 63, 26)</ROI>
@@ -1574,8 +1880,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_63>
-        <Image_64>
+        </Image_75>
+        <Image_76>
             <Name>toInventory</Name>
             <Rect>(20, 673, 32, 30)</Rect>
             <ROI>(20, 673, 32, 30)</ROI>
@@ -1600,8 +1906,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_64>
-        <Image_65>
+        </Image_76>
+        <Image_77>
             <Name>supportCard</Name>
             <Rect>(234, 504, 84, 17)</Rect>
             <ROI>(234, 504, 84, 17)</ROI>
@@ -1626,8 +1932,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_65>
-        <Image_66>
+        </Image_77>
+        <Image_78>
             <Name>cardUpgrade</Name>
             <Rect>(268, 413, 78, 23)</Rect>
             <ROI>(268, 413, 78, 23)</ROI>
@@ -1652,8 +1958,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_66>
-        <Image_67>
+        </Image_78>
+        <Image_79>
             <Name>closeBanner</Name>
             <Rect>(171, 659, 55, 25)</Rect>
             <ROI>(171, 659, 55, 25)</ROI>
@@ -1678,8 +1984,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_67>
-        <Image_68>
+        </Image_79>
+        <Image_80>
             <Name>enteredUpgrade</Name>
             <Rect>(317, 91, 53, 16)</Rect>
             <ROI>(317, 91, 53, 16)</ROI>
@@ -1704,8 +2010,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_68>
-        <Image_69>
+        </Image_80>
+        <Image_81>
             <Name>finishAlarm.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1718,8 +2024,8 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_69>
-        <Image_70>
+        </Image_81>
+        <Image_82>
             <Name>alarm1</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1738,8 +2044,8 @@
                 <Param>Script( alarm1_vyrxo MessageBox(ALARM_MESSAGE)\n SAFELOCK=1\n Stop() )</Param>
                 <Attr LuaFile="alarm1_vyrxo" Text="MessageBox(ALARM_MESSAGE)\n SAFELOCK=1\n Stop()"/>
             </Act_1>
-        </Image_70>
-        <Image_71>
+        </Image_82>
+        <Image_83>
             <Name>alarm2</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1764,8 +2070,8 @@
                 <Param>Script( alarm2_jjsbe SAFELOCK=1\n Stop() )</Param>
                 <Attr LuaFile="alarm2_jjsbe" Text="SAFELOCK=1\n Stop()"/>
             </Act_2>
-        </Image_71>
-        <Image_72>
+        </Image_83>
+        <Image_84>
             <Name>alarm3</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1790,8 +2096,8 @@
                 <Param>Script( alarm3_txtuj MessageBox(ALARM_MESSAGE)\n SAFELOCK=1\n Stop() )</Param>
                 <Attr LuaFile="alarm3_txtuj" Text="MessageBox(ALARM_MESSAGE)\n SAFELOCK=1\n Stop()"/>
             </Act_2>
-        </Image_72>
-        <Image_73>
+        </Image_84>
+        <Image_85>
             <Name>errorCallback.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1804,8 +2110,8 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_73>
-        <Image_74>
+        </Image_85>
+        <Image_86>
             <Name>errorScript</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1824,8 +2130,8 @@
                 <Param>Script( errorScript_snl3j Sleep(1000)\n \n if ERR_NETWORK == 1 then\n 	Mouse(LBUTTON, CLICK, 196, 463, 196, 463, 0, 0, 0.5, 1, FASTER, MESSAGE)\n 	Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTER, MESSAGE)\n \n 	err = Loop )</Param>
                 <Attr LuaFile="errorScript_snl3j" Text="Sleep(1000)\n \n if ERR_NETWORK == 1 then\n 	Mouse(LBUTTON, CLICK, 196, 463, 196, 463, 0, 0, 0.5, 1, FASTER, MESSAGE)\n 	Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTER, MESSAGE)\n \n 	err = Loop"/>
             </Act_1>
-        </Image_74>
-        <Image_75>
+        </Image_86>
+        <Image_87>
             <Name>loginBanner</Name>
             <Rect>(236, 519, 56, 18)</Rect>
             <ROI>(236, 519, 56, 18)</ROI>
@@ -1850,8 +2156,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_75>
-        <Image_76>
+        </Image_87>
+        <Image_88>
             <Name>supportList.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1864,8 +2170,8 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_76>
-        <Image_77>
+        </Image_88>
+        <Image_89>
             <Name>골드시티</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
@@ -1890,8 +2196,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_77>
-        <Image_78>
+        </Image_89>
+        <Image_90>
             <Name>사일런스스즈카</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
@@ -1916,8 +2222,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_78>
-        <Image_79>
+        </Image_90>
+        <Image_91>
             <Name>세이운스카이</Name>
             <Rect>(28, 74, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
@@ -1942,8 +2248,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_79>
-        <Image_80>
+        </Image_91>
+        <Image_92>
             <Name>스마트팔콘</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
@@ -1968,8 +2274,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_80>
-        <Image_81>
+        </Image_92>
+        <Image_93>
             <Name>에어샤커</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
@@ -1994,8 +2300,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_81>
-        <Image_82>
+        </Image_93>
+        <Image_94>
             <Name>타마모크로스</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
@@ -2020,8 +2326,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_82>
-        <Image_83>
+        </Image_94>
+        <Image_95>
             <Name>트윈터보</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
@@ -2046,8 +2352,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_83>
-        <Image_84>
+        </Image_95>
+        <Image_96>
             <Name>파인모션</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
@@ -2072,8 +2378,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_84>
-        <Image_85>
+        </Image_96>
+        <Image_97>
             <Name>하야카와타즈나</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
@@ -2098,8 +2404,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_85>
-        <Image_86>
+        </Image_97>
+        <Image_98>
             <Name>그래스원더</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
@@ -2124,8 +2430,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_86>
-        <Image_87>
+        </Image_98>
+        <Image_99>
             <Name>스페셜위크</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
@@ -2150,8 +2456,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_87>
-        <Image_88>
+        </Image_99>
+        <Image_100>
             <Name>슈퍼크릭</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
@@ -2176,8 +2482,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_88>
-        <Image_89>
+        </Image_100>
+        <Image_101>
             <Name>아이네스후진</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
@@ -2202,8 +2508,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_89>
-        <Image_90>
+        </Image_101>
+        <Image_102>
             <Name>사쿠라바쿠신오</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
@@ -2228,8 +2534,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_90>
-        <Image_91>
+        </Image_102>
+        <Image_103>
             <Name>비코페가수스</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
@@ -2254,8 +2560,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_91>
-        <Image_92>
+        </Image_103>
+        <Image_104>
             <Name>메지로파머</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
@@ -2280,8 +2586,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_92>
-        <Image_93>
+        </Image_104>
+        <Image_105>
             <Name>골드쉽</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
@@ -2306,8 +2612,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_93>
-        <Image_94>
+        </Image_105>
+        <Image_106>
             <Name>오구리캡</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
@@ -2332,8 +2638,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_94>
-        <Image_95>
+        </Image_106>
+        <Image_107>
             <Name>엘콘도르파사</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
@@ -2358,8 +2664,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_95>
-        <Image_96>
+        </Image_107>
+        <Image_108>
             <Name>니시노플라워</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
@@ -2384,8 +2690,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_96>
-        <Image_97>
+        </Image_108>
+        <Image_109>
             <Name>토카이테이오</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
@@ -2410,8 +2716,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_97>
-        <Image_98>
+        </Image_109>
+        <Image_110>
             <Name>사토노다이아몬드</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
@@ -2436,8 +2742,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_98>
-        <Image_99>
+        </Image_110>
+        <Image_111>
             <Name>키타산블랙</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
@@ -2462,8 +2768,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_99>
-        <Image_100>
+        </Image_111>
+        <Image_112>
             <Name>grade.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -2476,8 +2782,8 @@
             <Group>1</Group>
             <Trg Interval="0.5" CheckInherit1="1" Acc="50" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_100>
-        <Image_101>
+        </Image_112>
+        <Image_113>
             <Name>SSR</Name>
             <Rect>(285, 79, 21, 14)</Rect>
             <ROI>(225, 483, 21, 14)</ROI>
@@ -2502,8 +2808,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_101>
-        <Image_102>
+        </Image_113>
+        <Image_114>
             <Name>SR</Name>
             <Rect>(225, 483, 21, 13)</Rect>
             <ROI>(225, 483, 21, 13)</ROI>
@@ -2528,8 +2834,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_102>
-        <Image_103>
+        </Image_114>
+        <Image_115>
             <Name>R</Name>
             <Rect>(45, 79, 21, 14)</Rect>
             <ROI>(45, 347, 21, 14)</ROI>
@@ -2554,7 +2860,33 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_103>
+        </Image_115>
+        <Image_116>
+            <Name>networkVal</Name>
+            <Rect>(104, 338, 47, 17)</Rect>
+            <ROI>(104, 338, 47, 17)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>13631489</Param1>
+            <Param2>801777</Param2>
+            <Param3>0</Param3>
+            <Param4>1658762071</Param4>
+            <Enable>0</Enable>
+            <Group>0</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>이미지 표시</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>마우스 입력</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_116>
     </GENERAL>
     <SO>
         <CheckImageName>1</CheckImageName>
