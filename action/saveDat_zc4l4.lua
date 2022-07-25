@@ -87,6 +87,6 @@ file:close()
 
 COUNT = COUNT+1
 
-print('?? ?? : '..COUNT)
+print('¸®¼¼È½¼ö : '..COUNT)
 
 EnableImage(true,'isFinished')
