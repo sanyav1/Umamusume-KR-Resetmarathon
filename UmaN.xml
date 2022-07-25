@@ -17,7 +17,7 @@
         <AuthorID>test</AuthorID>
         <Mdpi>96</Mdpi>
         <Tdpi>96</Tdpi>
-        <IniDelimiter>94874131072036653</IniDelimiter>
+        <IniDelimiter>0682213107202182488</IniDelimiter>
     </MAIN>
     <TW>
         <CheckTWInc>0</CheckTWInc>
@@ -30,21 +30,21 @@
         <TWCClass>Qt5154QWindowIcon</TWCClass>
         <PickPos>26935634</PickPos>
         <TWHandle>0x50B4C</TWHandle>
-        <TargetWnd.left>1072</TargetWnd.left>
-        <TargetWnd.top>174</TargetWnd.top>
-        <TargetWnd.right>1473</TargetWnd.right>
-        <TargetWnd.bottom>887</TargetWnd.bottom>
-        <TarfrmWnd.left>1071</TarfrmWnd.left>
-        <TarfrmWnd.top>141</TarfrmWnd.top>
-        <TarfrmWnd.right>1506</TarfrmWnd.right>
-        <TarfrmWnd.bottom>888</TarfrmWnd.bottom>
+        <TargetWnd.left>3056</TargetWnd.left>
+        <TargetWnd.top>-982</TargetWnd.top>
+        <TargetWnd.right>3457</TargetWnd.right>
+        <TargetWnd.bottom>-269</TargetWnd.bottom>
+        <TarfrmWnd.left>3055</TarfrmWnd.left>
+        <TarfrmWnd.top>-1015</TarfrmWnd.top>
+        <TarfrmWnd.right>3490</TarfrmWnd.right>
+        <TarfrmWnd.bottom>-268</TarfrmWnd.bottom>
         <TWInc/>
     </TW>
     <GENERAL>
         <CaptureMode>1</CaptureMode>
         <ReactSpeed>1</ReactSpeed>
         <InputType>1</InputType>
-        <ImageCount>102</ImageCount>
+        <ImageCount>103</ImageCount>
         <Image_1>
             <Name>initialize.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
@@ -75,8 +75,8 @@
             <Act_1>
                 <Name>스크립트 입력</Name>
                 <Enable>1</Enable>
-                <Param>Script( defineFunction_epyut LOOP_ERR_SMALL = 50\n LOOP_ERR_MEDIUM = 90\n LOOP_ERR_LARGE = 160\n \n \n -- 계정 백업 경로 생성\n head_command = "cd ../../ADB &amp;&amp; "\n adb_command = "adb -s "..device_name.." shell /system/xbin/bstk/ )</Param>
-                <Attr LuaFile="defineFunction_epyut" Text="LOOP_ERR_SMALL = 50\n LOOP_ERR_MEDIUM = 90\n LOOP_ERR_LARGE = 160\n \n \n -- 계정 백업 경로 생성\n head_command = &quot;cd ../../ADB &amp;&amp; &quot;\n adb_command = &quot;adb -s &quot;..device_name..&quot; shell /system/xbin/bstk/"/>
+                <Param>Script( defineFunction_epyut LOOP_ERR_SMALL	= 50\n LOOP_ERR_MEDIUM = 90\n LOOP_ERR_LARGE	= 160\n GLOBAL_DELAY	= 100\n COUNT_CYCLE		= 0\n \n \n -- 계정 백업 경로 생성\n headCmd = "cd ../../ADB &amp;&amp; "\n adbCmd = "adb -s "..device_na )</Param>
+                <Attr LuaFile="defineFunction_epyut" Text="LOOP_ERR_SMALL	= 50\n LOOP_ERR_MEDIUM = 90\n LOOP_ERR_LARGE	= 160\n GLOBAL_DELAY	= 100\n COUNT_CYCLE		= 0\n \n \n -- 계정 백업 경로 생성\n headCmd = &quot;cd ../../ADB &amp;&amp; &quot;\n adbCmd = &quot;adb -s &quot;..device_na"/>
             </Act_1>
         </Image_2>
         <Image_3>
@@ -95,8 +95,8 @@
             <Act_1>
                 <Name>스크립트 입력</Name>
                 <Enable>1</Enable>
-                <Param>Script( variableSet_g8cz7 STARTIMAGE = 'guiErrorCheck'\n FIRST_RUN = true\n \n err = 0\n NETWORK_RESET_TIME = 600\n \n SMALLSLEEP = 300\n \n cycle_set = 0\n cycle_total = 0\n cycle_R = 0\n cycle_SSR = 0\n cycle_SR = 0\n \n SS )</Param>
-                <Attr LuaFile="variableSet_g8cz7" Text="STARTIMAGE = &apos;guiErrorCheck&apos;\n FIRST_RUN = true\n \n err = 0\n NETWORK_RESET_TIME = 600\n \n SMALLSLEEP = 300\n \n cycle_set = 0\n cycle_total = 0\n cycle_R = 0\n cycle_SSR = 0\n cycle_SR = 0\n \n SS"/>
+                <Param>Script( variableSet_g8cz7 STARTIMAGE = 'guiErrorCheck'\n FIRST_RUN = true\n \n err = 0\n NETWORK_RESET_TIME = 600\n ERR_NETWORK = 0\n \n freeCycle= 1\n \n cycle_total = 0\n \n -- Region of Interest: Grade\n roi = {\n {45, 79, )</Param>
+                <Attr LuaFile="variableSet_g8cz7" Text="STARTIMAGE = &apos;guiErrorCheck&apos;\n FIRST_RUN = true\n \n err = 0\n NETWORK_RESET_TIME = 600\n ERR_NETWORK = 0\n \n freeCycle= 1\n \n cycle_total = 0\n \n -- Region of Interest: Grade\n roi = {\n {45, 79,"/>
             </Act_1>
             <Act_2>
                 <Name>스크립트 입력</Name>
@@ -127,8 +127,8 @@
             <Act_1>
                 <Name>스크립트 입력</Name>
                 <Enable>1</Enable>
-                <Param>Script( define_vld3b GROUPS = {\n 'resetAccount',\n 'gameStart',\n 'errorCallback'\n }\n \n uma_off()\n \n found_uma_list = {}\n SAVE_SCREENSHOT_TRUE = false\n SSR_ON = false\n SSR_LOTS = true\n SR_SEARCH_ON = true )</Param>
-                <Attr LuaFile="define_vld3b" Text="GROUPS = {\n &apos;resetAccount&apos;,\n &apos;gameStart&apos;,\n &apos;errorCallback&apos;\n }\n \n uma_off()\n \n found_uma_list = {}\n SAVE_SCREENSHOT_TRUE = false\n SSR_ON = false\n SSR_LOTS = true\n SR_SEARCH_ON = true"/>
+                <Param>Script( define_vld3b GROUPS = {\n 'resetAccount',\n 'gameStart',\n 'errorCallback'\n }\n \n UmaOff()\n \n found_uma_list = {}\n SAVE_SCREENSHOT_TRUE = false\n SSR_ON = false\n SSR_LOTS = true\n SR_SEARCH_ON = true )</Param>
+                <Attr LuaFile="define_vld3b" Text="GROUPS = {\n &apos;resetAccount&apos;,\n &apos;gameStart&apos;,\n &apos;errorCallback&apos;\n }\n \n UmaOff()\n \n found_uma_list = {}\n SAVE_SCREENSHOT_TRUE = false\n SSR_ON = false\n SSR_LOTS = true\n SR_SEARCH_ON = true"/>
             </Act_1>
             <Act_2>
                 <Name>인식 활성/비활성</Name>
@@ -179,8 +179,8 @@
             <Act_1>
                 <Name>스크립트 입력</Name>
                 <Enable>1</Enable>
-                <Param>Script( deleteAccount_gpph0 print('계정 초기화 시작')\n \n head_command = "cd ../../ADB &amp;&amp; "\n adb_command = "adb -s "..device_name.." shell /system/xbin/bstk/su -c rm -rf /data/data/com.kakaogames.umamusume/shared_prefs"\n com )</Param>
-                <Attr LuaFile="deleteAccount_gpph0" Text="print(&apos;계정 초기화 시작&apos;)\n \n head_command = &quot;cd ../../ADB &amp;&amp; &quot;\n adb_command = &quot;adb -s &quot;..device_name..&quot; shell /system/xbin/bstk/su -c rm -rf /data/data/com.kakaogames.umamusume/shared_prefs&quot;\n com"/>
+                <Param>Script( deleteAccount_gpph0 print('계정 초기화 시작')\n \n headCmd = "cd ../../ADB &amp;&amp; "\n adbCmd = "adb -s "..device_name.." shell /system/xbin/bstk/su -c rm -rf /data/data/com.kakaogames.umamusume/shared_prefs"\n appCmd = head )</Param>
+                <Attr LuaFile="deleteAccount_gpph0" Text="print(&apos;계정 초기화 시작&apos;)\n \n headCmd = &quot;cd ../../ADB &amp;&amp; &quot;\n adbCmd = &quot;adb -s &quot;..device_name..&quot; shell /system/xbin/bstk/su -c rm -rf /data/data/com.kakaogames.umamusume/shared_prefs&quot;\n appCmd = head"/>
             </Act_1>
             <Act_2>
                 <Name>딜레이(지연)</Name>
@@ -245,8 +245,8 @@
             <Act_1>
                 <Name>스크립트 입력</Name>
                 <Enable>1</Enable>
-                <Param>Script( startScript1_n103s -- Assign initial prevTime\n if prevTime == nil\n then\n 	prevTime = os.time()\n end\n \n -- Reset network after given time\n prevTime = resetAdress(prevTime,NETWORK_RESET_TIME,net_device)\n \n -- Fi )</Param>
-                <Attr LuaFile="startScript1_n103s" Text="-- Assign initial prevTime\n if prevTime == nil\n then\n 	prevTime = os.time()\n end\n \n -- Reset network after given time\n prevTime = resetAdress(prevTime,NETWORK_RESET_TIME,net_device)\n \n -- Fi"/>
+                <Param>Script( startScript1_n103s -- Assign initial prevTime\n if prevTime == nil\n then\n 	prevTime = os.time()\n end\n \n -- Reset network after given time\n prevTime = ResetAddress(prevTime,NETWORK_RESET_TIME,net_device)\n \n -- F )</Param>
+                <Attr LuaFile="startScript1_n103s" Text="-- Assign initial prevTime\n if prevTime == nil\n then\n 	prevTime = os.time()\n end\n \n -- Reset network after given time\n prevTime = ResetAddress(prevTime,NETWORK_RESET_TIME,net_device)\n \n -- F"/>
             </Act_1>
         </Image_9>
         <Image_10>
@@ -387,10 +387,10 @@
             <Param1>11403264</Param1>
             <Param2>932852</Param2>
             <Param3>0</Param3>
-            <Param4>1658627889</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
         </Image_15>
         <Image_16>
@@ -401,10 +401,10 @@
             <Param1>8978432</Param1>
             <Param2>80893</Param2>
             <Param3>0</Param3>
-            <Param4>1658680021</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -427,10 +427,10 @@
             <Param1>13828097</Param1>
             <Param2>474068</Param2>
             <Param3>0</Param3>
-            <Param4>1658630302</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -453,10 +453,10 @@
             <Param1>8650752</Param1>
             <Param2>867305</Param2>
             <Param3>0</Param3>
-            <Param4>1658629969</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -479,10 +479,10 @@
             <Param1>14155777</Param1>
             <Param2>211939</Param2>
             <Param3>0</Param3>
-            <Param4>1658680076</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -505,10 +505,10 @@
             <Param1>9764864</Param1>
             <Param2>80882</Param2>
             <Param3>0</Param3>
-            <Param4>1658630123</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -531,10 +531,10 @@
             <Param1>9437184</Param1>
             <Param2>474091</Param2>
             <Param3>0</Param3>
-            <Param4>1658634682</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -557,10 +557,10 @@
             <Param1>9437184</Param1>
             <Param2>736205</Param2>
             <Param3>0</Param3>
-            <Param4>1658631179</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -583,10 +583,10 @@
             <Param1>9437184</Param1>
             <Param2>736169</Param2>
             <Param3>0</Param3>
-            <Param4>1658632437</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -609,10 +609,10 @@
             <Param1>8519680</Param1>
             <Param2>867304</Param2>
             <Param3>0</Param3>
-            <Param4>1658632666</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -635,10 +635,10 @@
             <Param1>12320768</Param1>
             <Param2>80887</Param2>
             <Param3>0</Param3>
-            <Param4>1658632782</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -661,10 +661,10 @@
             <Param1>13565953</Param1>
             <Param2>605137</Param2>
             <Param3>0</Param3>
-            <Param4>1658632846</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -687,10 +687,10 @@
             <Param1>14417921</Param1>
             <Param2>539615</Param2>
             <Param3>0</Param3>
-            <Param4>1658635788</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -713,10 +713,10 @@
             <Param1>9175040</Param1>
             <Param2>1063823</Param2>
             <Param3>0</Param3>
-            <Param4>1658633241</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -739,10 +739,10 @@
             <Param1>13041664</Param1>
             <Param2>80882</Param2>
             <Param3>0</Param3>
-            <Param4>1658633299</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -765,10 +765,10 @@
             <Param1>9240576</Param1>
             <Param2>474062</Param2>
             <Param3>0</Param3>
-            <Param4>1658633339</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -791,10 +791,10 @@
             <Param1>9371648</Param1>
             <Param2>932809</Param2>
             <Param3>0</Param3>
-            <Param4>1658633376</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -817,10 +817,10 @@
             <Param1>13828097</Param1>
             <Param2>998371</Param2>
             <Param3>0</Param3>
-            <Param4>1658633428</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -843,10 +843,10 @@
             <Param1>12320768</Param1>
             <Param2>343011</Param2>
             <Param3>0</Param3>
-            <Param4>1658633596</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -869,10 +869,10 @@
             <Param1>12124160</Param1>
             <Param2>736248</Param2>
             <Param3>0</Param3>
-            <Param4>1658640139</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -917,8 +917,8 @@
             <Act_1>
                 <Name>스크립트 입력</Name>
                 <Enable>1</Enable>
-                <Param>Script( gachaScript1_tkwv6 if SSR_LOTS == true then\n 	print("-----STARTING SSR GACHA-----")\n \n 	loopcount = 0\n 	loopcount_max = 12\n 	while loopcount &lt;= loopcount_max \n 	do\n 		if IsStop() == 1 then\n 			print("isstop")\n )</Param>
-                <Attr LuaFile="gachaScript1_tkwv6" Text="if SSR_LOTS == true then\n 	print(&quot;-----STARTING SSR GACHA-----&quot;)\n \n 	loopcount = 0\n 	loopcount_max = 12\n 	while loopcount &lt;= loopcount_max \n 	do\n 		if IsStop() == 1 then\n 			print(&quot;isstop&quot;)\n"/>
+                <Param>Script( gachaScript1_tkwv6 print("-----STARTING PLAIN GACHA-----")\n \n loopcount = 0\n loopcount_max = 12\n while loopcount &lt;= loopcount_max\n do\n 	ret, acc, ix, iy, sx, sy = ImageSearch("support")\n 	\n 	-- Search until pro )</Param>
+                <Attr LuaFile="gachaScript1_tkwv6" Text="print(&quot;-----STARTING PLAIN GACHA-----&quot;)\n \n loopcount = 0\n loopcount_max = 12\n while loopcount &lt;= loopcount_max\n do\n 	ret, acc, ix, iy, sx, sy = ImageSearch(&quot;support&quot;)\n 	\n 	-- Search until pro"/>
             </Act_1>
         </Image_36>
         <Image_37>
@@ -929,7 +929,7 @@
             <Param1>12845056</Param1>
             <Param2>1326033</Param2>
             <Param3>0</Param3>
-            <Param4>1658648654</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -961,7 +961,7 @@
             <Param1>11862016</Param1>
             <Param2>932859</Param2>
             <Param3>0</Param3>
-            <Param4>1658640494</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -987,7 +987,7 @@
             <Param1>12648448</Param1>
             <Param2>80872</Param2>
             <Param3>0</Param3>
-            <Param4>1658643452</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -1013,7 +1013,7 @@
             <Param1>9568256</Param1>
             <Param2>932853</Param2>
             <Param3>0</Param3>
-            <Param4>1658643653</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -1039,7 +1039,7 @@
             <Param1>9175040</Param1>
             <Param2>736176</Param2>
             <Param3>0</Param3>
-            <Param4>1658641757</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -1065,7 +1065,7 @@
             <Param1>12320768</Param1>
             <Param2>80882</Param2>
             <Param3>0</Param3>
-            <Param4>1658641341</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -1113,8 +1113,8 @@
             <Act_1>
                 <Name>스크립트 입력</Name>
                 <Enable>1</Enable>
-                <Param>Script( ssrGachaScript1_crnhi err = loopstep("ssrPick", "gachaSkip", 30, {true, 0,0})\n if err_judge(err) &gt; 0 then return 0 end\n \n err = loopstep("gachaSkip", "ssrResult", 30, {true, 0,0})\n if err_judge(err) &gt; 0 then return 0  )</Param>
-                <Attr LuaFile="ssrGachaScript1_crnhi" Text="err = loopstep(&quot;ssrPick&quot;, &quot;gachaSkip&quot;, 30, {true, 0,0})\n if err_judge(err) &gt; 0 then return 0 end\n \n err = loopstep(&quot;gachaSkip&quot;, &quot;ssrResult&quot;, 30, {true, 0,0})\n if err_judge(err) &gt; 0 then return 0 "/>
+                <Param>Script( ssrGachaScript1_crnhi err = Loopstep("ssrPick", "gachaSkip", 30, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return 0 end\n \n err = Loopstep("gachaSkip", "ssrResult", 30, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return  )</Param>
+                <Attr LuaFile="ssrGachaScript1_crnhi" Text="err = Loopstep(&quot;ssrPick&quot;, &quot;gachaSkip&quot;, 30, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return 0 end\n \n err = Loopstep(&quot;gachaSkip&quot;, &quot;ssrResult&quot;, 30, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return "/>
             </Act_1>
         </Image_44>
         <Image_45>
@@ -1125,7 +1125,7 @@
             <Param1>9371648</Param1>
             <Param2>736220</Param2>
             <Param3>0</Param3>
-            <Param4>1658640964</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -1151,7 +1151,7 @@
             <Param1>9240576</Param1>
             <Param2>605177</Param2>
             <Param3>0</Param3>
-            <Param4>1658640983</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -1177,7 +1177,7 @@
             <Param1>13828097</Param1>
             <Param2>343030</Param2>
             <Param3>0</Param3>
-            <Param4>1658641387</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -1203,7 +1203,7 @@
             <Param1>14942209</Param1>
             <Param2>801764</Param2>
             <Param3>0</Param3>
-            <Param4>1658642901</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -1229,7 +1229,7 @@
             <Param1>8192000</Param1>
             <Param2>932844</Param2>
             <Param3>0</Param3>
-            <Param4>1658642924</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -1309,8 +1309,8 @@
             <Act_1>
                 <Name>스크립트 입력</Name>
                 <Enable>1</Enable>
-                <Param>Script( supportCycle_gk56d function main_algorithm()\n \n 	ret_SSR = {}\n 	ret_SR = {}\n 	ret_R = {}\n 		\n 	SSR = "SSR"\n 	SR = "SR"\n 	R = "R"\n 	\n 	print("-----SUPPORT CARD RECOGNITION START-----")\n 	cycle_total = 0\n 	ER )</Param>
-                <Attr LuaFile="supportCycle_gk56d" Text="function main_algorithm()\n \n 	ret_SSR = {}\n 	ret_SR = {}\n 	ret_R = {}\n 		\n 	SSR = &quot;SSR&quot;\n 	SR = &quot;SR&quot;\n 	R = &quot;R&quot;\n 	\n 	print(&quot;-----SUPPORT CARD RECOGNITION START-----&quot;)\n 	cycle_total = 0\n 	ER"/>
+                <Param>Script( supportCycle_gk56d AGAIN = true\n \n while AGAIN == true do\n 	err = Loopstep("supportPick", "gachaSkip", LOOP_ERR_MEDIUM, {true, 0,0})\n 	if ErrorJudge(err) &gt; 0 then return 0 end\n     \n 	err = Loopstep("gachaSkip",  )</Param>
+                <Attr LuaFile="supportCycle_gk56d" Text="AGAIN = true\n \n while AGAIN == true do\n 	err = Loopstep(&quot;supportPick&quot;, &quot;gachaSkip&quot;, LOOP_ERR_MEDIUM, {true, 0,0})\n 	if ErrorJudge(err) &gt; 0 then return 0 end\n     \n 	err = Loopstep(&quot;gachaSkip&quot;, "/>
             </Act_1>
         </Image_52>
         <Image_53>
@@ -1353,10 +1353,10 @@
             <Param1>9306112</Param1>
             <Param2>670712</Param2>
             <Param3>0</Param3>
-            <Param4>1658643936</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -1379,10 +1379,10 @@
             <Param1>8716288</Param1>
             <Param2>605139</Param2>
             <Param3>0</Param3>
-            <Param4>1658646917</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -1405,10 +1405,10 @@
             <Param1>9306112</Param1>
             <Param2>998362</Param2>
             <Param3>0</Param3>
-            <Param4>1658647497</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -1431,10 +1431,10 @@
             <Param1>14483457</Param1>
             <Param2>277475</Param2>
             <Param3>0</Param3>
-            <Param4>1658647386</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -1479,8 +1479,8 @@
             <Act_1>
                 <Name>스크립트 입력</Name>
                 <Enable>1</Enable>
-                <Param>Script( primAssess_qm44c print('MAIN_FLAG = '..tostring(MAIN_FLAG))\n print("MUST : " ..tostring(calculate_mustfind()[1]))\n print("SELECT : " ..tostring(calculate_selectfind()[1]))\n print("SCORE : " ..tostring(calculate_sc )</Param>
-                <Attr LuaFile="primAssess_qm44c" Text="print(&apos;MAIN_FLAG = &apos;..tostring(MAIN_FLAG))\n print(&quot;MUST : &quot; ..tostring(calculate_mustfind()[1]))\n print(&quot;SELECT : &quot; ..tostring(calculate_selectfind()[1]))\n print(&quot;SCORE : &quot; ..tostring(calculate_sc"/>
+                <Param>Script( primAssess_qm44c print('MAIN_FLAG = '..tostring(MAIN_FLAG))\n print("MUST : " ..tostring(CalculateMustfind()[1]))\n print("SELECT : " ..tostring(CalculateSelectfind()[1]))\n print("SCORE : " ..tostring(CalculateScore )</Param>
+                <Attr LuaFile="primAssess_qm44c" Text="print(&apos;MAIN_FLAG = &apos;..tostring(MAIN_FLAG))\n print(&quot;MUST : &quot; ..tostring(CalculateMustfind()[1]))\n print(&quot;SELECT : &quot; ..tostring(CalculateSelectfind()[1]))\n print(&quot;SCORE : &quot; ..tostring(CalculateScore"/>
             </Act_1>
         </Image_59>
         <Image_60>
@@ -1499,8 +1499,8 @@
             <Act_1>
                 <Name>스크립트 입력</Name>
                 <Enable>1</Enable>
-                <Param>Script( saveDat_zc4l4 err = loopstep("doNotPick", "exitGacha", LOOP_ERR_SMALL, {true, 0,0})\n if err_judge(err) &gt; 0 then return 0 end\n \n err = loopstep("exitGacha", "toInventory", LOOP_ERR_LARGE, {true, 0,0})\n if err_j )</Param>
-                <Attr LuaFile="saveDat_zc4l4" Text="err = loopstep(&quot;doNotPick&quot;, &quot;exitGacha&quot;, LOOP_ERR_SMALL, {true, 0,0})\n if err_judge(err) &gt; 0 then return 0 end\n \n err = loopstep(&quot;exitGacha&quot;, &quot;toInventory&quot;, LOOP_ERR_LARGE, {true, 0,0})\n if err_j"/>
+                <Param>Script( saveDat_zc4l4 err = Loopstep("doNotPick", "exitGacha", LOOP_ERR_SMALL, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return 0 end\n \n err = Loopstep("exitGacha", "toInventory", LOOP_ERR_LARGE, {true, 0,0})\n if Erro )</Param>
+                <Attr LuaFile="saveDat_zc4l4" Text="err = Loopstep(&quot;doNotPick&quot;, &quot;exitGacha&quot;, LOOP_ERR_SMALL, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return 0 end\n \n err = Loopstep(&quot;exitGacha&quot;, &quot;toInventory&quot;, LOOP_ERR_LARGE, {true, 0,0})\n if Erro"/>
             </Act_1>
         </Image_60>
         <Image_61>
@@ -1531,7 +1531,7 @@
             <Param1>15073281</Param1>
             <Param2>932835</Param2>
             <Param3>0</Param3>
-            <Param4>1658673051</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -1557,7 +1557,7 @@
             <Param1>13959169</Param1>
             <Param2>670713</Param2>
             <Param3>0</Param3>
-            <Param4>1658673066</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -1583,7 +1583,7 @@
             <Param1>11010048</Param1>
             <Param2>277488</Param2>
             <Param3>0</Param3>
-            <Param4>1658673101</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -1609,7 +1609,7 @@
             <Param1>14221313</Param1>
             <Param2>408524</Param2>
             <Param3>0</Param3>
-            <Param4>1658673116</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -1635,7 +1635,7 @@
             <Param1>13697025</Param1>
             <Param2>408497</Param2>
             <Param3>0</Param3>
-            <Param4>1658673200</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -1661,7 +1661,7 @@
             <Param1>14811137</Param1>
             <Param2>670699</Param2>
             <Param3>0</Param3>
-            <Param4>1658673557</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -1687,7 +1687,7 @@
             <Param1>9961472</Param1>
             <Param2>211939</Param2>
             <Param3>0</Param3>
-            <Param4>1658673612</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -1821,8 +1821,8 @@
             <Act_1>
                 <Name>스크립트 입력</Name>
                 <Enable>1</Enable>
-                <Param>Script( errorScript_snl3j Sleep(1000)\n \n if ERR_NETWORK == 1 then\n 	Mouse(LBUTTON, CLICK, 196, 463, 196, 463, 0, 0, 0.5, 1, FASTER, MESSAGE)\n 	Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTER, MESSAGE)\n \n 	err = loop )</Param>
-                <Attr LuaFile="errorScript_snl3j" Text="Sleep(1000)\n \n if ERR_NETWORK == 1 then\n 	Mouse(LBUTTON, CLICK, 196, 463, 196, 463, 0, 0, 0.5, 1, FASTER, MESSAGE)\n 	Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTER, MESSAGE)\n \n 	err = loop"/>
+                <Param>Script( errorScript_snl3j Sleep(1000)\n \n if ERR_NETWORK == 1 then\n 	Mouse(LBUTTON, CLICK, 196, 463, 196, 463, 0, 0, 0.5, 1, FASTER, MESSAGE)\n 	Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTER, MESSAGE)\n \n 	err = Loop )</Param>
+                <Attr LuaFile="errorScript_snl3j" Text="Sleep(1000)\n \n if ERR_NETWORK == 1 then\n 	Mouse(LBUTTON, CLICK, 196, 463, 196, 463, 0, 0, 0.5, 1, FASTER, MESSAGE)\n 	Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTER, MESSAGE)\n \n 	err = Loop"/>
             </Act_1>
         </Image_74>
         <Image_75>
@@ -1833,7 +1833,7 @@
             <Param1>11403264</Param1>
             <Param2>277503</Param2>
             <Param3>0</Param3>
-            <Param4>1658638378</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -1873,7 +1873,7 @@
             <Param1>9240576</Param1>
             <Param2>474061</Param2>
             <Param3>0</Param3>
-            <Param4>1658649992</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -1899,7 +1899,7 @@
             <Param1>10682368</Param1>
             <Param2>736173</Param2>
             <Param3>0</Param3>
-            <Param4>1658642709</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -1922,10 +1922,10 @@
             <Rect>(28, 74, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
-            <Param1>12386304</Param1>
-            <Param2>539562</Param2>
+            <Param1>15728641</Param1>
+            <Param2>4537335</Param2>
             <Param3>0</Param3>
-            <Param4>1658649225</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -1951,7 +1951,7 @@
             <Param1>12255232</Param1>
             <Param2>342987</Param2>
             <Param3>0</Param3>
-            <Param4>1658645356</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -1977,7 +1977,7 @@
             <Param1>8978432</Param1>
             <Param2>474030</Param2>
             <Param3>0</Param3>
-            <Param4>1658648878</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -1996,14 +1996,14 @@
             </Act_2>
         </Image_81>
         <Image_82>
-            <Name>키타산블랙</Name>
+            <Name>타마모크로스</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
-            <Param1>9109504</Param1>
-            <Param2>736173</Param2>
+            <Param1>10420224</Param1>
+            <Param2>605098</Param2>
             <Param3>0</Param3>
-            <Param4>1658645564</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -2022,14 +2022,14 @@
             </Act_2>
         </Image_82>
         <Image_83>
-            <Name>타마모크로스</Name>
+            <Name>트윈터보</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
-            <Param1>10420224</Param1>
-            <Param2>605098</Param2>
+            <Param1>9109504</Param1>
+            <Param2>736173</Param2>
             <Param3>0</Param3>
-            <Param4>1658649849</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -2048,14 +2048,14 @@
             </Act_2>
         </Image_83>
         <Image_84>
-            <Name>트윈터보</Name>
+            <Name>파인모션</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
-            <Param1>9109504</Param1>
-            <Param2>736173</Param2>
+            <Param1>10420224</Param1>
+            <Param2>408536</Param2>
             <Param3>0</Param3>
-            <Param4>1658645564</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -2068,20 +2068,20 @@
             </Act_1>
             <Act_2>
                 <Name>마우스 입력</Name>
-                <Enable>1</Enable>
+                <Enable>0</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_84>
         <Image_85>
-            <Name>파인모션</Name>
+            <Name>하야카와타즈나</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
-            <Param1>10420224</Param1>
-            <Param2>408536</Param2>
+            <Param1>10223616</Param1>
+            <Param2>801783</Param2>
             <Param3>0</Param3>
-            <Param4>1658649378</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -2100,14 +2100,14 @@
             </Act_2>
         </Image_85>
         <Image_86>
-            <Name>하야카와타즈나</Name>
+            <Name>그래스원더</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
-            <Param1>10223616</Param1>
-            <Param2>801783</Param2>
+            <Param1>9043968</Param1>
+            <Param2>539605</Param2>
             <Param3>0</Param3>
-            <Param4>1658649525</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -2126,14 +2126,14 @@
             </Act_2>
         </Image_86>
         <Image_87>
-            <Name>그래스원더</Name>
+            <Name>스페셜위크</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
-            <Param1>9043968</Param1>
-            <Param2>539605</Param2>
+            <Param1>11927552</Param1>
+            <Param2>343001</Param2>
             <Param3>0</Param3>
-            <Param4>1658651079</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -2146,20 +2146,20 @@
             </Act_1>
             <Act_2>
                 <Name>마우스 입력</Name>
-                <Enable>0</Enable>
+                <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_87>
         <Image_88>
-            <Name>스페셜위크</Name>
+            <Name>슈퍼크릭</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
-            <Param1>11927552</Param1>
-            <Param2>343001</Param2>
+            <Param1>10551296</Param1>
+            <Param2>605098</Param2>
             <Param3>0</Param3>
-            <Param4>1658652389</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -2178,14 +2178,14 @@
             </Act_2>
         </Image_88>
         <Image_89>
-            <Name>슈퍼크릭</Name>
+            <Name>아이네스후진</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
-            <Param1>10551296</Param1>
-            <Param2>605098</Param2>
+            <Param1>11862016</Param1>
+            <Param2>605102</Param2>
             <Param3>0</Param3>
-            <Param4>1658661869</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -2204,14 +2204,14 @@
             </Act_2>
         </Image_89>
         <Image_90>
-            <Name>아이네스후진</Name>
+            <Name>사쿠라바쿠신오</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
-            <Param1>11862016</Param1>
-            <Param2>605102</Param2>
+            <Param1>10878976</Param1>
+            <Param2>736173</Param2>
             <Param3>0</Param3>
-            <Param4>1658662152</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -2230,14 +2230,14 @@
             </Act_2>
         </Image_90>
         <Image_91>
-            <Name>사쿠라바쿠신오</Name>
+            <Name>비코페가수스</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
-            <Param1>10878976</Param1>
+            <Param1>10747904</Param1>
             <Param2>736173</Param2>
             <Param3>0</Param3>
-            <Param4>1658662574</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -2256,14 +2256,14 @@
             </Act_2>
         </Image_91>
         <Image_92>
-            <Name>비코페가수스</Name>
+            <Name>메지로파머</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
-            <Param1>10747904</Param1>
-            <Param2>736173</Param2>
+            <Param1>10223616</Param1>
+            <Param2>605102</Param2>
             <Param3>0</Param3>
-            <Param4>1658663260</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -2282,14 +2282,14 @@
             </Act_2>
         </Image_92>
         <Image_93>
-            <Name>메지로파머</Name>
+            <Name>골드쉽</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
-            <Param1>10223616</Param1>
-            <Param2>605102</Param2>
+            <Param1>9830400</Param1>
+            <Param2>342977</Param2>
             <Param3>0</Param3>
-            <Param4>1658663337</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -2308,14 +2308,14 @@
             </Act_2>
         </Image_93>
         <Image_94>
-            <Name>골드쉽</Name>
+            <Name>오구리캡</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
-            <Param1>9830400</Param1>
-            <Param2>342977</Param2>
+            <Param1>11796480</Param1>
+            <Param2>408493</Param2>
             <Param3>0</Param3>
-            <Param4>1658666019</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -2334,14 +2334,14 @@
             </Act_2>
         </Image_94>
         <Image_95>
-            <Name>오구리캡</Name>
+            <Name>엘콘도르파사</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
-            <Param1>11796480</Param1>
+            <Param1>10616832</Param1>
             <Param2>408493</Param2>
             <Param3>0</Param3>
-            <Param4>1658666090</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -2360,14 +2360,14 @@
             </Act_2>
         </Image_95>
         <Image_96>
-            <Name>엘콘도르파사</Name>
+            <Name>니시노플라워</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
-            <Param1>10616832</Param1>
-            <Param2>408493</Param2>
+            <Param1>11010048</Param1>
+            <Param2>736173</Param2>
             <Param3>0</Param3>
-            <Param4>1658671991</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -2386,14 +2386,14 @@
             </Act_2>
         </Image_96>
         <Image_97>
-            <Name>니시노플라워</Name>
+            <Name>토카이테이오</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
-            <Param1>11010048</Param1>
-            <Param2>736173</Param2>
+            <Param1>10944512</Param1>
+            <Param2>474044</Param2>
             <Param3>0</Param3>
-            <Param4>1658672730</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -2412,14 +2412,14 @@
             </Act_2>
         </Image_97>
         <Image_98>
-            <Name>토카이테이오</Name>
+            <Name>사토노다이아몬드</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
-            <Param1>10944512</Param1>
-            <Param2>474044</Param2>
+            <Param1>10813440</Param1>
+            <Param2>605098</Param2>
             <Param3>0</Param3>
-            <Param4>1658673809</Param4>
+            <Param4>1658757371</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -2438,6 +2438,32 @@
             </Act_2>
         </Image_98>
         <Image_99>
+            <Name>키타산블랙</Name>
+            <Rect>(28, 73, 109, 144)</Rect>
+            <ROI>(28, 73, 109, 144)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>10354688</Param1>
+            <Param2>736173</Param2>
+            <Param3>0</Param3>
+            <Param4>1658757831</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>이미지 표시</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>마우스 입력</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_99>
+        <Image_100>
             <Name>grade.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -2450,16 +2476,16 @@
             <Group>1</Group>
             <Trg Interval="0.5" CheckInherit1="1" Acc="50" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_99>
-        <Image_100>
+        </Image_100>
+        <Image_101>
             <Name>SSR</Name>
             <Rect>(285, 79, 21, 14)</Rect>
             <ROI>(225, 483, 21, 14)</ROI>
             <FullROI>0</FullROI>
-            <Param1>14090241</Param1>
+            <Param1>16384001</Param1>
             <Param2>736227</Param2>
             <Param3>0</Param3>
-            <Param4>1658645515</Param4>
+            <Param4>1658748795</Param4>
             <Enable>1</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="45" CheckInherit2="0" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
@@ -2476,8 +2502,8 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_100>
-        <Image_101>
+        </Image_101>
+        <Image_102>
             <Name>SR</Name>
             <Rect>(225, 483, 21, 13)</Rect>
             <ROI>(225, 483, 21, 13)</ROI>
@@ -2485,10 +2511,10 @@
             <Param1>11993088</Param1>
             <Param2>277503</Param2>
             <Param3>0</Param3>
-            <Param4>1658655646</Param4>
+            <Param4>1658748795</Param4>
             <Enable>1</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="50" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -2502,19 +2528,19 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_101>
-        <Image_102>
+        </Image_102>
+        <Image_103>
             <Name>R</Name>
             <Rect>(45, 79, 21, 14)</Rect>
             <ROI>(45, 347, 21, 14)</ROI>
             <FullROI>0</FullROI>
-            <Param1>12255232</Param1>
-            <Param2>80894</Param2>
+            <Param1>15597569</Param1>
+            <Param2>539646</Param2>
             <Param3>0</Param3>
-            <Param4>1658644752</Param4>
+            <Param4>1658748795</Param4>
             <Enable>1</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="50" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
                 <Name>이미지 표시</Name>
@@ -2528,7 +2554,7 @@
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_102>
+        </Image_103>
     </GENERAL>
     <SO>
         <CheckImageName>1</CheckImageName>
