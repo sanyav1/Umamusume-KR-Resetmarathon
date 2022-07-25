@@ -51,7 +51,4 @@ if err == 1 then
 	EnableImage(false, "gameStart")
 	GotoImage("errorCallback")
 	ERR_NETWORK = 1
-else
-	-- No error. You are go
-	GotoImage("loginTap")
 end
