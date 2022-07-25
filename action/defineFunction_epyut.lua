@@ -1,87 +1,120 @@
-LOOP_ERR_SMALL = 50
+LOOP_ERR_SMALL	= 50
 LOOP_ERR_MEDIUM = 90
-LOOP_ERR_LARGE = 160
+LOOP_ERR_LARGE	= 160
+GLOBAL_DELAY	= 100
+COUNT_CYCLE		= 0
 
 
 -- 계정 백업 경로 생성
-head_command = "cd ../../ADB && "
-adb_command = "adb -s "..device_name.." shell /system/xbin/bstk/su -c mkdir -p /data/data/com.kakaogames.umamusume/account"
-command = head_command..adb_command
+headCmd = "cd ../../ADB && "
+adbCmd = "adb -s "..device_name.." shell /system/xbin/bstk/su -c mkdir -p /data/data/com.kakaogames.umamusume/account"
+appCmd = headCmd..adbCmd
 
-local f = io.popen(command)
+local f = io.popen(appCmd)
 f:close()
+
 
 -- 스크린샷 바로가기 폴더 만들기
 os.execute("mkdir ..\\screenshot")
 
--- 횟수 세기
-COUNT = 0
 
--- SSR 뽑기
-SSR_LOTS = true
-
-function uma_off()
-	-- LEGACY METHOD. LEFT JUST FOR CASE
-	-- head_command = "cd ../../ADB && "
-	-- adb_command = "adb -s "..device_name.." shell /system/xbin/bstk/su -c input keyevent KEYCODE_APP_SWITCH"
-	-- command = head_command..adb_command
-
-	-- local f = io.popen(command)
-	-- f:close()
+function CalculateMustfind()
 	
-	-- Sleep(1000)
-	
-	-- head_command = "cd ../../ADB && "
-	-- adb_command = "adb -s "..device_name.." shell /system/xbin/bstk/su -c input keyevent KEYCODE_DEL"
-	-- command = head_command..adb_command
-
-	-- local f = io.popen(command)
-	-- f:close()
-	
-	-- Sleep(200)
-	
-	-- head_command = "cd ../../ADB && "
-	-- adb_command = "adb -s "..device_name.." shell /system/xbin/bstk/su -c input keyevent KEYCODE_HOME"
-	-- command = head_command..adb_command
-
-	-- local f = io.popen(command)
-	-- f:close()
-
-	head_command = "cd ../../ADB && "
-	adb_command = "adb -s "..device_name.." shell am force-stop com.kakaogames.umamusume"
-	command = head_command..adb_command
-
-	local f = io.popen(command)
-	f:close()
+	mustfind_ok = true
+	found_index = {}
+	for k, v in pairs(LIST[STR_MUSTFIND_LIST])
+	do
+		index = LIST[STR_MUSTFIND_LIST][k][STR_NAME]
+		index = index + 1
+		need = LIST[STR_MUSTFIND_LIST][k][STR_NUM]
+		
+		if index > 1
+		then
+			if (found_uma_list[index] == nil) or (found_uma_list[index] < need)
+			then
+				mustfind_ok = false
+			else
+				table.insert(found_index, index)
+			end	
+		end		
+	end	
+	return {mustfind_ok, found_index}
 end
 
 
-function error_call()
+function CalculateScore()
+	goal = SCOREGOAL
+	score_now = 0
+	for k, v in pairs(LIST[STR_SCOREFIND_LIST])
+	do
+		index = LIST[STR_SCOREFIND_LIST][k][STR_NAME]
+		index = index + 1
+		n = LIST[STR_SCOREFIND_LIST][k][STR_NUM]
+		
+		if index > 1
+		then
+			if found_uma_list[index] ~= nil
+			then
+				score_now = score_now + tonumber(found_uma_list[index]) * tonumber(n)
+			end
+		end
+	end
+	
+	if score_now >= tonumber(goal)
+	then
+		return {true, score_now}
+	else
+		
+		return {false, score_now}
+	end
+end
+
+
+function CalculateSelectfind()
+
+	selectfind_ok = true
+	found_index = {}
+	for k, v in pairs(LIST[STR_SELECTFIND_LIST])
+	do
+		index = LIST[STR_SELECTFIND_LIST][k][STR_NAME]
+		index = index + 1
+		need = LIST[STR_SELECTFIND_LIST][k][STR_NUM]
+
+		if index > 1
+		then
+			if (found_uma_list[index] == nil) or (tonumber(found_uma_list[index]) < need)
+			then
+				selectfind_ok = false
+			else
+				table.insert(found_index, index)
+			end
+		
+		end
+	end
+	return {selectfind_ok, found_index}
+end
+
+
+function ErrorCall()
 	print('무한루프에 빠졌습니다.')
 	print('처음부터 다시시작합니다.')
 
-	uma_off()
+	UmaOff()
 	
 	EnableImage(true, 'initialize')
 	GotoImage('variableSet')
 end
 
-function do_action(action_list, args_list)
-	for k, v in action_list
-	do
-		v(table.unpack(args_list[k]))
-	end
-end
 
-function err_judge(err)
+function ErrorJudge(err)
 	if err > 10 then
 		if err == 22 then
 			print("강제종료됨")
 		elseif err == 44 then
 			print("카드인식에러")
-			error_call()
+			ErrorCall()
 		elseif err == 99 then
-			error_call()
+			ErrorCall()
 		end
 
 		return 1
@@ -90,8 +123,57 @@ function err_judge(err)
 	return 0
 end
 
-global_delay = 100
-function loopstep(now_img, next_img, loopcount_max, mouseact, loopdelay)
+
+function FindBestAcc(_roi)
+	accuracy_set = {}
+	if FIRST_RUN == true then
+		for k, v in pairs(UMA_LIST)
+		do	
+			print(k, v)
+			ret, acc1, ix, iy, sx, sy = ImSearch(v,_roi)
+			accuracy_set[k] = acc1
+		end
+		print("FIRST RUN DOES NOT AFFECT THE RESULT")
+		print("THIS IS FOR CLEAN INITIALIZATION PURPOSE ONLY")
+		FIRST_RUN = false
+	end
+
+	accuracy_set = {}
+	for k, v in pairs(UMA_LIST)
+	do	
+		print(k, v)
+		ret, acc1, ix, iy, sx, sy = ImSearch(v,_roi)
+		accuracy_set[k] = acc1
+	end
+
+	acc_tmp = 0
+	acc_index = 0
+
+	for k, v in pairs(accuracy_set)
+	do	
+		if (k > 1) and (v > acc_tmp) then
+			acc_index = k
+			acc_tmp = v
+		end
+	end
+	
+	if acc_tmp < 70 then
+		acc_index = 999
+	end
+	
+	print("ACC INDEX = "..tostring(acc_index).." : "..UMA_LIST[acc_index])
+	return acc_index
+end
+
+
+function ImSearch(_image, _roi)
+    SetImageROI(_image, _roi)
+    ret, acc, ix, iy, sx, sy = ImageSearch(_image)
+	return ret, acc, ix, iy, sx, sy
+end
+
+
+function Loopstep(now_img, next_img, loopcount_max, mouseact, loopdelay)
 	
 	loopcount_max = loopcount_max or 10
 	loopdelay = loopdelay or 150
@@ -146,11 +228,12 @@ function loopstep(now_img, next_img, loopcount_max, mouseact, loopdelay)
 		return 99
 	end
 	
-	Sleep(global_delay)
+	Sleep(GLOBAL_DELAY)
 	return 0
 end
 
-function loopstep_both(now_img, next_img, loopcount_max, loopdelay)
+
+function LoopstepBoth(now_img, next_img, loopcount_max, loopdelay)
 	
 	loopcount_max = loopcount_max or 10
 	loopdelay = loopdelay or 150
@@ -181,11 +264,11 @@ function loopstep_both(now_img, next_img, loopcount_max, loopdelay)
 		return 99
 	end
 	
-	Sleep(global_delay)
+	Sleep(GLOBAL_DELAY)
 	return 0
 end
 
-function loopstep_or(now_img, next_img, loopcount_max, loopdelay)
+function LoopstepOr(now_img, next_img, loopcount_max, loopdelay)
 
 	loopcount_max = loopcount_max or 10
 	loopdelay = loopdelay or 150
@@ -215,7 +298,7 @@ function loopstep_or(now_img, next_img, loopcount_max, loopdelay)
 		return 99
 	end
 	
-	Sleep(global_delay)
+	Sleep(GLOBAL_DELAY)
 	
 	if ret == 1 and ret_next == 0 then
 		return 1
@@ -227,170 +310,82 @@ function loopstep_or(now_img, next_img, loopcount_max, loopdelay)
 end
 
 
-function setClock()
-    return os.clock()
-end
+function MainAlgorithm()
 
-
-function getClock(_clock)
-    if _clock ~= nil then
-        return os.clock() - _clock
-    else
-        print('getClock() ERROR : _clock is null')
-    end
-end
-
-
-function imSearch(_image, _roi)
-    SetImageROI(_image, _roi)
-    ret, acc, ix, iy, sx, sy = ImageSearch(_image)
-	return ret, acc, ix, iy, sx, sy
-end
-
-
-function find_best_acc(_roi)
-	accuracy_set = {}
-	if FIRST_RUN == true then
-		for k, v in pairs(UMA_LIST)
-		do	
-			print(k, v)
-			ret, acc1, ix, iy, sx, sy = imSearch(v,_roi)
-			accuracy_set[k] = acc1
-		end
-		print("FIRST RUN DOES NOT AFFECT THE RESULT")
-		print("THIS IS FOR CLEAN INITIALIZATION PURPOSE ONLY")
-		FIRST_RUN = false
-	end
-
-	accuracy_set = {}
-	for k, v in pairs(UMA_LIST)
-	do	
-		print(k, v)
-		ret, acc1, ix, iy, sx, sy = imSearch(v,_roi)
-		accuracy_set[k] = acc1
-	end
-
-	acc_tmp = 0
-	acc_index = 0
-
-	for k, v in pairs(accuracy_set)
-	do	
-		if (k > 1) and (v > acc_tmp) then
-			acc_index = k
-			acc_tmp = v
-		end
-	end
+	ret_SSR = {}
 	
-	if acc_tmp < 70 then
-		acc_index = 999
-	end
-	
-	print("ACC INDEX = "..tostring(acc_index).." : "..UMA_LIST[acc_index])
-	return acc_index
-end
+	print("-----SUPPORT CARD RECOGNITION START-----")
+	cycle_total = 0
+	ERR_CHECK = 0
 
-
-function calculate_score()
-	goal = SCOREGOAL
-	score_now = 0
-	for k, v in pairs(LIST[STR_SCOREFIND_LIST])
-	do
-		index = LIST[STR_SCOREFIND_LIST][k][STR_NAME]
-		index = index + 1
-		n = LIST[STR_SCOREFIND_LIST][k][STR_NUM]
-		
-		if index > 1
-		then
-			if found_uma_list[index] ~= nil
-			then
-				score_now = score_now + tonumber(found_uma_list[index]) * tonumber(n)
-			end
-		end
-	end
-	
-	if score_now >= tonumber(goal)
-	then
-		return {true, score_now}
-	else
-		
-		return {false, score_now}
-	end
-end
-
-
-function calculate_mustfind()
-	
-	mustfind_ok = true
-	found_index = {}
-	for k, v in pairs(LIST[STR_MUSTFIND_LIST])
-	do
-		index = LIST[STR_MUSTFIND_LIST][k][STR_NAME]
-		index = index + 1
-		need = LIST[STR_MUSTFIND_LIST][k][STR_NUM]
-		
-		if index > 1
-		then
-			if (found_uma_list[index] == nil) or (found_uma_list[index] < need)
-			then
-				mustfind_ok = false
+	while cycle_total < 10 do
+		for i=1, 10 do
+			ret, acc, ix, iy, sx, sy = ImSearch('SSR', roi[i])
+			if ret == 0 then
+				ret_SSR[i] = 2
 			else
-				table.insert(found_index, index)
-			end	
-		end		
-	end	
-	return {mustfind_ok, found_index}
-end
+				ret_SSR[i] = ret
+			end			
+			Sleep(100)
+		end
 
-
-function calculate_selectfind()
-
-	selectfind_ok = true
-	found_index = {}
-	for k, v in pairs(LIST[STR_SELECTFIND_LIST])
-	do
-		index = LIST[STR_SELECTFIND_LIST][k][STR_NAME]
-		index = index + 1
-		need = LIST[STR_SELECTFIND_LIST][k][STR_NUM]
-
-		if index > 1
-		then
-			if (found_uma_list[index] == nil) or (tonumber(found_uma_list[index]) < need)
-			then
-				selectfind_ok = false
-			else
-				table.insert(found_index, index)
-			end
+		cycle_total = cycle_total + 1
 		
+		Sleep(100)
+	end
+
+	Sleep(100)
+
+	for i=1, 10 do
+		if ret_SSR[i] == 1 then
+			SSR_ON = true
+
+			Mouse(LBUTTON, CLICK, roi[i][1], roi[i][2], roi[i][1], roi[i][2], 0, 0, 0.3, 1, FASTER, MESSAGE)
+			Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTEST, MESSAGE)
+
+			Sleep(1000)
+			
+			acc_index = FindBestAcc(detail_roi)
+
+			if (found_uma_list[acc_index] == nil) or (found_uma_list[acc_index] == 0) then
+				found_uma_list[acc_index] = 1
+			else
+				found_uma_list[acc_index] = found_uma_list[acc_index] + 1
+			end
+
+			err = Loopstep("closeInfo", "pickAgain", LOOP_ERR_MEDIUM, {true, 0,0})
+			if ErrorJudge(err) > 0 then return 0 end
 		end
 	end
-	return {selectfind_ok, found_index}
+
+	return 0
 end
 
 
-function resetAdress(timeStamp,duration,deviceThether)
+function ResetAddress(timeStamp,duration,deviceThether)
 
 	timeEllapsed = os.time() - timeStamp
 	print("지난 IP 재설정 이후 경과 시간 (초): "..timeEllapsed)
 
 	if timeEllapsed >= duration then
-		head_command = "cd ../../ADB && "
-		adb_command_1 = "adb -s "..deviceThether.." shell svc data disable && "
-		adb_command_2 = "adb -s "..deviceThether.." shell settings put global airplane_mode_on 1"
-		command = head_command..adb_command_1..adb_command_2
+		headCmd = "cd ../../ADB && "
+		adbCmd_1 = "adb -s "..deviceThether.." shell svc data disable && "
+		adbCmd_2 = "adb -s "..deviceThether.." shell settings put global airplane_mode_on 1"
+		appCmd = headCmd..adbCmd_1..adbCmd_2
 	
-		local f = io.popen(command)
+		local f = io.popen(appCmd)
 		f:close()
 		
 		print("비행기 모드 활성화")
 		
 		Sleep(500)
 		
-		head_command = "cd ../../ADB && "
-		adb_command_1 = "adb -s "..deviceThether.." shell svc data enable && "
-		adb_command_2 = "adb -s "..deviceThether.." shell settings put global airplane_mode_on 0"
-		command = head_command..adb_command_1..adb_command_2
+		headCmd = "cd ../../ADB && "
+		adbCmd_1 = "adb -s "..deviceThether.." shell svc data enable && "
+		adbCmd_2 = "adb -s "..deviceThether.." shell settings put global airplane_mode_on 0"
+		appCmd = headCmd..adbCmd_1..adbCmd_2
 	
-		local f = io.popen(command)
+		local f = io.popen(appCmd)
 		f:close()
 	
 		print("비행기 모드 비활성화")
@@ -399,4 +394,40 @@ function resetAdress(timeStamp,duration,deviceThether)
 	else
 		return timeStamp
 	end
+end
+
+
+function UmaOff()
+	-- LEGACY METHOD. LEFT JUST FOR CASE
+	-- headCmd = "cd ../../ADB && "
+	-- adbCmd = "adb -s "..device_name.." shell /system/xbin/bstk/su -c input keyevent KEYCODE_APP_SWITCH"
+	-- appCmd = headCmd..adbCmd
+
+	-- local f = io.popen(appCmd)
+	-- f:close()
+	
+	-- Sleep(1000)
+	
+	-- headCmd = "cd ../../ADB && "
+	-- adbCmd = "adb -s "..device_name.." shell /system/xbin/bstk/su -c input keyevent KEYCODE_DEL"
+	-- appCmd = headCmd..adbCmd
+
+	-- local f = io.popen(appCmd)
+	-- f:close()
+	
+	-- Sleep(200)
+	
+	-- headCmd = "cd ../../ADB && "
+	-- adbCmd = "adb -s "..device_name.." shell /system/xbin/bstk/su -c input keyevent KEYCODE_HOME"
+	-- appCmd = headCmd..adbCmd
+
+	-- local f = io.popen(appCmd)
+	-- f:close()
+
+	headCmd = "cd ../../ADB && "
+	adbCmd = "adb -s "..device_name.." shell am force-stop com.kakaogames.umamusume"
+	appCmd = headCmd..adbCmd
+
+	local f = io.popen(appCmd)
+	f:close()
 end

@@ -26,17 +26,17 @@ if SSR_LOTS == true then
 	end
 	
 	if loopcount >= loopcount_max - 1 then
-		error_call()
+		ErrorCall()
 		return 0
 	end
 	
 	-- When finished entering SSR gacha menu
-	err = loopstep_both("ssrGuaranteed", "pickOnce", LOOP_ERR_SMALL)
-	if err_judge(err) > 0 then return 0 end
+	err = LoopstepBoth("ssrGuaranteed", "pickOnce", LOOP_ERR_SMALL)
+	if ErrorJudge(err) > 0 then return 0 end
 
 	-- Start picking
-	err = loopstep("pickOnce", "ssrConfirm", LOOP_ERR_SMALL, {true, 0,0})
-	if err_judge(err) > 0 then return 0 end
+	err = Loopstep("pickOnce", "ssrConfirm", LOOP_ERR_SMALL, {true, 0,0})
+	if ErrorJudge(err) > 0 then return 0 end
 
 	-- Pass reconition processs to the next step
 	EnableImage(true, "ssrGacha")
@@ -64,17 +64,17 @@ else
 	end
 
 	if loopcount >= loopcount_max - 1 then
-		error_call()
+		ErrorCall()
 		return 0
 	end
 	
 	-- When finished entering support gacha menu
-	err = loopstep_both("support", "pick10", LOOP_ERR_SMALL)
-	if err_judge(err) > 0 then return 0 end
+	err = LoopstepBoth("support", "pick10", LOOP_ERR_SMALL)
+	if ErrorJudge(err) > 0 then return 0 end
 
 	-- Start picking
-	err = loopstep("pick10", "supportPick", LOOP_ERR_SMALL, {true, 0,0})
-	if err_judge(err) > 0 then return 0 end
+	err = Loopstep("pick10", "supportPick", LOOP_ERR_SMALL, {true, 0,0})
+	if ErrorJudge(err) > 0 then return 0 end
 
 	-- Pass reconition ans cycle loop process to the next step
 	EnableImage(true, "supportGacha")
