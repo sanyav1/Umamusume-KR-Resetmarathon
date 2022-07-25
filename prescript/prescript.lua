@@ -1,4 +1,4 @@
--- í”„ë¡œê·¸ë¨ ì‹¤í–‰ì‹œ ì „ì²˜ë¦¬ ìŠ¤í¬ë¦½íŠ¸
+-- ÇÁ·Î±×·¥ ½ÇÇà½Ã ÀüÃ³¸® ½ºÅ©¸³Æ®
 MAIN_FLAG = 0
 ALARM_FLAG = 0
 STR_NAME_ID = 'name_id'
@@ -7,41 +7,42 @@ STR_NAME = 'name'
 STR_NUM = 'num'
 IS_OK = true
 SAFELOCK = 0
-START_ERR_MESSAGE_CONNECT = "ë¸”ë£¨ìŠ¤íƒê³¼ ì—°ê²°í•´ì£¼ì„¸ìš”."
-START_ERR_MESSAGE_VAR = "ì •ì§€ì˜µì…˜ì€ ëª¨ë‘ ê³¨ë¼ì•¼í•©ë‹ˆë‹¤."
-START_ERR_MESSAGE_SCORE = "ëª©í‘œì ìˆ˜ í™•ì • í•„ìš”"
-START_ERR_MESSAGE_END = "ì´ë¯¸ ì¡°ê±´ì„ ëª¨ë‘ ë§Œì¡±í–ˆìŠµë‹ˆë‹¤. ì¡°ê±´ì„ í™•ì¸í•´ì£¼ì„¸ìš”."
-ALARM_MESSAGE = "ëª©í‘œ ë„ë‹¬! \në¦¬ì„¸ë§ˆë¼ê°€ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤"
-SAFELOCK_MESSAGE = "SAFELOCK, ì ê¸ˆí•´ì œ í•„ìš”"
+START_ERR_MESSAGE_SESSION = "ºí·ç½ºÅÃ°ú ¿¬°áÇØÁÖ¼¼¿ä."
+START_ERR_MESSAGE_TETHER = "Å×´õ¸µ ±â±â¿Í ¿¬°áÇØÁÖ¼¼¿ä."
+START_ERR_MESSAGE_VAR = "Á¤Áö¿É¼ÇÀº ¸ğµÎ °ñ¶ó¾ßÇÕ´Ï´Ù."
+START_ERR_MESSAGE_SCORE = "¸ñÇ¥Á¡¼ö È®Á¤ ÇÊ¿ä"
+START_ERR_MESSAGE_END = "ÀÌ¹Ì Á¶°ÇÀ» ¸ğµÎ ¸¸Á·Çß½À´Ï´Ù. Á¶°ÇÀ» È®ÀÎÇØÁÖ¼¼¿ä."
+ALARM_MESSAGE = "¸ñÇ¥ µµ´Ş! \n¸®¼¼¸¶¶ó°¡ ¿Ï·áµÇ¾ú½À´Ï´Ù"
+SAFELOCK_MESSAGE = "SAFELOCK, Àá±İÇØÁ¦ ÇÊ¿ä"
 
 UMA_LIST = {
-	'ì„ íƒí•˜ì§€ì•ŠìŒ',
-	'ê³¨ë“œì‰½',
-	'ê³¨ë“œì‹œí‹°',
-	'ê·¸ë¼ìŠ¤ì›ë”',
-	'ë‚˜ì´ìŠ¤ë„¤ì´ì²˜',
-	'ë‹ˆì‹œë…¸í”Œë¼ì›Œ',
-	'ë¼ì´ìŠ¤ìƒ¤ì›Œ',
-	'ë³´ë“œì¹´',
-	'ë¹„ì½”í˜ê°€ìˆ˜ìŠ¤',
-	'ì‚¬ì¼ëŸ°ìŠ¤ìŠ¤ì¦ˆì¹´',
-	'ì‚¬ì¿ ë¼ë°”ì¿ ì‹ ì˜¤',
-	'ì„¸ì´ìš´ìŠ¤ì¹´ì´',
-	'ìŠˆí¼í¬ë¦­',
-	'ìŠ¤ë§ˆíŠ¸íŒ”ì½˜',
-	'ìŠ¤í˜ì…œìœ„í¬',
-	'ì•„ì´ë„¤ìŠ¤í›„ì§„',
-	'ì—ì–´ìƒ¤ì»¤',
-	'ì˜¤êµ¬ë¦¬ìº¡',
-	'ì—˜ì½˜ë„ë¥´íŒŒì‚¬',
-	'ìœ„ë‹í‹°ì¼“',
-	'ì¹´ì‹œëª¨í† ë¦¬ì½”',
-	'í‚¤íƒ€ì‚°ë¸”ë™',
-	'íƒ€ë§ˆëª¨í¬ë¡œìŠ¤',
-	'í† ìš°ì¹´ì´í…Œì´ì˜¤',
-	'íŠ¸ìœˆí„°ë³´',
-	'íŒŒì¸ëª¨ì…˜',
-	'í•˜ì•¼ì¹´ì™€íƒ€ì¦ˆë‚˜'
+	'¼±ÅÃÇÏÁö¾ÊÀ½',
+	'°ñµå½±',
+	'°ñµå½ÃÆ¼',
+	'±×·¡½º¿ø´õ',
+	'³ªÀÌ½º³×ÀÌÃ³',
+	'´Ï½Ã³ëÇÃ¶ó¿ö',
+	'¶óÀÌ½º»ş¿ö',
+	'º¸µåÄ«',
+	'ºñÄÚÆä°¡¼ö½º',
+	'»çÀÏ·±½º½ºÁîÄ«',
+	'»çÄí¶ó¹ÙÄí½Å¿À',
+	'¼¼ÀÌ¿î½ºÄ«ÀÌ',
+	'½´ÆÛÅ©¸¯',
+	'½º¸¶Æ®ÆÈÄÜ',
+	'½ºÆä¼ÈÀ§Å©',
+	'¾ÆÀÌ³×½ºÈÄÁø',
+	'¿¡¾î»şÄ¿',
+	'¿À±¸¸®Ä¸',
+	'¿¤ÄÜµµ¸£ÆÄ»ç',
+	'À§´×Æ¼ÄÏ',
+	'Ä«½Ã¸ğÅä¸®ÄÚ',
+	'Å°Å¸»êºí·¢',
+	'Å¸¸¶¸ğÅ©·Î½º',
+	'Åä¿ìÄ«ÀÌÅ×ÀÌ¿À',
+	'Æ®À©ÅÍº¸',
+	'ÆÄÀÎ¸ğ¼Ç',
+	'ÇÏ¾ßÄ«¿ÍÅ¸Áî³ª'
 }
 
 
@@ -78,10 +79,10 @@ STR_VAR_SCOREFIND = '_scorefind'
 
 LIST = {mustfind_list={}, selectfind_list={}, scorefind_list={}}
 
-GUIAddTab('ì—°ê²°')
-GUIAddTab('ì‚¬ìš©ì')
-GUIAddTab('ì„ íƒ')
-GUIAddTab('ì ìˆ˜')
+GUIAddTab('¿¬°á')
+GUIAddTab('»ç¿ëÀÚ')
+GUIAddTab('¼±ÅÃ')
+GUIAddTab('Á¡¼ö')
 GUIAddTab('HELP')
 GUIAddTab('Editor')
 
@@ -90,56 +91,56 @@ GUI_ETC_LIST = {}
 
 
 
--- ########################## ì—°ê²°
-GUISetCurTab('ì—°ê²°')
+-- ########################## ¿¬°á
+GUISetCurTab('¿¬°á')
 
-GUIAddText(5, 0, 340, -1, 'ë¸”ë£¨ìŠ¤íƒê³¼ ì—°ê²°í•©ë‹ˆë‹¤. ë¸”ë£¨ìŠ¤íƒ ADB ì„¤ì •ì„ ì¼œì£¼ì„¸ìš”.')
+GUIAddText(5, 0, 340, -1, 'ºí·ç½ºÅÃ°ú ¿¬°áÇÕ´Ï´Ù. ºí·ç½ºÅÃ ADB ¼³Á¤À» ÄÑÁÖ¼¼¿ä.')
 
 x, y, w, h = 5, 40, 350, 180
-GUIAddGroup(x, y, w, h, 'ADB ì—°ê²°')
+GUIAddGroup(x, y, w, h, 'ADB ¿¬°á')
 
-GUIAddText(x, y + 10, 340, -1, 'ADB í¬íŠ¸ë¥¼ í™•ì¸ í›„ ì •í™•íˆ ì…ë ¥í•´ì£¼ì„¸ìš”')
+GUIAddText(x, y + 10, 340, -1, 'ADB Æ÷Æ®¸¦ È®ÀÎ ÈÄ Á¤È®È÷ ÀÔ·ÂÇØÁÖ¼¼¿ä')
 
 GUIAddEdit(x, y + 30, 240, -1, '', nil, 'adb_port')
-GUIAddButton(x + 240, y + 30, -1, -1,'Device ì—°ê²°', 'button_connect_device')
+GUIAddButton(x + 240, y + 30, -1, -1,'Device ¿¬°á', 'button_connect_device')
 
-GUIAddButton(x, y+ 60, -1, -1, 'STOP/ì ê¸ˆí•´ì œ', 'button_stop')
-GUIAddButton(x + 140, y + 60, -1, -1, 'ì—°ê²°ì´ˆê¸°í™”', 'button_reset_server', 'reset_var')
-TEST_CONNECT_ID = GUIAddButton(x+240, y + 60, -1, -1, 'í…ŒìŠ¤íŠ¸(ì°½ì—´ë¦¼)', 'button_test_connect', 'test_connect_var')
+GUIAddButton(x, y+ 60, -1, -1, 'STOP/Àá±İÇØÁ¦', 'button_stop')
+GUIAddButton(x + 140, y + 60, -1, -1, '¿¬°áÃÊ±âÈ­', 'button_reset_server', 'reset_var')
+TEST_CONNECT_ID = GUIAddButton(x+240, y + 60, -1, -1, 'Å×½ºÆ®(Ã¢¿­¸²)', 'button_test_connect', 'test_connect_var')
 
-GUIAddText(x, y + 105, 340, -1, 'IP ê°±ì‹  ê¸°ëŠ¥ì´ ì—†ëŠ” ë²„ì „ì…ë‹ˆë‹¤.')
-GUIAddText(x, y + 150, 340, -1, 'â–  ì¤‘ìš”!!! - ì¼ë°˜ íƒ­ì˜ [ì¸ì‹ëŒ€ìƒ]->[ì„¤ì •]->[ëŒ€ìƒ ì°½ ì„ íƒ] í™•ì¸')
+GUIAddText(x, y + 105, 340, -1, 'IP °»½Å ±â´ÉÀÌ ¾ø´Â ¹öÀüÀÔ´Ï´Ù.')
+GUIAddText(x, y + 150, 340, -1, '¡á Áß¿ä!!! - ÀÏ¹İ ÅÇÀÇ [ÀÎ½Ä´ë»ó]->[¼³Á¤]->[´ë»ó Ã¢ ¼±ÅÃ] È®ÀÎ')
 
 table.insert(GUI_ETC_LIST, TEST_CONNECT_ID)
 
 x, y, w, h = 5, 250, 350, 70
-GUIAddGroup(x, y, w, h, 'ê²ŒìŠ¤íŠ¸ ë¶ˆëŸ¬ì˜¤ê¸° (ë¦¬ì„¸ ë³µì›)')
-GUIAddText(x, y+10, 340, -1, 'ì˜ˆ) 5028_220101_010101_010')
+GUIAddGroup(x, y, w, h, '°Ô½ºÆ® ºÒ·¯¿À±â (¸®¼¼ º¹¿ø)')
+GUIAddText(x, y+10, 340, -1, '¿¹) 5028_220101_010101_010')
 GUIAddEdit(x, y+40, 220, -1, '', nil, 'load_name')
-GUIAddButton(x+230, y+40, -1, -1, 'ë¶ˆëŸ¬ì˜¤ê¸°', 'button_load', 'load_var')
+GUIAddButton(x+230, y+40, -1, -1, 'ºÒ·¯¿À±â', 'button_load', 'load_var')
 
 
 
 
--- ########################## ì‚¬ìš©ì
-GUISetCurTab('ì‚¬ìš©ì')
+-- ########################## »ç¿ëÀÚ
+GUISetCurTab('»ç¿ëÀÚ')
 
-GUIAddText(5, 0, -1, -1, 'ìš°ë§ˆë¬´ìŠ¤ë©” ë¦¬ì„¸ë§ˆë¼ ')
+GUIAddText(5, 0, -1, -1, '¿ì¸¶¹«½º¸Ş ¸®¼¼¸¶¶ó ')
 
 x, y, w, h = 5, 40, 350, 80
-GUIAddGroup(x, y, w, h, 'ì •ì§€ì˜µì…˜')
+GUIAddGroup(x, y, w, h, 'Á¤Áö¿É¼Ç')
 
-MAINRULE_ID_0 = GUIAddRadio(x + 20, y + 10, -1, -1, 'ì„ íƒ ', 'radio_mainrule', '_mainrule')
-MAINRULE_ID_1 = GUIAddRadio(x + 120, y + 10, -1, -1, 'ì ìˆ˜ ', 'radio_mainrule')
+MAINRULE_ID_0 = GUIAddRadio(x + 20, y + 10, -1, -1, '¼±ÅÃ ', 'radio_mainrule', '_mainrule')
+MAINRULE_ID_1 = GUIAddRadio(x + 120, y + 10, -1, -1, 'Á¡¼ö ', 'radio_mainrule')
 
-GUIAddButton(x + 200, y + 10, -1, -1, 'STOP/ì ê¸ˆí•´ì œ', 'button_stop')
+GUIAddButton(x + 200, y + 10, -1, -1, 'STOP/Àá±İÇØÁ¦', 'button_stop')
 
-GUIAddText(x, y + 35, -1, -1, 'ì •ì§€ì•Œë¦¼ ì„ íƒ')
+GUIAddText(x, y + 35, -1, -1, 'Á¤Áö¾Ë¸² ¼±ÅÃ')
 ALARM_FLAG = 1
 _alarm = 1
-ALARM_ID_0 = GUIAddRadio(x + 20, y + 60, -1, -1, 'ë©”ì„¸ì§€íŒì—… ', 'radio_alarm', '_alarm')
-ALARM_ID_1 = GUIAddRadio(x + 120, y + 60, -1, -1, '5ì´ˆì•ŒëŒ ', 'radio_alarm')
-ALARM_ID_2 = GUIAddRadio(x + 200, y + 60, -1, -1, '5ì´ˆì•ŒëŒ+ë©”ì„¸ì§€íŒì—… ', 'radio_alarm')
+ALARM_ID_0 = GUIAddRadio(x + 20, y + 60, -1, -1, '¸Ş¼¼ÁöÆË¾÷ ', 'radio_alarm', '_alarm')
+ALARM_ID_1 = GUIAddRadio(x + 120, y + 60, -1, -1, '5ÃÊ¾Ë¶÷ ', 'radio_alarm')
+ALARM_ID_2 = GUIAddRadio(x + 200, y + 60, -1, -1, '5ÃÊ¾Ë¶÷+¸Ş¼¼ÁöÆË¾÷ ', 'radio_alarm')
 
 table.insert(GUI_ETC_LIST, MAINRULE_ID_0)
 table.insert(GUI_ETC_LIST, MAINRULE_ID_1)
@@ -152,10 +153,10 @@ table.insert(GUI_ETC_LIST,ALARM_ID_2)
 must_option_num = 3
 interval_size = 25
 x, y, w, h = 5, 150, 350, 60 + must_option_num * interval_size + 20
-GUIAddGroup(x, y, w, h, 'í¬í•¨ì˜µì…˜')
-GUIAddText(x + 10, y + 10, -1, -1, 'ë°˜ë“œì‹œ í¬í•¨ì‹œí‚¤ê³ ì í•˜ëŠ” ì¹´ë“œë¥¼ ì„ íƒí•©ë‹ˆë‹¤.')
-GUIAddText(x + 10, y + 30, -1, -1, 'ì´ëŠ” ê²ŒìŠ¤íŠ¸ ê³„ì •ê³¼ ìŠ¤í¬ë¦°ìƒ· ì €ì¥ ê¸°ì¤€ì´ ë©ë‹ˆë‹¤.')
-GUIAddText(x + 10, y + 50, -1, -1, 'ëª¨ë‘ ì„ íƒí•˜ì§€ ì•Šìœ¼ë©´ í•­ìƒ ì €ì¥ë©ë‹ˆë‹¤.')
+GUIAddGroup(x, y, w, h, 'Æ÷ÇÔ¿É¼Ç')
+GUIAddText(x + 10, y + 10, -1, -1, '¹İµå½Ã Æ÷ÇÔ½ÃÅ°°íÀÚ ÇÏ´Â Ä«µå¸¦ ¼±ÅÃÇÕ´Ï´Ù.')
+GUIAddText(x + 10, y + 30, -1, -1, 'ÀÌ´Â °Ô½ºÆ® °èÁ¤°ú ½ºÅ©¸°¼¦ ÀúÀå ±âÁØÀÌ µË´Ï´Ù.')
+GUIAddText(x + 10, y + 50, -1, -1, '¸ğµÎ ¼±ÅÃÇÏÁö ¾ÊÀ¸¸é Ç×»ó ÀúÀåµË´Ï´Ù.')
 
 head_y=50
 for i=1,must_option_num,1
@@ -167,21 +168,21 @@ do
 	tmp_id_1 = GUIAddCombo(x + 10, y + head_y + plus_y, 150, -1, UMA_LIST, 'combo_mustSelect_name', tmp_var_name)
 	tmp_id_2 = GUIAddCombo(x + 200, y + head_y + plus_y, -1, -1, NUM_LIST, 'combo_mustSelect_num', tmp_var_num)
 	table.insert(LIST[STR_MUSTFIND_LIST], {[STR_NAME_ID]=tmp_id_1,[STR_NUM_ID]=tmp_id_2})
-	GUIAddText(x + 170, y + head_y + plus_y, -1, -1, 'ê°œìˆ˜')
+	GUIAddText(x + 170, y + head_y + plus_y, -1, -1, '°³¼ö')
 end
 
 
--- ########################## ì„ íƒ
+-- ########################## ¼±ÅÃ
 
-GUISetCurTab('ì„ íƒ')
+GUISetCurTab('¼±ÅÃ')
 
-GUIAddText(5, 0, -1, -1, 'ì›í•˜ëŠ” ì¹´ë“œë¥¼ ì„ íƒí•©ë‹ˆë‹¤. ')
-GUIAddText(5, 20, -1, -1, 'ì„ íƒí•œ ì¹´ë“œê°€ ëª¨ë‘ ë‚˜ì˜¤ë©´ ì¤‘ë‹¨í•©ë‹ˆë‹¤. ')
+GUIAddText(5, 0, -1, -1, '¿øÇÏ´Â Ä«µå¸¦ ¼±ÅÃÇÕ´Ï´Ù. ')
+GUIAddText(5, 20, -1, -1, '¼±ÅÃÇÑ Ä«µå°¡ ¸ğµÎ ³ª¿À¸é Áß´ÜÇÕ´Ï´Ù. ')
 
 select_option_num = 8
 interval_size = 25
 x, y, w, h = 5, 60, 350, 20+select_option_num*interval_size+20
-GUIAddGroup(x, y, w, h, 'ì„ íƒì˜µì…˜')
+GUIAddGroup(x, y, w, h, '¼±ÅÃ¿É¼Ç')
 
 head_y = 0
 for i=1,select_option_num,1
@@ -192,27 +193,27 @@ do
 	tmp_id_1 = GUIAddCombo(x + 10, y + head_y + plus_y, 150, -1, UMA_LIST, 'combo_select_name', tmp_var_name)
 	tmp_id_2 = GUIAddCombo(x + 200, y + head_y + plus_y, -1, -1, NUM_LIST, 'combo_select_num', tmp_var_num)
 	table.insert(LIST[STR_SELECTFIND_LIST],{[STR_NAME_ID]=tmp_id_1,[STR_NUM_ID]=tmp_id_2})
-	GUIAddText(x + 170, y + head_y + plus_y, -1, -1, 'ê°œìˆ˜')
+	GUIAddText(x + 170, y + head_y + plus_y, -1, -1, '°³¼ö')
 end
 
 
--- ########################## ì ìˆ˜
+-- ########################## Á¡¼ö
 
-GUISetCurTab('ì ìˆ˜')
-GUIAddText(5, 0, -1, -1, 'ì¹´ë“œë³„ë¡œ ì ìˆ˜ë¥¼ ì¸¡ì •í•©ë‹ˆë‹¤.')
-GUIAddText(5, 20, -1, -1, 'ì ìˆ˜ë¥¼ ë”í•´ ëª©í‘œì ìˆ˜ë¥¼ ë„˜ìœ¼ë©´ ì¤‘ë‹¨í•©ë‹ˆë‹¤. ')
-GUIAddText(5, 40, -1, -1, '(ì„ íƒí•˜ì§€ì•Šì€ ì¹´ë“œëŠ” 0ì , ì •ìˆ˜ë§Œ í—ˆìš©)')
+GUISetCurTab('Á¡¼ö')
+GUIAddText(5, 0, -1, -1, 'Ä«µåº°·Î Á¡¼ö¸¦ ÃøÁ¤ÇÕ´Ï´Ù.')
+GUIAddText(5, 20, -1, -1, 'Á¡¼ö¸¦ ´õÇØ ¸ñÇ¥Á¡¼ö¸¦ ³ÑÀ¸¸é Áß´ÜÇÕ´Ï´Ù. ')
+GUIAddText(5, 40, -1, -1, '(¼±ÅÃÇÏÁö¾ÊÀº Ä«µå´Â 0Á¡, Á¤¼ö¸¸ Çã¿ë)')
 
-GUIAddText(5, 70, -1, -1, 'ëª©í‘œì ìˆ˜')
+GUIAddText(5, 70, -1, -1, '¸ñÇ¥Á¡¼ö')
 SCORE_ID = GUIAddEdit(70, 70, 60, -1, '0', nil, 'SCOREGOAL')
-SCORE_CONFIRM_ID = GUIAddButton(130, 70, -1, -1, 'í™•ì •', 'button_confirm')
-SCORE_EDIT_ID = GUIAddButton(180, 70, -1, -1, 'ìˆ˜ì •', 'button_edit')
+SCORE_CONFIRM_ID = GUIAddButton(130, 70, -1, -1, 'È®Á¤', 'button_confirm')
+SCORE_EDIT_ID = GUIAddButton(180, 70, -1, -1, '¼öÁ¤', 'button_edit')
 
 
 score_option_num = 9
 interval_size = 20
 x, y, w, h = 5, 110, 350, 5+score_option_num*interval_size+20
-GUIAddGroup(x, y, w, h, 'ì„ íƒì˜µì…˜')
+GUIAddGroup(x, y, w, h, '¼±ÅÃ¿É¼Ç')
 
 head_y = 0
 for i=1,score_option_num,1
@@ -223,30 +224,30 @@ do
 	tmp_id_1 = GUIAddCombo(x + 10, y + head_y + plus_y, 150, -1, UMA_LIST, 'combo_score_name', tmp_var_name)
 	tmp_id_2 = GUIAddEdit(x + 200, y + head_y + plus_y, -1, -1, '0', 'edit_score_num', tmp_var_num)
 	table.insert(LIST[STR_SCOREFIND_LIST], {[STR_NAME_ID]=tmp_id_1,[STR_NUM_ID]=tmp_id_2})
-	GUIAddText(x + 170, y + head_y + plus_y, -1, -1, 'ì ìˆ˜')
+	GUIAddText(x + 170, y + head_y + plus_y, -1, -1, 'Á¡¼ö')
 end
 
 
 -- ########################## HELP
 
 GUISetCurTab('HELP')
-GUIAddText(5, 0, 350, -1, 'FAQ1: ë¸”ë£¨ìŠ¤íƒì´ ì—°ê²°ì´ ì•ˆë¼ìš”!')
-GUIAddText(5, 20, 350, -1, '--> ë¸”ë£¨ìŠ¤íƒì˜ ì„¤ì •ì—ì„œ ADB ì„¤ì •ì„ ì¼œì£¼ì„¸ìš”.')
-GUIAddText(5, 40, 350, -1, '--> ë§Œì¼ ì¼œì ¸ìˆë‹¤ë©´ PC ì¬ë¶€íŒ… í•´ì£¼ì„¸ìš”.')
+GUIAddText(5, 0, 350, -1, 'FAQ1: ºí·ç½ºÅÃÀÌ ¿¬°áÀÌ ¾ÈµÅ¿ä!')
+GUIAddText(5, 20, 350, -1, '--> ºí·ç½ºÅÃÀÇ ¼³Á¤¿¡¼­ ADB ¼³Á¤À» ÄÑÁÖ¼¼¿ä.')
+GUIAddText(5, 40, 350, -1, '--> ¸¸ÀÏ ÄÑÁ®ÀÖ´Ù¸é PC ÀçºÎÆÃ ÇØÁÖ¼¼¿ä.')
 
-GUIAddText(5, 70, 350, -1, 'FAQ2: ë§¤í¬ë¡œê°€ ëë‚¬ëŠ”ë°ë„ ë²„íŠ¼ì„ íƒì´ ì•ˆë¼ìš”!')
-GUIAddText(5, 90, 350, -1, '--> ì‚¬ìš©ì íƒ­ì˜ "STOP/ì ê¸ˆí•´ì œ" ëˆŒëŸ¬ì£¼ì„¸ìš”.')
+GUIAddText(5, 70, 350, -1, 'FAQ2: ¸ÅÅ©·Î°¡ ³¡³µ´Âµ¥µµ ¹öÆ°¼±ÅÃÀÌ ¾ÈµÅ¿ä!')
+GUIAddText(5, 90, 350, -1, '--> »ç¿ëÀÚ ÅÇÀÇ "STOP/Àá±İÇØÁ¦" ´­·¯ÁÖ¼¼¿ä.')
 
-GUIAddText(5, 120, 350, -1, 'FAQ3: ìŠ¤í¬ë¦°ìƒ·ì€ ì–´ë””ì— ì €ì¥ë˜ë‚˜ìš”?')
-GUIAddText(5, 140, 350, -1, '--> Umaí´ë”ì˜ SavedScreenshotì„ ëˆ„ë¥´ì‹œë©´')
-GUIAddText(5, 160, 350, -1, '--> ë¬¸ì„œ/Screenshot/Uma ë¡œ ì—°ê²°ë˜ë©°')
-GUIAddText(5, 180, 350, -1, '--> ìŠ¤í¬ë¦°ìƒ· ì €ì¥í˜•ì‹ì€ ë‹¤ìŒê³¼ ê°™ìŠµë‹ˆë‹¤.')
-GUIAddText(5, 200, 350, -1, '--> ë¬¸ì„œ/Screenshot/Uma/ì €ì¥ë‹¹ì‹œë‚ ì§œ/ì €ì¥ë‹¹ì‹œë‚ ì§œì‹œê°„.png')
+GUIAddText(5, 120, 350, -1, 'FAQ3: ½ºÅ©¸°¼¦Àº ¾îµğ¿¡ ÀúÀåµÇ³ª¿ä?')
+GUIAddText(5, 140, 350, -1, '--> UmaÆú´õÀÇ SavedScreenshotÀ» ´©¸£½Ã¸é')
+GUIAddText(5, 160, 350, -1, '--> ¹®¼­/Screenshot/Uma ·Î ¿¬°áµÇ¸ç')
+GUIAddText(5, 180, 350, -1, '--> ½ºÅ©¸°¼¦ ÀúÀåÇü½ÄÀº ´ÙÀ½°ú °°½À´Ï´Ù.')
+GUIAddText(5, 200, 350, -1, '--> ¹®¼­/Screenshot/Uma/ÀúÀå´ç½Ã³¯Â¥/ÀúÀå´ç½Ã³¯Â¥½Ã°£.png')
 
-GUIAddText(5, 230, 350, -1, 'FAQ4: ë¶ˆëŸ¬ì˜¤ê¸°ê°€ ì•ˆë¼ìš”!')
-GUIAddText(5, 250, 350, -1, '--> ì—°ê²°í•œ ë¸”ë£¨ìŠ¤íƒì´ íŒŒì¼ì´ë¦„ì˜ deviceëª…ê³¼ ê°™ì€ì§€ í™•ì¸')
-GUIAddText(5, 270, 350, -1, '--> íŒŒì¼ëª… ì˜ˆ) 8200_220624_071427_516')
-GUIAddText(5, 290, 350, -1, '--> ì´ì „ì— ì—°ê²°í–ˆë˜ ë¸”ë£¨ìŠ¤íƒ ì„¸ì…˜ìœ¼ë¡œ ì‹¤í–‰')
+GUIAddText(5, 230, 350, -1, 'FAQ4: ºÒ·¯¿À±â°¡ ¾ÈµÅ¿ä!')
+GUIAddText(5, 250, 350, -1, '--> ¿¬°áÇÑ ºí·ç½ºÅÃÀÌ ÆÄÀÏÀÌ¸§ÀÇ device¸í°ú °°ÀºÁö È®ÀÎ')
+GUIAddText(5, 270, 350, -1, '--> ÆÄÀÏ¸í ¿¹) 8200_220624_071427_516')
+GUIAddText(5, 290, 350, -1, '--> ÀÌÀü¿¡ ¿¬°áÇß´ø ºí·ç½ºÅÃ ¼¼¼ÇÀ¸·Î ½ÇÇà')
 
 
 
@@ -255,7 +256,7 @@ GUIAddText(5, 290, 350, -1, '--> ì´ì „ì— ì—°ê²°í–ˆë˜ ë¸”ë£¨ìŠ¤íƒ ì„¸ì…˜ìœ¼ë¡
 
 GUISetCurTab('Editor')
 GUIAddText(5, 0, 150, -1, 'made by Qert')
-GUIAddText(5, 30, -1, -1, 'ì•…ì˜ì ì´ê±°ë‚˜ ìƒì—…ì ì¸ ëª©ì ì„ ì œì™¸í•œ ìˆ˜ì • ë° ë°°í¬ ììœ ')
+GUIAddText(5, 30, -1, -1, '¾ÇÀÇÀûÀÌ°Å³ª »ó¾÷ÀûÀÎ ¸ñÀûÀ» Á¦¿ÜÇÑ ¼öÁ¤ ¹× ¹èÆ÷ ÀÚÀ¯')
 GUIAddText(5, 60, -1, -1, 'Edited by...')
 GUIAddText(5, 80, -1, -1, 'ADD_YOUR_NAME        ')
 GUIAddText(5, 100, -1, -1, 'ADD_YOUR_NAME        ')
@@ -266,10 +267,10 @@ GUIAddText(5, 120, -1, -1, 'ADD_YOUR_NAME        ')
 GUIUpdate()
 GUIShow()
 
-GUISetCurTab('ì—°ê²°')
+GUISetCurTab('¿¬°á')
 
 
--- ######################### ë¹„í™œì„±í™” GUI ì„¤ì •
+-- ######################### ºñÈ°¼ºÈ­ GUI ¼³Á¤
 function LIST_enable(constlist, bool)
 	if constlist == STR_SCOREFIND_LIST
 	then
@@ -307,7 +308,7 @@ function initialize_list(constlist, constvar)
 end
 
 
-UMA_LIST[999] = 'í™•ì¸ì•ˆëœì¹´ë“œ'
+UMA_LIST[999] = 'È®ÀÎ¾ÈµÈÄ«µå'
 
 initialize_list(STR_MUSTFIND_LIST, STR_VAR_MUSTFIND)
 initialize_list(STR_SELECTFIND_LIST, STR_VAR_SELECTFIND)
@@ -325,7 +326,7 @@ function button_reset_server(button_id)
 	adbCmd = 'adb kill-server'
 	appCmd = headCmd..adbCmd
 	
-	print('ADB ì„œë²„ ì¢…ë£Œ')
+	print('ADB ¼­¹ö Á¾·á')
 	
 	local f = io.popen(appCmd)
 	f:close()
@@ -352,7 +353,7 @@ function button_connect_device(button_id)
 			print(line)
 		end
 	else
-		print("ë¸”ë£¨ìŠ¤íƒ ADB í¬íŠ¸ê°€ ì…ë ¥ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤. í¬íŠ¸ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.")
+		print("ºí·ç½ºÅÃ ADB Æ÷Æ®°¡ ÀÔ·ÂµÇÁö ¾Ê¾Ò½À´Ï´Ù. Æ÷Æ®¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.")
 		return 0
 	end
 
@@ -363,7 +364,7 @@ function button_test_connect(button_id)
 print(adb_port)
 	if adb_port	== ''
 		then
-		print("ë¸”ë£¨ìŠ¤íƒ ADB í¬íŠ¸ê°€ ì…ë ¥ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤. í¬íŠ¸ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.")
+		print("ºí·ç½ºÅÃ ADB Æ÷Æ®°¡ ÀÔ·ÂµÇÁö ¾Ê¾Ò½À´Ï´Ù. Æ÷Æ®¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.")
 		return 0
 	else
 		headCmd = "cd ADB && "
@@ -375,6 +376,7 @@ print(adb_port)
 		f:close()
 	end
 end
+
 
 function button_load(button_id)
 		
@@ -391,18 +393,18 @@ function button_load(button_id)
 	print(account_device)
 	if target_port == nil
 	then
-		MessageBox("ë¸”ë£¨ìŠ¤íƒ ADB ì—°ê²°ì„ í™•ì¸í•´ì£¼ì„¸ìš”.")
+		MessageBox("ºí·ç½ºÅÃ ADB ¿¬°áÀ» È®ÀÎÇØÁÖ¼¼¿ä.")
 		return 0
 	end
 	
 	
 	if target_port ~= account_device
 	then
-		print("ì£¼ì˜! í˜„ì¬ ADB í¬íŠ¸ì™€ ì´ì „ ADB í¬íŠ¸ê°€ ë‹¤ë¦…ë‹ˆë‹¤.\në³µì›ì´ ì•ˆë˜ì—ˆë‹¤ë©´ ì´ì „ì— ë°ì´í„°ë¥¼ ì €ì¥í•œ ì„¸ì…˜ì´ ë§ëŠ”ì§€ í™•ì¸í•´ë³´ì„¸ìš”.")
+		print("ÁÖÀÇ! ÇöÀç ADB Æ÷Æ®¿Í ÀÌÀü ADB Æ÷Æ®°¡ ´Ù¸¨´Ï´Ù.\nº¹¿øÀÌ ¾ÈµÇ¾ú´Ù¸é ÀÌÀü¿¡ µ¥ÀÌÅÍ¸¦ ÀúÀåÇÑ ¼¼¼ÇÀÌ ¸Â´ÂÁö È®ÀÎÇØº¸¼¼¿ä.")
 	end	
 	
 	
-	-- ì•± ì¢…ë£Œ
+	-- ¾Û Á¾·á
 
 	headCmd = "cd ADB && "
 	adbCmd = "adb -s "..device_name.." shell /system/xbin/bstk/su -c am force-stop com.kakaogames.umamusume"
@@ -411,7 +413,7 @@ function button_load(button_id)
 	local f = io.popen(appCmd)
 	f:close()
 	
-	-- í˜„ì¬ ê²ŒìŠ¤íŠ¸ ì‚­ì œ
+	-- ÇöÀç °Ô½ºÆ® »èÁ¦
 	
 	print(device_name)
 	headCmd = "cd ADB && "
@@ -421,7 +423,7 @@ function button_load(button_id)
 	local f = io.popen(appCmd)
 	f:close()
 
-	-- ì €ì¥ëœ ê²ŒìŠ¤íŠ¸ ë³µì‚¬
+	-- ÀúÀåµÈ °Ô½ºÆ® º¹»ç
 	
 	headCmd = "cd ADB && "
 	adbCmd = "adb -s "..device_name.." shell /system/xbin/bstk/su -c cp -a -f /data/data/com.kakaogames.umamusume/account/"..saved_account.." /data/data/com.kakaogames.umamusume/shared_prefs"
@@ -431,7 +433,7 @@ function button_load(button_id)
 	f:close()
 	
 	Stop()
-	MessageBox("ê²ŒìŠ¤íŠ¸ ê³„ì • ë³µêµ¬ë¥¼ ì‹œë„í–ˆìŠµë‹ˆë‹¤. ì•±ì„ ì¼œì„œ í™•ì¸í•´ì£¼ì„¸ìš”.\në³µêµ¬ê°€ ì•ˆëì„ ê²½ìš° ë””ë°”ì´ìŠ¤ í™•ì¸ë°”ëŒ.")
+	MessageBox("°Ô½ºÆ® °èÁ¤ º¹±¸¸¦ ½ÃµµÇß½À´Ï´Ù. ¾ÛÀ» ÄÑ¼­ È®ÀÎÇØÁÖ¼¼¿ä.\nº¹±¸°¡ ¾ÈµÆÀ» °æ¿ì µğ¹ÙÀÌ½º È®ÀÎ¹Ù¶÷.")
 end
 
 
@@ -525,7 +527,7 @@ function button_confirm(button_id)
 
 	if tonumber(SCOREGOAL) == nil
 	then
-		message = 'ëª©í‘œì ìˆ˜ í™•ì¸í•„ìš”(ì •ìˆ˜ë§Œ í—ˆìš©)'
+		message = '¸ñÇ¥Á¡¼ö È®ÀÎÇÊ¿ä(Á¤¼ö¸¸ Çã¿ë)'
 		MessageBox(message)
 		IS_OK = false
 	end
@@ -544,7 +546,7 @@ function button_confirm(button_id)
 				IS_OK = false
 			end
 		else
-			message = tostring(k)..'ë²ˆì§¸ ì ìˆ˜ê°’ í™•ì¸í•„ìš”(ì •ìˆ˜ë§Œ í—ˆìš©)'
+			message = tostring(k)..'¹øÂ° Á¡¼ö°ª È®ÀÎÇÊ¿ä(Á¤¼ö¸¸ Çã¿ë)'
 			MessageBox(message)
 			IS_OK = false
 		end
@@ -558,7 +560,7 @@ function button_confirm(button_id)
 	end
 	
 	GUIUpdate()
-	GUISetCurTab('ì ìˆ˜')
+	GUISetCurTab('Á¡¼ö')
 	
 end
 
