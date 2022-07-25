@@ -1,18 +1,18 @@
 -- Find App and touch it
-err = loopstep("appIcon", "loginKakao", LOOP_ERR_LARGE*1.5, {true, 0, 0})
-if err_judge(err) > 0 then return 0 end
+err = Loopstep("appIcon", "loginKakao", LOOP_ERR_LARGE*1.5, {true, 0, 0})
+if ErrorJudge(err) > 0 then return 0 end
 
 -- Press guest login
-err = loopstep("loginKakao", "loginGuest", LOOP_ERR_MEDIUM, {true, 200, 666})
-if err_judge(err) > 0 then return 0 end
+err = Loopstep("loginKakao", "loginGuest", LOOP_ERR_MEDIUM, {true, 200, 666})
+if ErrorJudge(err) > 0 then return 0 end
 
 
-err = loopstep("loginGuest", "guestOk", LOOP_ERR_MEDIUM, {false, 0,0})
-if err_judge(err) > 0 then return 0 end
+err = Loopstep("loginGuest", "guestOk", LOOP_ERR_MEDIUM, {false, 0,0})
+if ErrorJudge(err) > 0 then return 0 end
 
 
-err = loopstep("guestOk", "kakaoGames", LOOP_ERR_LARGE, {true, 0,0})
-if err_judge(err) > 0 then return 0 end
+err = Loopstep("guestOk", "kakaoGames", LOOP_ERR_LARGE, {true, 0,0})
+if ErrorJudge(err) > 0 then return 0 end
 
 -- Kakao EULA confirmation
 Mouse(LBUTTON, CLICK, 27, 149, 27, 149, 0, 0, 0.3, 1, FASTER, MESSAGE)
@@ -32,7 +32,7 @@ Mouse(LBUTTON, CLICK, 198, 626, 198, 626, 0, 0, 0.5, 1, FASTER, MESSAGE)
 Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTER, MESSAGE)
 
 -- After EULA, Pass or Error?
-err = loopstep_or("networkError", "syncAccount", LOOP_ERR_LARGE, {false, 0,0})
+err = LoopstepOr("networkError", "syncAccount", LOOP_ERR_LARGE, {false, 0,0})
 
 if err == 1 then
 	-- Network error. Go to title menu

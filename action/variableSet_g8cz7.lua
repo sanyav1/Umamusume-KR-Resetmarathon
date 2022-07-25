@@ -2,19 +2,11 @@ STARTIMAGE = 'guiErrorCheck'
 FIRST_RUN = true
 
 err = 0
-NETWORK_RESET_TIME = 1800
+ERR_NETWORK = 0
 
-SMALLSLEEP = 300
+freeCycle= 1
 
-cycle_set = 0
 cycle_total = 0
-cycle_R = 0
-cycle_SSR = 0
-cycle_SR = 0
-
-SSR_list = {}
-SR_list = {}
-R_list = {}
 
 -- Region of Interest: Grade
 roi = {
@@ -33,29 +25,10 @@ roi = {
 {225, 483, 21, 14}
 }
 
--- Region of Interest: Card
-CARD_roi = {
-{39, 79, 83, 107},
-{159, 79, 83, 107},
-{279, 79, 83, 107},
-
-{99, 212, 83, 107},
-{219, 212, 83, 107},
-
-{39, 347, 83, 107},
-{159, 347, 83, 107},
-{279, 347, 83, 107},
-
-{99, 482, 83, 107},
-{219, 482, 83, 107}
-}
-
+-- Region of Interest: Specific Info
 detail_roi = {28, 73, 109, 144}
 
-freeCycle= 1
-
-ERR_NETWORK = 0
-
+-- List of Groups in ImageMax Cycle
 GROUPS = {
     'resetAccount',
     'gameStart',
@@ -65,9 +38,7 @@ GROUPS = {
     'umaAssess',
     'errorCallback'
     }
-    
-uma_off()
-    
+        
 found_uma_list = {}
 
 SAVE_SCREENSHOT_TRUE = false
@@ -77,3 +48,5 @@ SR_SEARCH_ON = true
 
 SUCCESS = false
 SCREENSHOT_FLAG = false
+
+UmaOff()

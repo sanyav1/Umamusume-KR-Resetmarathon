@@ -28,7 +28,7 @@ if date_now.hour == 4 then
 end
 
 found_uma_list = {}
-print("리세횟수 : "..tostring(COUNT))
+print("리세횟수 : "..tostring(COUNT_CYCLE))
 print("<<필수목표>>")
 
 for k, v in pairs(LIST[STR_MUSTFIND_LIST]) do
@@ -89,19 +89,19 @@ SUCCESS = false
 SCREENSHOT_FLAG = false
 
 print("MAIN_FLAG = "..tostring(MAIN_FLAG))
-print("SELECT : ".. tostring(calculate_selectfind()[1]))
-print("MUSTF : " .. tostring(calculate_mustfind()[1]))
-print("SCORE : " .. tostring(calculate_score()[1]))
+print("SELECT : ".. tostring(CalculateSelectfind()[1]))
+print("MUSTF : " .. tostring(CalculateMustfind()[1]))
+print("SCORE : " .. tostring(CalculateScore()[1]))
 
-if calculate_mustfind()[1] == true
+if CalculateMustfind()[1] == true
 then
 	SCREENSHOT_FLAG = true
 	if MAIN_FLAG == 0 then
-		if calculate_selectfind()[1] == true then
+		if CalculateSelectfind()[1] == true then
 			SUCCESS = true
 		end
 	elseif MAIN_FLAG == 1 then
-		if calculate_score()[1] == true then
+		if CalculateScore()[1] == true then
 			SUCCESS = true
 		end
 	end

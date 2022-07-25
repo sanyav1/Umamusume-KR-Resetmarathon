@@ -1,20 +1,20 @@
-err = loopstep("doNotPick", "exitGacha", LOOP_ERR_SMALL, {true, 0,0})
-if err_judge(err) > 0 then return 0 end
+err = Loopstep("doNotPick", "exitGacha", LOOP_ERR_SMALL, {true, 0,0})
+if ErrorJudge(err) > 0 then return 0 end
 
-err = loopstep("exitGacha", "toInventory", LOOP_ERR_LARGE, {true, 0,0})
-if err_judge(err) > 0 then return 0 end
+err = Loopstep("exitGacha", "toInventory", LOOP_ERR_LARGE, {true, 0,0})
+if ErrorJudge(err) > 0 then return 0 end
 
-err = loopstep("toInventory", "supportCard", LOOP_ERR_SMALL, {true, 0,0})
-if err_judge(err) > 0 then return 0 end
+err = Loopstep("toInventory", "supportCard", LOOP_ERR_SMALL, {true, 0,0})
+if ErrorJudge(err) > 0 then return 0 end
 
-err = loopstep("supportCard", "cardUpgrade", LOOP_ERR_SMALL, {true, 0,0})
-if err_judge(err) > 0 then return 0 end
+err = Loopstep("supportCard", "cardUpgrade", LOOP_ERR_SMALL, {true, 0,0})
+if ErrorJudge(err) > 0 then return 0 end
 
-err = loopstep("cardUpgrade", "closeBanner", LOOP_ERR_SMALL, {true, 0,0})
-if err_judge(err) > 0 then return 0 end
+err = Loopstep("cardUpgrade", "closeBanner", LOOP_ERR_SMALL, {true, 0,0})
+if ErrorJudge(err) > 0 then return 0 end
 
-err = loopstep("closeBanner", "enteredUpgrade", LOOP_ERR_SMALL, {true, 0,0})
-if err_judge(err) > 0 then return 0 end
+err = Loopstep("closeBanner", "enteredUpgrade", LOOP_ERR_SMALL, {true, 0,0})
+if ErrorJudge(err) > 0 then return 0 end
 
 
 -- Save screenshot
@@ -55,11 +55,11 @@ SAVE_SCREENSHOT_TRUE = true
 
 
 -- saveData
-head_command = "cd ../../ADB && "
-adb_command = "adb -s "..device_name.." shell /system/xbin/bstk/su -c mv /data/data/com.kakaogames.umamusume/shared_prefs /data/data/com.kakaogames.umamusume/account/"..save_name
-command = head_command..adb_command
+headCmd = "cd ../../ADB && "
+adbCmd = "adb -s "..device_name.." shell /system/xbin/bstk/su -c mv /data/data/com.kakaogames.umamusume/shared_prefs /data/data/com.kakaogames.umamusume/account/"..save_name
+appCmd = headCmd..adbCmd
 
-local f = io.popen(command)
+local f = io.popen(appCmd)
 f:close()
 
 
@@ -85,8 +85,8 @@ print([[###################]])
 
 file:close()
 
-COUNT = COUNT+1
+COUNT_CYCLE = COUNT_CYCLE+1
 
-print('¸®¼¼È½¼ö : '..COUNT)
+print('Â¸Â®Â¼Â¼ÃˆÂ½Â¼Ã¶ : '..COUNT_CYCLE)
 
 EnableImage(true,'isFinished')
