@@ -2,61 +2,56 @@ LOOP_ERR_SMALL = 50
 LOOP_ERR_MEDIUM = 90
 LOOP_ERR_LARGE = 160
 GLOBAL_DELAY = 100
+COUNT_CYCLE = 0
 
 -- 계정 백업 경로 생성
-head_command = "cd ../../ADB && "
-adb_command = "adb -s "..device_name.." shell /system/xbin/bstk/su -c mkdir -p /data/data/com.kakaogames.umamusume/account"
-command = head_command..adb_command
+headCmd = "cd ../../ADB && "
+adbCmd = "adb -s "..device_name.." shell /system/xbin/bstk/su -c mkdir -p /data/data/com.kakaogames.umamusume/account"
+appCmd = headCmd..adbCmd
 
-local f = io.popen(command)
+local f = io.popen(appCmd)
 f:close()
 
 -- 스크린샷 바로가기 폴더 만들기
 os.execute("mkdir ..\\screenshot")
 
--- 횟수 세기
-COUNT = 0
-
--- SSR 뽑기
-SSR_LOTS = true
-
 function uma_off()
 	-- LEGACY METHOD. LEFT JUST FOR CASE
-	-- head_command = "cd ../../ADB && "
-	-- adb_command = "adb -s "..device_name.." shell /system/xbin/bstk/su -c input keyevent KEYCODE_APP_SWITCH"
-	-- command = head_command..adb_command
+	-- headCmd = "cd ../../ADB && "
+	-- adbCmd = "adb -s "..device_name.." shell /system/xbin/bstk/su -c input keyevent KEYCODE_APP_SWITCH"
+	-- appCmd = headCmd..adbCmd
 
-	-- local f = io.popen(command)
+	-- local f = io.popen(appCmd)
 	-- f:close()
 	
 	-- Sleep(1000)
 	
-	-- head_command = "cd ../../ADB && "
-	-- adb_command = "adb -s "..device_name.." shell /system/xbin/bstk/su -c input keyevent KEYCODE_DEL"
-	-- command = head_command..adb_command
+	-- headCmd = "cd ../../ADB && "
+	-- adbCmd = "adb -s "..device_name.." shell /system/xbin/bstk/su -c input keyevent KEYCODE_DEL"
+	-- appCmd = headCmd..adbCmd
 
-	-- local f = io.popen(command)
+	-- local f = io.popen(appCmd)
 	-- f:close()
 	
 	-- Sleep(200)
 	
-	-- head_command = "cd ../../ADB && "
-	-- adb_command = "adb -s "..device_name.." shell /system/xbin/bstk/su -c input keyevent KEYCODE_HOME"
-	-- command = head_command..adb_command
+	-- headCmd = "cd ../../ADB && "
+	-- adbCmd = "adb -s "..device_name.." shell /system/xbin/bstk/su -c input keyevent KEYCODE_HOME"
+	-- appCmd = headCmd..adbCmd
 
-	-- local f = io.popen(command)
+	-- local f = io.popen(appCmd)
 	-- f:close()
 
-	head_command = "cd ../../ADB && "
-	adb_command = "adb -s "..device_name.." shell am force-stop com.kakaogames.umamusume"
-	command = head_command..adb_command
+	headCmd = "cd ../../ADB && "
+	adbCmd = "adb -s "..device_name.." shell am force-stop com.kakaogames.umamusume"
+	appCmd = headCmd..adbCmd
 
-	local f = io.popen(command)
+	local f = io.popen(appCmd)
 	f:close()
 end
 
 
-function error_call()
+function ErrorCall()
 	print('무한루프에 빠졌습니다.')
 	print('처음부터 다시시작합니다.')
 
@@ -66,22 +61,16 @@ function error_call()
 	GotoImage('variableSet')
 end
 
-function do_action(action_list, args_list)
-	for k, v in action_list
-	do
-		v(table.unpack(args_list[k]))
-	end
-end
 
-function err_judge(err)
+function ErrorJudge(err)
 	if err > 10 then
 		if err == 22 then
 			print("강제종료됨")
 		elseif err == 44 then
 			print("카드인식에러")
-			error_call()
+			ErrorCall()
 		elseif err == 99 then
-			error_call()
+			ErrorCall()
 		end
 
 		return 1
@@ -90,7 +79,7 @@ function err_judge(err)
 	return 0
 end
 
-function loopstep(now_img, next_img, loopcount_max, mouseact, loopdelay)
+function Loopstep(now_img, next_img, loopcount_max, mouseact, loopdelay)
 	
 	loopcount_max = loopcount_max or 10
 	loopdelay = loopdelay or 150
@@ -149,7 +138,7 @@ function loopstep(now_img, next_img, loopcount_max, mouseact, loopdelay)
 	return 0
 end
 
-function loopstep_both(now_img, next_img, loopcount_max, loopdelay)
+function LoopstepBoth(now_img, next_img, loopcount_max, loopdelay)
 	
 	loopcount_max = loopcount_max or 10
 	loopdelay = loopdelay or 150
@@ -184,7 +173,7 @@ function loopstep_both(now_img, next_img, loopcount_max, loopdelay)
 	return 0
 end
 
-function loopstep_or(now_img, next_img, loopcount_max, loopdelay)
+function LoopstepOr(now_img, next_img, loopcount_max, loopdelay)
 
 	loopcount_max = loopcount_max or 10
 	loopdelay = loopdelay or 150
@@ -226,34 +215,20 @@ function loopstep_or(now_img, next_img, loopcount_max, loopdelay)
 end
 
 
-function setClock()
-    return os.clock()
-end
-
-
-function getClock(_clock)
-    if _clock ~= nil then
-        return os.clock() - _clock
-    else
-        print('getClock() ERROR : _clock is null')
-    end
-end
-
-
-function imSearch(_image, _roi)
+function ImSearch(_image, _roi)
     SetImageROI(_image, _roi)
     ret, acc, ix, iy, sx, sy = ImageSearch(_image)
 	return ret, acc, ix, iy, sx, sy
 end
 
 
-function find_best_acc(_roi)
+function FindBestAcc(_roi)
 	accuracy_set = {}
 	if FIRST_RUN == true then
 		for k, v in pairs(UMA_LIST)
 		do	
 			print(k, v)
-			ret, acc1, ix, iy, sx, sy = imSearch(v,_roi)
+			ret, acc1, ix, iy, sx, sy = ImSearch(v,_roi)
 			accuracy_set[k] = acc1
 		end
 		print("FIRST RUN DOES NOT AFFECT THE RESULT")
@@ -265,7 +240,7 @@ function find_best_acc(_roi)
 	for k, v in pairs(UMA_LIST)
 	do	
 		print(k, v)
-		ret, acc1, ix, iy, sx, sy = imSearch(v,_roi)
+		ret, acc1, ix, iy, sx, sy = ImSearch(v,_roi)
 		accuracy_set[k] = acc1
 	end
 
@@ -289,7 +264,7 @@ function find_best_acc(_roi)
 end
 
 
-function calculate_score()
+function CalculateScore()
 	goal = SCOREGOAL
 	score_now = 0
 	for k, v in pairs(LIST[STR_SCOREFIND_LIST])
@@ -317,7 +292,7 @@ function calculate_score()
 end
 
 
-function calculate_mustfind()
+function CalculateMustfind()
 	
 	mustfind_ok = true
 	found_index = {}
@@ -341,7 +316,7 @@ function calculate_mustfind()
 end
 
 
-function calculate_selectfind()
+function CalculateSelectfind()
 
 	selectfind_ok = true
 	found_index = {}
@@ -366,30 +341,30 @@ function calculate_selectfind()
 end
 
 
-function resetAdress(timeStamp,duration,deviceThether)
+function ResetAddress(timeStamp,duration,deviceThether)
 
 	timeEllapsed = os.time() - timeStamp
 	print("지난 IP 재설정 이후 경과 시간 (초): "..timeEllapsed)
 
 	if timeEllapsed >= duration then
-		head_command = "cd ../../ADB && "
-		adb_command_1 = "adb -s "..deviceThether.." shell svc data disable && "
-		adb_command_2 = "adb -s "..deviceThether.." shell settings put global airplane_mode_on 1"
-		command = head_command..adb_command_1..adb_command_2
+		headCmd = "cd ../../ADB && "
+		adbCmd_1 = "adb -s "..deviceThether.." shell svc data disable && "
+		adbCmd_2 = "adb -s "..deviceThether.." shell settings put global airplane_mode_on 1"
+		appCmd = headCmd..adbCmd_1..adbCmd_2
 	
-		local f = io.popen(command)
+		local f = io.popen(appCmd)
 		f:close()
 		
 		print("비행기 모드 활성화")
 		
 		Sleep(500)
 		
-		head_command = "cd ../../ADB && "
-		adb_command_1 = "adb -s "..deviceThether.." shell svc data enable && "
-		adb_command_2 = "adb -s "..deviceThether.." shell settings put global airplane_mode_on 0"
-		command = head_command..adb_command_1..adb_command_2
+		headCmd = "cd ../../ADB && "
+		adbCmd_1 = "adb -s "..deviceThether.." shell svc data enable && "
+		adbCmd_2 = "adb -s "..deviceThether.." shell settings put global airplane_mode_on 0"
+		appCmd = headCmd..adbCmd_1..adbCmd_2
 	
-		local f = io.popen(command)
+		local f = io.popen(appCmd)
 		f:close()
 	
 		print("비행기 모드 비활성화")

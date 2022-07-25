@@ -16,21 +16,21 @@ function main_algorithm()
 	while cycle_total < 10 do
 		
 		for i=1, 10 do
-			ret, acc, ix, iy, sx, sy = imSearch('SSR', roi[i])
+			ret, acc, ix, iy, sx, sy = ImSearch('SSR', roi[i])
 			if ret == 0 then
 				ret_SSR[i] = 2
 			else
 				ret_SSR[i] = ret
 			end
 
-			-- ret, acc, ix, iy, sx, sy = imSearch('SR', roi[i])
+			-- ret, acc, ix, iy, sx, sy = ImSearch('SR', roi[i])
 			-- if ret == 0 then
 			-- 	ret_SR[i] = 0
 			-- else
 			-- 	ret_SR[i] = ret
 			-- end
 
-			-- ret, acc, ix, iy, sx, sy = imSearch('R', roi[i])
+			-- ret, acc, ix, iy, sx, sy = ImSearch('R', roi[i])
 			-- if ret == 0 then
 			-- 	ret_R[i] = 0
 			-- else
@@ -60,7 +60,7 @@ function main_algorithm()
 
 			Sleep(1000)
 			
-			acc_index = find_best_acc(detail_roi)
+			acc_index = FindBestAcc(detail_roi)
 
 			if (found_uma_list[acc_index] == nil) or (found_uma_list[acc_index] == 0) then
 				found_uma_list[acc_index] = 1
@@ -68,8 +68,8 @@ function main_algorithm()
 				found_uma_list[acc_index] = found_uma_list[acc_index] + 1
 			end
 
-			err = loopstep("closeInfo", "pickAgain", LOOP_ERR_MEDIUM, {true, 0,0})
-			if err_judge(err) > 0 then return 0 end
+			err = Loopstep("closeInfo", "pickAgain", LOOP_ERR_MEDIUM, {true, 0,0})
+			if ErrorJudge(err) > 0 then return 0 end
 		end
 	end
 
@@ -79,20 +79,20 @@ end
 AGAIN = true
 
 while AGAIN == true do
-	err = loopstep("supportPick", "gachaSkip", LOOP_ERR_MEDIUM, {true, 0,0})
-	if err_judge(err) > 0 then return 0 end
+	err = Loopstep("supportPick", "gachaSkip", LOOP_ERR_MEDIUM, {true, 0,0})
+	if ErrorJudge(err) > 0 then return 0 end
     
-	err = loopstep("gachaSkip", "pickAgain", LOOP_ERR_MEDIUM, {true, 0,0})
-	if err_judge(err) > 0 then return 0 end
+	err = Loopstep("gachaSkip", "pickAgain", LOOP_ERR_MEDIUM, {true, 0,0})
+	if ErrorJudge(err) > 0 then return 0 end
 	
 	main_run = main_algorithm()
 	
 	Sleep(1000)
 
-	err = loopstep("pickAgain", "confirmPick", LOOP_ERR_MEDIUM, {true, 0,0})
-	if err_judge(err) > 0 then return 0 end
+	err = Loopstep("pickAgain", "confirmPick", LOOP_ERR_MEDIUM, {true, 0,0})
+	if ErrorJudge(err) > 0 then return 0 end
 
-	check_end = loopstep_or("noJewel", "supportPick", math.floor(LOOP_ERR_SMALL/8))
+	check_end = LoopstepOr("noJewel", "supportPick", math.floor(LOOP_ERR_SMALL/8))
 
 	if check_end == 1
 	then

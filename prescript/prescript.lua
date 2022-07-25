@@ -330,13 +330,13 @@ GUIItemEnable(device_combo_id, false)
 
 function button_reset_server(button_id)
 	
-	head_command = "cd ADB && "
-	adb_command = 'adb kill-server'
-	command = head_command..adb_command
+	headCmd = "cd ADB && "
+	adbCmd = 'adb kill-server'
+	appCmd = headCmd..adbCmd
 	
 	print('ADB 서버 종료')
 	
-	local f = io.popen(command)
+	local f = io.popen(appCmd)
 	f:close()
 	
 end
@@ -347,15 +347,15 @@ function button_connect_device(button_id)
 	if adb_port ~= ''
 	then
 		target_port = adb_port
-		head_command = "cd ADB && adb connect 127.0.0.1:"..target_port.." &&"
-		adb_command = 'adb devices -l'
+		headCmd = "cd ADB && adb connect 127.0.0.1:"..target_port.." &&"
+		adbCmd = 'adb devices -l'
 		device_name = "127.0.0.1:"..target_port..""
 
-		command = head_command..adb_command
+		appCmd = headCmd..adbCmd
 		
 		print(adb_port)
 		
-		local f = io.popen(command)
+		local f = io.popen(appCmd)
 
 		for line in f:lines()do 
 			print(line)
@@ -373,14 +373,14 @@ function button_connect_net(button_id)
 	if net_device ~=''
 	then
 		net_target = net_device
-		net_head_command = "cd ADB && adb connect "..net_target
-		net_adb_command = 'adb devices -l'
+		net_headCmd = "cd ADB && adb connect "..net_target
+		net_adbCmd = 'adb devices -l'
 
-		command = net_head_command..net_adb_command
+		appCmd = net_headCmd..net_adbCmd
 		
 		print(net_device)
 		
-		local f = io.popen(command)
+		local f = io.popen(appCmd)
 
 		for line in f:lines()do 
 			print(line)
@@ -399,11 +399,11 @@ print(adb_port)
 		print("블루스택 ADB 포트가 입력되지 않았습니다. 포트를 입력해주세요.")
 		return 0
 	else
-		head_command = "cd ADB && "
-		adb_command = "adb -s "..device_name.." shell am start -n com.android.settings/com.android.settings.Settings"
-		command = head_command..adb_command
+		headCmd = "cd ADB && "
+		adbCmd = "adb -s "..device_name.." shell am start -n com.android.settings/com.android.settings.Settings"
+		appCmd = headCmd..adbCmd
 		
-		local f = io.popen(command)
+		local f = io.popen(appCmd)
 
 		f:close()
 	end
@@ -437,30 +437,30 @@ function button_load(button_id)
 	
 	-- 앱 종료
 
-	head_command = "cd ADB && "
-	adb_command = "adb -s "..device_name.." shell /system/xbin/bstk/su -c am force-stop com.kakaogames.umamusume"
-	command = head_command..adb_command
+	headCmd = "cd ADB && "
+	adbCmd = "adb -s "..device_name.." shell /system/xbin/bstk/su -c am force-stop com.kakaogames.umamusume"
+	appCmd = headCmd..adbCmd
 
-	local f = io.popen(command)
+	local f = io.popen(appCmd)
 	f:close()
 	
 	-- 현재 게스트 삭제
 	
 	print(device_name)
-	head_command = "cd ADB && "
-	adb_command = "adb -s "..device_name.." shell /system/xbin/bstk/su -c rm -rf /data/data/com.kakaogames.umamusume/shared_prefs"
-	command = head_command..adb_command
+	headCmd = "cd ADB && "
+	adbCmd = "adb -s "..device_name.." shell /system/xbin/bstk/su -c rm -rf /data/data/com.kakaogames.umamusume/shared_prefs"
+	appCmd = headCmd..adbCmd
 	
-	local f = io.popen(command)
+	local f = io.popen(appCmd)
 	f:close()
 
 	-- 저장된 게스트 복사
 	
-	head_command = "cd ADB && "
-	adb_command = "adb -s "..device_name.." shell /system/xbin/bstk/su -c cp -a -f /data/data/com.kakaogames.umamusume/account/"..saved_account.." /data/data/com.kakaogames.umamusume/shared_prefs"
-	command = head_command..adb_command
+	headCmd = "cd ADB && "
+	adbCmd = "adb -s "..device_name.." shell /system/xbin/bstk/su -c cp -a -f /data/data/com.kakaogames.umamusume/account/"..saved_account.." /data/data/com.kakaogames.umamusume/shared_prefs"
+	appCmd = headCmd..adbCmd
 	
-	local f = io.popen(command)
+	local f = io.popen(appCmd)
 	f:close()
 	
 	Stop()
@@ -468,11 +468,11 @@ function button_load(button_id)
 --[[
 	-- 앱 실행
 	
-	head_command = "cd ADB && "
-	adb_command = "adb -s "..selected_device.." shell am start -n com.kakaogames.umamusume/kr.co.kakaogames.umamusume_activity.UmamusumeActivity"
-	command = head_command..adb_command
+	headCmd = "cd ADB && "
+	adbCmd = "adb -s "..selected_device.." shell am start -n com.kakaogames.umamusume/kr.co.kakaogames.umamusume_activity.UmamusumeActivity"
+	appCmd = headCmd..adbCmd
 	
-	local f = io.popen(command)
+	local f = io.popen(appCmd)
 
 	f:close()	
 --]]

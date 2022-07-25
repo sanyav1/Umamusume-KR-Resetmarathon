@@ -8,7 +8,7 @@ if SUCCESS == true then
 		end
 	end
 
-	print('Reset Marthons Done : '..tostring(COUNT))
+	print('Reset Marthons Done : '..tostring(COUNT_CYCLE))
 	
 	EnableImage(true, "finishAlarm")
 	if ALARM_FLAG == 0 then
