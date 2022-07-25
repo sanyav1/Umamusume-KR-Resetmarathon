@@ -16,7 +16,6 @@ SAFELOCK_MESSAGE = "SAFELOCK, 잠금해제 필요"
 
 UMA_LIST = {
 	'선택하지않음',
-	'SR스윕토쇼',
 	'골드쉽',
 	'골드시티',
 	'그라스원더',
