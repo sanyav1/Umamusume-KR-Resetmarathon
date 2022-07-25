@@ -1,7 +1,7 @@
 LOOP_ERR_SMALL = 50
 LOOP_ERR_MEDIUM = 90
 LOOP_ERR_LARGE = 160
-
+GLOBAL_DELAY = 100
 
 -- 계정 백업 경로 생성
 head_command = "cd ../../ADB && "
@@ -90,7 +90,6 @@ function err_judge(err)
 	return 0
 end
 
-global_delay = 100
 function loopstep(now_img, next_img, loopcount_max, mouseact, loopdelay)
 	
 	loopcount_max = loopcount_max or 10
@@ -146,7 +145,7 @@ function loopstep(now_img, next_img, loopcount_max, mouseact, loopdelay)
 		return 99
 	end
 	
-	Sleep(global_delay)
+	Sleep(GLOBAL_DELAY)
 	return 0
 end
 
@@ -181,7 +180,7 @@ function loopstep_both(now_img, next_img, loopcount_max, loopdelay)
 		return 99
 	end
 	
-	Sleep(global_delay)
+	Sleep(GLOBAL_DELAY)
 	return 0
 end
 
@@ -215,7 +214,7 @@ function loopstep_or(now_img, next_img, loopcount_max, loopdelay)
 		return 99
 	end
 	
-	Sleep(global_delay)
+	Sleep(GLOBAL_DELAY)
 	
 	if ret == 1 and ret_next == 0 then
 		return 1
