@@ -24,10 +24,12 @@ err = Loopstep("guestOk", "kakaoGames", LOOP_ERR_LARGE, {true, 0,0})
 if ErrorJudge(err) > 0 then return 0 end
 
 -- Kakao EULA confirmation
-Mouse(LBUTTON, CLICK, 27, 149, 27, 149, 0, 0, 0.3, 1, FASTER, MESSAGE)
+Mouse(LBUTTON, CLICK, 27, 149, 27, 149, 0, 0, 0.3, 1, FASTEST, MESSAGE)
 Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTEST, MESSAGE)
+
 Mouse(LBUTTON, CLICK, 27, 176, 24, 156, 0, 0, 0.3, 1, FASTER, MESSAGE)
 Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTEST, MESSAGE)
+
 Mouse(LBUTTON, CLICK, 27, 201, 24, 177, 0, 0, 0.3, 1, FASTER, MESSAGE)
 Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTEST, MESSAGE)
 
@@ -41,7 +43,7 @@ Mouse(LBUTTON, CLICK, 198, 626, 198, 626, 0, 0, 0.5, 1, FASTER, MESSAGE)
 Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTER, MESSAGE)
 
 -- After EULA, Pass or Error?
-err = LoopstepOr("networkError", "syncAccount", LOOP_ERR_LARGE, {false, 0,0})
+err = LoopstepOr("networkVal", "syncAccount", LOOP_ERR_LARGE, {false, 0,0})
 
 if err == 1 then
 	-- Network error. Go to title menu
