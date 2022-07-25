@@ -318,7 +318,7 @@ function MainAlgorithm()
 	cycle_total = 0
 	ERR_CHECK = 0
 
-	while cycle_total < 10 do
+	while cycle_total < 6 do
 		for i=1, 10 do
 			ret, acc, ix, iy, sx, sy = ImSearch('SSR', roi[i])
 			if ret == 0 then
@@ -326,12 +326,12 @@ function MainAlgorithm()
 			else
 				ret_SSR[i] = ret
 			end			
-			Sleep(100)
+			Sleep(50)
 		end
 
 		cycle_total = cycle_total + 1
 		
-		Sleep(100)
+		Sleep(50)
 	end
 
 	Sleep(100)
