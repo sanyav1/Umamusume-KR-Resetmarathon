@@ -5,7 +5,7 @@ GLOBAL_DELAY	= 100
 COUNT_CYCLE		= 0
 
 
--- °èÁ¤ ¹é¾÷ °æ·Î »ý¼º
+-- ê³„ì • ë°±ì—… ê²½ë¡œ ìƒì„±
 headCmd = "cd ../../ADB && "
 adbCmd = "adb -s "..device_name.." shell /system/xbin/bstk/su -c mkdir -p /data/data/com.kakaogames.umamusume/account"
 appCmd = headCmd..adbCmd
@@ -14,7 +14,7 @@ local f = io.popen(appCmd)
 f:close()
 
 
--- ½ºÅ©¸°¼¦ ¹Ù·Î°¡±â Æú´õ ¸¸µé±â
+-- ìŠ¤í¬ë¦°ìƒ· ë°”ë¡œê°€ê¸° í´ë” ë§Œë“¤ê¸°
 os.execute("mkdir ..\\screenshot")
 
 
@@ -96,8 +96,8 @@ end
 
 
 function ErrorCall()
-	print('¹«ÇÑ·çÇÁ¿¡ ºüÁ³½À´Ï´Ù.')
-	print('Ã³À½ºÎÅÍ ´Ù½Ã½ÃÀÛÇÕ´Ï´Ù.')
+	print('ë¬´í•œë£¨í”„ì— ë¹ ì¡ŒìŠµë‹ˆë‹¤.')
+	print('ì²˜ìŒë¶€í„° ë‹¤ì‹œì‹œìž‘í•©ë‹ˆë‹¤.')
 
 	UmaOff()
 	
@@ -109,9 +109,9 @@ end
 function ErrorJudge(err)
 	if err > 10 then
 		if err == 22 then
-			print("°­Á¦Á¾·áµÊ")
+			print("ê°•ì œì¢…ë£Œë¨")
 		elseif err == 44 then
-			print("Ä«µåÀÎ½Ä¿¡·¯")
+			print("ì¹´ë“œì¸ì‹ì—ëŸ¬")
 			ErrorCall()
 		elseif err == 99 then
 			ErrorCall()
@@ -357,43 +357,8 @@ function MainAlgorithm()
 			if ErrorJudge(err) > 0 then return 0 end
 		end
 	end
-
+  
 	return 0
-end
-
-
-function ResetAddress(timeStamp,duration,deviceThether)
-
-	timeEllapsed = os.time() - timeStamp
-	print("Áö³­ IP Àç¼³Á¤ ÀÌÈÄ °æ°ú ½Ã°£ (ÃÊ): "..timeEllapsed)
-
-	if timeEllapsed >= duration then
-		headCmd = "cd ../../ADB && "
-		adbCmd_1 = "adb -s "..deviceThether.." shell svc data disable && "
-		adbCmd_2 = "adb -s "..deviceThether.." shell settings put global airplane_mode_on 1"
-		appCmd = headCmd..adbCmd_1..adbCmd_2
-	
-		local f = io.popen(appCmd)
-		f:close()
-		
-		print("ºñÇà±â ¸ðµå È°¼ºÈ­")
-		
-		Sleep(500)
-		
-		headCmd = "cd ../../ADB && "
-		adbCmd_1 = "adb -s "..deviceThether.." shell svc data enable && "
-		adbCmd_2 = "adb -s "..deviceThether.." shell settings put global airplane_mode_on 0"
-		appCmd = headCmd..adbCmd_1..adbCmd_2
-	
-		local f = io.popen(appCmd)
-		f:close()
-	
-		print("ºñÇà±â ¸ðµå ºñÈ°¼ºÈ­")
-
-		return os.time()
-	else
-		return timeStamp
-	end
 end
 
 

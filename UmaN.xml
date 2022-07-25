@@ -17,7 +17,7 @@
         <AuthorID>test</AuthorID>
         <Mdpi>96</Mdpi>
         <Tdpi>96</Tdpi>
-        <IniDelimiter>94874131072036653</IniDelimiter>
+        <IniDelimiter>94874629145641907</IniDelimiter>
     </MAIN>
     <TW>
         <CheckTWInc>0</CheckTWInc>
@@ -95,8 +95,8 @@
             <Act_1>
                 <Name>스크립트 입력</Name>
                 <Enable>1</Enable>
-                <Param>Script( variableSet_g8cz7 STARTIMAGE = 'guiErrorCheck'\n FIRST_RUN = true\n \n err = 0\n NETWORK_RESET_TIME = 600\n \n SMALLSLEEP = 300\n \n cycle_set = 0\n cycle_total = 0\n cycle_R = 0\n cycle_SSR = 0\n cycle_SR = 0\n \n SS )</Param>
-                <Attr LuaFile="variableSet_g8cz7" Text="STARTIMAGE = &apos;guiErrorCheck&apos;\n FIRST_RUN = true\n \n err = 0\n NETWORK_RESET_TIME = 600\n \n SMALLSLEEP = 300\n \n cycle_set = 0\n cycle_total = 0\n cycle_R = 0\n cycle_SSR = 0\n cycle_SR = 0\n \n SS"/>
+                <Param>Script( variableSet_g8cz7 STARTIMAGE = 'guiErrorCheck'\n FIRST_RUN = true\n \n err = 0\n NETWORK_RESET_TIME = 1800\n \n SMALLSLEEP = 300\n \n cycle_set = 0\n cycle_total = 0\n cycle_R = 0\n cycle_SSR = 0\n cycle_SR = 0\n \n S )</Param>
+                <Attr LuaFile="variableSet_g8cz7" Text="STARTIMAGE = &apos;guiErrorCheck&apos;\n FIRST_RUN = true\n \n err = 0\n NETWORK_RESET_TIME = 1800\n \n SMALLSLEEP = 300\n \n cycle_set = 0\n cycle_total = 0\n cycle_R = 0\n cycle_SSR = 0\n cycle_SR = 0\n \n S"/>
             </Act_1>
             <Act_2>
                 <Name>스크립트 입력</Name>
@@ -245,8 +245,8 @@
             <Act_1>
                 <Name>스크립트 입력</Name>
                 <Enable>1</Enable>
-                <Param>Script( startScript1_n103s -- Assign initial prevTime\n if prevTime == nil\n then\n 	prevTime = os.time()\n end\n \n -- Reset network after given time\n prevTime = resetAdress(prevTime,NETWORK_RESET_TIME,net_device)\n \n -- Fi )</Param>
-                <Attr LuaFile="startScript1_n103s" Text="-- Assign initial prevTime\n if prevTime == nil\n then\n 	prevTime = os.time()\n end\n \n -- Reset network after given time\n prevTime = resetAdress(prevTime,NETWORK_RESET_TIME,net_device)\n \n -- Fi"/>
+                <Param>Script( startScript1_n103s -- Find App and touch it\n err = loopstep("appIcon", "loginKakao", LOOP_ERR_LARGE*1.5, {true, 0, 0})\n if err_judge(err) &gt; 0 then return 0 end\n \n -- Press guest login\n err = loopstep("loginKakao", )</Param>
+                <Attr LuaFile="startScript1_n103s" Text="-- Find App and touch it\n err = loopstep(&quot;appIcon&quot;, &quot;loginKakao&quot;, LOOP_ERR_LARGE*1.5, {true, 0, 0})\n if err_judge(err) &gt; 0 then return 0 end\n \n -- Press guest login\n err = loopstep(&quot;loginKakao&quot;,"/>
             </Act_1>
         </Image_9>
         <Image_10>

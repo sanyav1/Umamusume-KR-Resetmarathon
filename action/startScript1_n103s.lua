@@ -1,12 +1,3 @@
--- Assign initial prevTime
-if prevTime == nil
-then
-	prevTime = os.time()
-end
-
--- Reset network after given time
-prevTime = ResetAddress(prevTime,NETWORK_RESET_TIME,net_device)
-
 -- Find App and touch it
 err = Loopstep("appIcon", "loginKakao", LOOP_ERR_LARGE*1.5, {true, 0, 0})
 if ErrorJudge(err) > 0 then return 0 end
