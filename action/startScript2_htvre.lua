@@ -1,11 +1,22 @@
 Sleep(1000)
 
+err = LoopstepBoth("syncAccount", "skipSync", LOOP_ERR_LARGE, {true, 0, 0})
+if ErrorJudge(err) > 0 then return 0 end
+
+err = Loopstep("skipSync", "skipTutorial", LOOP_ERR_LARGE, {true, 0, 0})
+if ErrorJudge(err) > 0 then return 0 end
+
+err = Loopstep("skipTutorial", "assignTrainer", LOOP_ERR_LARGE, {true, 0, 0})
+if ErrorJudge(err) > 0 then return 0 end
+
 -- Input trainer info
-Mouse(LBUTTON, CLICK, 123, 322, 123, 322, 0, 0, 0.3, 1, FASTER, MESSAGE)
-Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTER, MESSAGE)
+Mouse(LBUTTON, CLICK, 248, 321, 248, 321, 0, 0, 0.3, 1, FASTEST, MESSAGE)
+Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTEST, MESSAGE)
+
 Keybd('KITASAN<Enter>', FASTER, MESSAGE)
-Mouse(LBUTTON, CLICK, 198, 461, 198, 461, 0, 0, 0.3, 1, FASTER, MESSAGE)
-Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTER, MESSAGE)
+
+err = Loopstep("confirmTrainer", "trainerOK", LOOP_ERR_LARGE, {true, 0, 0})
+if ErrorJudge(err) > 0 then return 0 end
 
 err = Loopstep("trainerOK", "skipGift", LOOP_ERR_LARGE, {true, 0, 0})
 if ErrorJudge(err) > 0 then return 0 end

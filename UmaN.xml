@@ -17,7 +17,7 @@
         <AuthorID>test</AuthorID>
         <Mdpi>96</Mdpi>
         <Tdpi>96</Tdpi>
-        <IniDelimiter>94874629145641907</IniDelimiter>
+        <IniDelimiter>068229830402182476</IniDelimiter>
     </MAIN>
     <TW>
         <CheckTWInc>0</CheckTWInc>
@@ -30,21 +30,21 @@
         <TWCClass>Qt5154QWindowIcon</TWCClass>
         <PickPos>26935634</PickPos>
         <TWHandle>0x50B4C</TWHandle>
-        <TargetWnd.left>1072</TargetWnd.left>
-        <TargetWnd.top>174</TargetWnd.top>
-        <TargetWnd.right>1473</TargetWnd.right>
-        <TargetWnd.bottom>887</TargetWnd.bottom>
-        <TarfrmWnd.left>1071</TarfrmWnd.left>
-        <TarfrmWnd.top>141</TarfrmWnd.top>
-        <TarfrmWnd.right>1506</TarfrmWnd.right>
-        <TarfrmWnd.bottom>888</TarfrmWnd.bottom>
+        <TargetWnd.left>3056</TargetWnd.left>
+        <TargetWnd.top>-982</TargetWnd.top>
+        <TargetWnd.right>3457</TargetWnd.right>
+        <TargetWnd.bottom>-269</TargetWnd.bottom>
+        <TarfrmWnd.left>3055</TarfrmWnd.left>
+        <TarfrmWnd.top>-1015</TarfrmWnd.top>
+        <TarfrmWnd.right>3490</TarfrmWnd.right>
+        <TarfrmWnd.bottom>-268</TarfrmWnd.bottom>
         <TWInc/>
     </TW>
     <GENERAL>
         <CaptureMode>1</CaptureMode>
         <ReactSpeed>1</ReactSpeed>
         <InputType>1</InputType>
-        <ImageCount>102</ImageCount>
+        <ImageCount>119</ImageCount>
         <Image_1>
             <Name>initialize.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
@@ -73,10 +73,10 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>Ω∫≈©∏≥∆Æ ¿‘∑¬</Name>
+                <Name>Ïä§ÌÅ¨Î¶ΩÌä∏ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
-                <Param>Script( defineFunction_epyut LOOP_ERR_SMALL = 50\n LOOP_ERR_MEDIUM = 90\n LOOP_ERR_LARGE = 160\n \n \n -- ∞Ë¡§ πÈæ˜ ∞Ê∑Œ ª˝º∫\n head_command = "cd ../../ADB &amp;&amp; "\n adb_command = "adb -s "..device_name.." shell /system/xbin/bstk/ )</Param>
-                <Attr LuaFile="defineFunction_epyut" Text="LOOP_ERR_SMALL = 50\n LOOP_ERR_MEDIUM = 90\n LOOP_ERR_LARGE = 160\n \n \n -- ∞Ë¡§ πÈæ˜ ∞Ê∑Œ ª˝º∫\n head_command = &quot;cd ../../ADB &amp;&amp; &quot;\n adb_command = &quot;adb -s &quot;..device_name..&quot; shell /system/xbin/bstk/"/>
+                <Param>Script( defineFunction_epyut LOOP_ERR_SMALL	= 50\n LOOP_ERR_MEDIUM = 90\n LOOP_ERR_LARGE	= 160\n GLOBAL_DELAY	= 100\n COUNT_CYCLE		= 0\n \n \n -- Í≥ÑÏ†ï Î∞±ÏóÖ Í≤ΩÎ°ú ÏÉùÏÑ±\n headCmd = "cd ../../ADB &amp;&amp; "\n adbCmd = "adb -s "..device_na )</Param>
+                <Attr LuaFile="defineFunction_epyut" Text="LOOP_ERR_SMALL	= 50\n LOOP_ERR_MEDIUM = 90\n LOOP_ERR_LARGE	= 160\n GLOBAL_DELAY	= 100\n COUNT_CYCLE		= 0\n \n \n -- Í≥ÑÏ†ï Î∞±ÏóÖ Í≤ΩÎ°ú ÏÉùÏÑ±\n headCmd = &quot;cd ../../ADB &amp;&amp; &quot;\n adbCmd = &quot;adb -s &quot;..device_na"/>
             </Act_1>
         </Image_2>
         <Image_3>
@@ -93,19 +93,19 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>3</ActCount>
             <Act_1>
-                <Name>Ω∫≈©∏≥∆Æ ¿‘∑¬</Name>
+                <Name>Ïä§ÌÅ¨Î¶ΩÌä∏ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
-                <Param>Script( variableSet_g8cz7 STARTIMAGE = 'guiErrorCheck'\n FIRST_RUN = true\n \n err = 0\n NETWORK_RESET_TIME = 1800\n \n SMALLSLEEP = 300\n \n cycle_set = 0\n cycle_total = 0\n cycle_R = 0\n cycle_SSR = 0\n cycle_SR = 0\n \n S )</Param>
-                <Attr LuaFile="variableSet_g8cz7" Text="STARTIMAGE = &apos;guiErrorCheck&apos;\n FIRST_RUN = true\n \n err = 0\n NETWORK_RESET_TIME = 1800\n \n SMALLSLEEP = 300\n \n cycle_set = 0\n cycle_total = 0\n cycle_R = 0\n cycle_SSR = 0\n cycle_SR = 0\n \n S"/>
+                <Param>Script( variableSet_g8cz7 STARTIMAGE = 'guiErrorCheck'\n FIRST_RUN = true\n \n err = 0\n NETWORK_RESET_TIME = 600\n ERR_NETWORK = 0\n \n freeCycle= 1\n \n cycle_total = 0\n \n -- Region of Interest: Grade\n roi = {\n {45, 79, )</Param>
+                <Attr LuaFile="variableSet_g8cz7" Text="STARTIMAGE = &apos;guiErrorCheck&apos;\n FIRST_RUN = true\n \n err = 0\n NETWORK_RESET_TIME = 600\n ERR_NETWORK = 0\n \n freeCycle= 1\n \n cycle_total = 0\n \n -- Region of Interest: Grade\n roi = {\n {45, 79,"/>
             </Act_1>
             <Act_2>
-                <Name>Ω∫≈©∏≥∆Æ ¿‘∑¬</Name>
+                <Name>Ïä§ÌÅ¨Î¶ΩÌä∏ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
-                <Param>Script( variableSet_y9ysk --¿Ø¿«ªÁ«◊!!!!!!\n --comboø°º≠ ø¬ indexøÕ Ω«¡¶ UMA_LIST¿« index¥¬ 1 ¬˜¿Ã≥≤\n \n -- combo	:: 0 ~ N-1\n -- UMA_LIST :: 1 ~ N\n \n for k, img in pairs(GROUPS)\n do\n 	EnableImage(false, img)\n end\n \n  )</Param>
-                <Attr LuaFile="variableSet_y9ysk" Text="--¿Ø¿«ªÁ«◊!!!!!!\n --comboø°º≠ ø¬ indexøÕ Ω«¡¶ UMA_LIST¿« index¥¬ 1 ¬˜¿Ã≥≤\n \n -- combo	:: 0 ~ N-1\n -- UMA_LIST :: 1 ~ N\n \n for k, img in pairs(GROUPS)\n do\n 	EnableImage(false, img)\n end\n \n "/>
+                <Param>Script( variableSet_y9ysk --Ïú†ÏùòÏÇ¨Ìï≠!!!!!!\n --comboÏóêÏÑú Ïò® indexÏôÄ Ïã§Ï†ú UMA_LISTÏùò indexÎäî 1 Ï∞®Ïù¥ÎÇ®\n \n -- combo	:: 0 ~ N-1\n -- UMA_LIST :: 1 ~ N\n \n for k, img in pairs(GROUPS)\n do\n 	EnableImage(false, img)\n end\n \n  )</Param>
+                <Attr LuaFile="variableSet_y9ysk" Text="--Ïú†ÏùòÏÇ¨Ìï≠!!!!!!\n --comboÏóêÏÑú Ïò® indexÏôÄ Ïã§Ï†ú UMA_LISTÏùò indexÎäî 1 Ï∞®Ïù¥ÎÇ®\n \n -- combo	:: 0 ~ N-1\n -- UMA_LIST :: 1 ~ N\n \n for k, img in pairs(GROUPS)\n do\n 	EnableImage(false, img)\n end\n \n "/>
             </Act_2>
             <Act_3>
-                <Name>¿ŒΩƒ »∞º∫/∫Ò»∞º∫</Name>
+                <Name>Ïù∏Ïãù ÌôúÏÑ±/ÎπÑÌôúÏÑ±</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 3 define 1 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="3" ImageName="define" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
@@ -125,25 +125,25 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>4</ActCount>
             <Act_1>
-                <Name>Ω∫≈©∏≥∆Æ ¿‘∑¬</Name>
+                <Name>Ïä§ÌÅ¨Î¶ΩÌä∏ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
-                <Param>Script( define_vld3b GROUPS = {\n 'resetAccount',\n 'gameStart',\n 'errorCallback'\n }\n \n uma_off()\n \n found_uma_list = {}\n SAVE_SCREENSHOT_TRUE = false\n SSR_ON = false\n SSR_LOTS = true\n SR_SEARCH_ON = true )</Param>
-                <Attr LuaFile="define_vld3b" Text="GROUPS = {\n &apos;resetAccount&apos;,\n &apos;gameStart&apos;,\n &apos;errorCallback&apos;\n }\n \n uma_off()\n \n found_uma_list = {}\n SAVE_SCREENSHOT_TRUE = false\n SSR_ON = false\n SSR_LOTS = true\n SR_SEARCH_ON = true"/>
+                <Param>Script( define_vld3b GROUPS = {\n 'resetAccount',\n 'gameStart',\n 'errorCallback'\n }\n \n UmaOff()\n \n found_uma_list = {}\n SAVE_SCREENSHOT_TRUE = false\n SSR_ON = false\n SSR_LOTS = true\n SR_SEARCH_ON = true )</Param>
+                <Attr LuaFile="define_vld3b" Text="GROUPS = {\n &apos;resetAccount&apos;,\n &apos;gameStart&apos;,\n &apos;errorCallback&apos;\n }\n \n UmaOff()\n \n found_uma_list = {}\n SAVE_SCREENSHOT_TRUE = false\n SSR_ON = false\n SSR_LOTS = true\n SR_SEARCH_ON = true"/>
             </Act_1>
             <Act_2>
-                <Name>¿ŒΩƒ »∞º∫/∫Ò»∞º∫</Name>
+                <Name>Ïù∏Ïãù ÌôúÏÑ±/ÎπÑÌôúÏÑ±</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 4 resetAccount 1 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="4" ImageName="resetAccount" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_2>
             <Act_3>
-                <Name>¿ŒΩƒ »∞º∫/∫Ò»∞º∫</Name>
+                <Name>Ïù∏Ïãù ÌôúÏÑ±/ÎπÑÌôúÏÑ±</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 1 defineFunction 0 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="1" ImageName="defineFunction" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_3>
             <Act_4>
-                <Name>¿ŒΩƒ »∞º∫/∫Ò»∞º∫</Name>
+                <Name>Ïù∏Ïãù ÌôúÏÑ±/ÎπÑÌôúÏÑ±</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 0 initialize 0 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="0" ImageName="initialize" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
@@ -177,13 +177,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>Ω∫≈©∏≥∆Æ ¿‘∑¬</Name>
+                <Name>Ïä§ÌÅ¨Î¶ΩÌä∏ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
-                <Param>Script( deleteAccount_gpph0 print('∞Ë¡§ √ ±‚»≠ Ω√¿€')\n \n head_command = "cd ../../ADB &amp;&amp; "\n adb_command = "adb -s "..device_name.." shell /system/xbin/bstk/su -c rm -rf /data/data/com.kakaogames.umamusume/shared_prefs"\n com )</Param>
-                <Attr LuaFile="deleteAccount_gpph0" Text="print(&apos;∞Ë¡§ √ ±‚»≠ Ω√¿€&apos;)\n \n head_command = &quot;cd ../../ADB &amp;&amp; &quot;\n adb_command = &quot;adb -s &quot;..device_name..&quot; shell /system/xbin/bstk/su -c rm -rf /data/data/com.kakaogames.umamusume/shared_prefs&quot;\n com"/>
+                <Param>Script( deleteAccount_gpph0 print('Í≥ÑÏ†ï Ï¥àÍ∏∞Ìôî ÏãúÏûë')\n \n headCmd = "cd ../../ADB &amp;&amp; "\n adbCmd = "adb -s "..device_name.." shell /system/xbin/bstk/su -c rm -rf /data/data/com.kakaogames.umamusume/shared_prefs"\n appCmd = head )</Param>
+                <Attr LuaFile="deleteAccount_gpph0" Text="print(&apos;Í≥ÑÏ†ï Ï¥àÍ∏∞Ìôî ÏãúÏûë&apos;)\n \n headCmd = &quot;cd ../../ADB &amp;&amp; &quot;\n adbCmd = &quot;adb -s &quot;..device_name..&quot; shell /system/xbin/bstk/su -c rm -rf /data/data/com.kakaogames.umamusume/shared_prefs&quot;\n appCmd = head"/>
             </Act_1>
             <Act_2>
-                <Name>µÙ∑π¿Ã(¡ˆø¨)</Name>
+                <Name>ÎîúÎ†àÏù¥(ÏßÄÏó∞)</Name>
                 <Enable>1</Enable>
                 <Param>Delay( 0 1.000000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="1" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
@@ -203,13 +203,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ŒΩƒ »∞º∫/∫Ò»∞º∫</Name>
+                <Name>Ïù∏Ïãù ÌôúÏÑ±/ÎπÑÌôúÏÑ±</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 7 gameStart 1 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="7" ImageName="gameStart" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_1>
             <Act_2>
-                <Name>¿ŒΩƒ »∞º∫/∫Ò»∞º∫</Name>
+                <Name>Ïù∏Ïãù ÌôúÏÑ±/ÎπÑÌôúÏÑ±</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 4 resetAccount 0 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="4" ImageName="resetAccount" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
@@ -243,77 +243,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>Ω∫≈©∏≥∆Æ ¿‘∑¬</Name>
+                <Name>Ïä§ÌÅ¨Î¶ΩÌä∏ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
-                <Param>Script( startScript1_n103s -- Find App and touch it\n err = loopstep("appIcon", "loginKakao", LOOP_ERR_LARGE*1.5, {true, 0, 0})\n if err_judge(err) &gt; 0 then return 0 end\n \n -- Press guest login\n err = loopstep("loginKakao", )</Param>
-                <Attr LuaFile="startScript1_n103s" Text="-- Find App and touch it\n err = loopstep(&quot;appIcon&quot;, &quot;loginKakao&quot;, LOOP_ERR_LARGE*1.5, {true, 0, 0})\n if err_judge(err) &gt; 0 then return 0 end\n \n -- Press guest login\n err = loopstep(&quot;loginKakao&quot;,"/>
+                <Param>Script( startScript1_n103s -- Assign initial prevTime\n if prevTime == nil\n then\n 	prevTime = os.time()\n end\n \n -- Reset network after given time\n prevTime = ResetAddress(prevTime,NETWORK_RESET_TIME,net_device)\n \n -- F )</Param>
+                <Attr LuaFile="startScript1_n103s" Text="-- Assign initial prevTime\n if prevTime == nil\n then\n 	prevTime = os.time()\n end\n \n -- Reset network after given time\n prevTime = ResetAddress(prevTime,NETWORK_RESET_TIME,net_device)\n \n -- F"/>
             </Act_1>
         </Image_9>
         <Image_10>
-            <Name>loginTap</Name>
-            <Rect>(0, 0, 0, 0)</Rect>
-            <ROI>(0, 0, 0, 0)</ROI>
-            <FullROI>0</FullROI>
-            <Param1>0</Param1>
-            <Param2>0</Param2>
-            <Param3>0</Param3>
-            <Param4>0</Param4>
-            <Enable>1</Enable>
-            <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
-            <ActCount>3</ActCount>
-            <Act_1>
-                <Name>µÙ∑π¿Ã(¡ˆø¨)</Name>
-                <Enable>1</Enable>
-                <Param>Delay( 0 2.000000 0 0 0.000000 )</Param>
-                <Attr DelayMin="0" DelaySec="2" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
-            </Act_1>
-            <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
-                <Enable>1</Enable>
-                <Param>Mouse( 0 0 1  1 104 463 0 0  0 0  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="104" Coord_y1="463" Coord_x2="0" Coord_y2="0" Rand_x="0" Rand_y="0" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_2>
-            <Act_3>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
-                <Enable>1</Enable>
-                <Param>Mouse( 5 0 1  1 0 0 0 0  0 0  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="5" Button="0" Speed="1" Base="1" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="0" Rand_y="0" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_3>
-        </Image_10>
-        <Image_11>
-            <Name>skipTap</Name>
-            <Rect>(0, 0, 0, 0)</Rect>
-            <ROI>(0, 0, 0, 0)</ROI>
-            <FullROI>0</FullROI>
-            <Param1>0</Param1>
-            <Param2>0</Param2>
-            <Param3>0</Param3>
-            <Param4>0</Param4>
-            <Enable>1</Enable>
-            <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
-            <ActCount>3</ActCount>
-            <Act_1>
-                <Name>µÙ∑π¿Ã(¡ˆø¨)</Name>
-                <Enable>1</Enable>
-                <Param>Delay( 0 2.000000 0 0 0.000000 )</Param>
-                <Attr DelayMin="0" DelaySec="2" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
-            </Act_1>
-            <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
-                <Enable>1</Enable>
-                <Param>Mouse( 0 0 1  1 288 463 0 0  0 0  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="0" Button="0" Speed="1" Base="1" Coord_x1="288" Coord_y1="463" Coord_x2="0" Coord_y2="0" Rand_x="0" Rand_y="0" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_2>
-            <Act_3>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
-                <Enable>1</Enable>
-                <Param>Mouse( 5 0 1  1 0 0 0 0  0 0  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="5" Button="0" Speed="1" Base="1" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="0" Rand_y="0" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_3>
-        </Image_11>
-        <Image_12>
             <Name>startScript2</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -327,39 +263,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>Ω∫≈©∏≥∆Æ ¿‘∑¬</Name>
+                <Name>Ïä§ÌÅ¨Î¶ΩÌä∏ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
-                <Param>Script( startScript2_htvre Sleep(1000)\n \n -- Input trainer info\n Mouse(LBUTTON, CLICK, 123, 322, 123, 322, 0, 0, 0.3, 1, FASTER, MESSAGE)\n Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTER, MESSAGE)\n Keybd('KITASAN&lt;Ente )</Param>
-                <Attr LuaFile="startScript2_htvre" Text="Sleep(1000)\n \n -- Input trainer info\n Mouse(LBUTTON, CLICK, 123, 322, 123, 322, 0, 0, 0.3, 1, FASTER, MESSAGE)\n Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTER, MESSAGE)\n Keybd(&apos;KITASAN&lt;Ente"/>
+                <Param>Script( startScript2_htvre Sleep(1000)\n \n err = LoopstepBoth("syncAccount", "skipSync", LOOP_ERR_LARGE, {true, 0, 0})\n if ErrorJudge(err) &gt; 0 then return 0 end\n \n err = Loopstep("skipSync", "skipTutorial", LOOP_ERR_LARGE, )</Param>
+                <Attr LuaFile="startScript2_htvre" Text="Sleep(1000)\n \n err = LoopstepBoth(&quot;syncAccount&quot;, &quot;skipSync&quot;, LOOP_ERR_LARGE, {true, 0, 0})\n if ErrorJudge(err) &gt; 0 then return 0 end\n \n err = Loopstep(&quot;skipSync&quot;, &quot;skipTutorial&quot;, LOOP_ERR_LARGE,"/>
             </Act_1>
-        </Image_12>
-        <Image_13>
-            <Name>toSelectGacha1</Name>
-            <Rect>(0, 0, 0, 0)</Rect>
-            <ROI>(0, 0, 0, 0)</ROI>
-            <FullROI>0</FullROI>
-            <Param1>0</Param1>
-            <Param2>0</Param2>
-            <Param3>0</Param3>
-            <Param4>0</Param4>
-            <Enable>1</Enable>
-            <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
-            <ActCount>2</ActCount>
-            <Act_1>
-                <Name>¿ŒΩƒ »∞º∫/∫Ò»∞º∫</Name>
-                <Enable>1</Enable>
-                <Param>Enable( 34 selectGacha 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="34" ImageName="selectGacha" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
-            </Act_1>
-            <Act_2>
-                <Name>¿ŒΩƒ »∞º∫/∫Ò»∞º∫</Name>
-                <Enable>1</Enable>
-                <Param>Enable( 7 gameStart 0 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="7" ImageName="gameStart" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
-            </Act_2>
-        </Image_13>
-        <Image_14>
+        </Image_10>
+        <Image_12>
             <Name>errCheck</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -373,13 +283,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>Ω∫≈©∏≥∆Æ ¿‘∑¬</Name>
+                <Name>Ïä§ÌÅ¨Î¶ΩÌä∏ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Script( errCheck_8i6na ERR_CHECK = 0 )</Param>
                 <Attr LuaFile="errCheck_8i6na" Text="ERR_CHECK = 0"/>
             </Act_1>
-        </Image_14>
-        <Image_15>
+        </Image_12>
+        <Image_13>
             <Name>appIcon</Name>
             <Rect>(297, 143, 46, 47)</Rect>
             <ROI>(297, 143, 46, 47)</ROI>
@@ -387,11 +297,89 @@
             <Param1>11403264</Param1>
             <Param2>932852</Param2>
             <Param3>0</Param3>
-            <Param4>1658627889</Param4>
+            <Param4>1658748795</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>0</ActCount>
+        </Image_13>
+        <Image_11>
+            <Name>toSelectGacha1</Name>
+            <Rect>(0, 0, 0, 0)</Rect>
+            <ROI>(0, 0, 0, 0)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>0</Param1>
+            <Param2>0</Param2>
+            <Param3>0</Param3>
+            <Param4>0</Param4>
+            <Enable>1</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù∏Ïãù ÌôúÏÑ±/ÎπÑÌôúÏÑ±</Name>
+                <Enable>1</Enable>
+                <Param>Enable( 38 selectGacha 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="38" ImageName="selectGacha" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+            </Act_1>
+            <Act_2>
+                <Name>Ïù∏Ïãù ÌôúÏÑ±/ÎπÑÌôúÏÑ±</Name>
+                <Enable>1</Enable>
+                <Param>Enable( 7 gameStart 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="7" ImageName="gameStart" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+            </Act_2>
+        </Image_11>
+        <Image_14>
+            <Name>umaBanner</Name>
+            <Rect>(270, 505, 21, 21)</Rect>
+            <ROI>(270, 505, 21, 21)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>12320768</Param1>
+            <Param2>80890</Param2>
+            <Param3>0</Param3>
+            <Param4>1658764231</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
-            <ActCount>0</ActCount>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_14>
+        <Image_15>
+            <Name>afterBanner</Name>
+            <Rect>(302, 220, 39, 20)</Rect>
+            <ROI>(302, 220, 39, 20)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>7405568</Param1>
+            <Param2>15350</Param2>
+            <Param3>0</Param3>
+            <Param4>1658764292</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
         </Image_15>
         <Image_16>
             <Name>loginKakao</Name>
@@ -401,19 +389,19 @@
             <Param1>8978432</Param1>
             <Param2>80893</Param2>
             <Param3>0</Param3>
-            <Param4>1658680021</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -427,19 +415,19 @@
             <Param1>13828097</Param1>
             <Param2>474068</Param2>
             <Param3>0</Param3>
-            <Param4>1658630302</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -453,19 +441,19 @@
             <Param1>8650752</Param1>
             <Param2>867305</Param2>
             <Param3>0</Param3>
-            <Param4>1658629969</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -479,19 +467,19 @@
             <Param1>14155777</Param1>
             <Param2>211939</Param2>
             <Param3>0</Param3>
-            <Param4>1658680076</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -505,25 +493,51 @@
             <Param1>9764864</Param1>
             <Param2>80882</Param2>
             <Param3>0</Param3>
-            <Param4>1658630123</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_20>
         <Image_21>
+            <Name>networkVal</Name>
+            <Rect>(104, 338, 47, 17)</Rect>
+            <ROI>(104, 338, 47, 17)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>13631489</Param1>
+            <Param2>801777</Param2>
+            <Param3>0</Param3>
+            <Param4>1658762071</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>0</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_21>
+        <Image_22>
             <Name>networkError</Name>
             <Rect>(147, 220, 105, 21)</Rect>
             <ROI>(147, 220, 105, 21)</ROI>
@@ -531,25 +545,25 @@
             <Param1>9437184</Param1>
             <Param2>474091</Param2>
             <Param3>0</Param3>
-            <Param4>1658634682</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_21>
-        <Image_22>
+        </Image_22>
+        <Image_23>
             <Name>syncAccount</Name>
             <Rect>(128, 218, 73, 23)</Rect>
             <ROI>(128, 218, 73, 23)</ROI>
@@ -557,51 +571,129 @@
             <Param1>9437184</Param1>
             <Param2>736205</Param2>
             <Param3>0</Param3>
-            <Param4>1658631179</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
-                <Enable>1</Enable>
-                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_2>
-        </Image_22>
-        <Image_23>
-            <Name>setUser</Name>
-            <Rect>(150, 219, 102, 22)</Rect>
-            <ROI>(150, 219, 102, 22)</ROI>
-            <FullROI>0</FullROI>
-            <Param1>9437184</Param1>
-            <Param2>736169</Param2>
-            <Param3>0</Param3>
-            <Param4>1658632437</Param4>
-            <Enable>0</Enable>
-            <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
-            <ActCount>2</ActCount>
-            <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
-                <Enable>1</Enable>
-                <Param/>
-                <Attr/>
-            </Act_1>
-            <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_23>
         <Image_24>
+            <Name>skipSync</Name>
+            <Rect>(69, 451, 86, 25)</Rect>
+            <ROI>(69, 451, 86, 25)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>14090241</Param1>
+            <Param2>539631</Param2>
+            <Param3>0</Param3>
+            <Param4>1658763412</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_24>
+        <Image_25>
+            <Name>skipTutorial</Name>
+            <Rect>(250, 452, 73, 24)</Rect>
+            <ROI>(250, 452, 73, 24)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>8847360</Param1>
+            <Param2>605166</Param2>
+            <Param3>0</Param3>
+            <Param4>1658763442</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_25>
+        <Image_26>
+            <Name>assignTrainer</Name>
+            <Rect>(146, 219, 109, 21)</Rect>
+            <ROI>(146, 219, 109, 21)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>9437184</Param1>
+            <Param2>736173</Param2>
+            <Param3>0</Param3>
+            <Param4>1658763486</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_26>
+        <Image_27>
+            <Name>confirmTrainer</Name>
+            <Rect>(165, 452, 69, 24)</Rect>
+            <ROI>(165, 452, 69, 24)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>9109504</Param1>
+            <Param2>736232</Param2>
+            <Param3>0</Param3>
+            <Param4>1658763558</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_27>
+        <Image_28>
             <Name>trainerOK</Name>
             <Rect>(266, 450, 43, 26)</Rect>
             <ROI>(266, 450, 43, 26)</ROI>
@@ -609,25 +701,25 @@
             <Param1>8519680</Param1>
             <Param2>867304</Param2>
             <Param3>0</Param3>
-            <Param4>1658632666</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_24>
-        <Image_25>
+        </Image_28>
+        <Image_29>
             <Name>skipGift</Name>
             <Rect>(354, 666, 23, 23)</Rect>
             <ROI>(354, 666, 23, 23)</ROI>
@@ -635,25 +727,25 @@
             <Param1>12320768</Param1>
             <Param2>80887</Param2>
             <Param3>0</Param3>
-            <Param4>1658632782</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_25>
-        <Image_26>
+        </Image_29>
+        <Image_30>
             <Name>notifications</Name>
             <Rect>(19, 53, 60, 20)</Rect>
             <ROI>(19, 53, 60, 20)</ROI>
@@ -661,25 +753,25 @@
             <Param1>13565953</Param1>
             <Param2>605137</Param2>
             <Param3>0</Param3>
-            <Param4>1658632846</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_26>
-        <Image_27>
+        </Image_30>
+        <Image_31>
             <Name>mainStory</Name>
             <Rect>(119, 385, 77, 21)</Rect>
             <ROI>(119, 385, 77, 21)</ROI>
@@ -687,25 +779,25 @@
             <Param1>14417921</Param1>
             <Param2>539615</Param2>
             <Param3>0</Param3>
-            <Param4>1658635788</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_27>
-        <Image_28>
+        </Image_31>
+        <Image_32>
             <Name>umaStory</Name>
             <Rect>(118, 22, 131, 25)</Rect>
             <ROI>(118, 22, 131, 25)</ROI>
@@ -713,25 +805,25 @@
             <Param1>9175040</Param1>
             <Param2>1063823</Param2>
             <Param3>0</Param3>
-            <Param4>1658633241</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_28>
-        <Image_29>
+        </Image_32>
+        <Image_33>
             <Name>giftBox</Name>
             <Rect>(354, 499, 17, 17)</Rect>
             <ROI>(354, 499, 17, 17)</ROI>
@@ -739,25 +831,25 @@
             <Param1>13041664</Param1>
             <Param2>80882</Param2>
             <Param3>0</Param3>
-            <Param4>1658633299</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_29>
-        <Image_30>
+        </Image_33>
+        <Image_34>
             <Name>getAll</Name>
             <Rect>(254, 646, 68, 24)</Rect>
             <ROI>(254, 646, 68, 24)</ROI>
@@ -765,25 +857,25 @@
             <Param1>9240576</Param1>
             <Param2>474062</Param2>
             <Param3>0</Param3>
-            <Param4>1658633339</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_30>
-        <Image_31>
+        </Image_34>
+        <Image_35>
             <Name>getOK</Name>
             <Rect>(165, 23, 72, 24)</Rect>
             <ROI>(165, 23, 72, 24)</ROI>
@@ -791,25 +883,25 @@
             <Param1>9371648</Param1>
             <Param2>932809</Param2>
             <Param3>0</Param3>
-            <Param4>1658633376</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_31>
-        <Image_32>
+        </Image_35>
+        <Image_36>
             <Name>noGift</Name>
             <Rect>(227, 333, 50, 22)</Rect>
             <ROI>(227, 333, 50, 22)</ROI>
@@ -817,25 +909,25 @@
             <Param1>13828097</Param1>
             <Param2>998371</Param2>
             <Param3>0</Param3>
-            <Param4>1658633428</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_32>
-        <Image_33>
+        </Image_36>
+        <Image_37>
             <Name>goGacha</Name>
             <Rect>(342, 689, 31, 14)</Rect>
             <ROI>(342, 689, 31, 14)</ROI>
@@ -843,25 +935,25 @@
             <Param1>12320768</Param1>
             <Param2>343011</Param2>
             <Param3>0</Param3>
-            <Param4>1658633596</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_33>
-        <Image_34>
+        </Image_37>
+        <Image_38>
             <Name>gachaStandby</Name>
             <Rect>(28, 9, 38, 23)</Rect>
             <ROI>(28, 9, 38, 23)</ROI>
@@ -869,25 +961,25 @@
             <Param1>12124160</Param1>
             <Param2>736248</Param2>
             <Param3>0</Param3>
-            <Param4>1658640139</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_34>
-        <Image_35>
+        </Image_38>
+        <Image_39>
             <Name>selectGacha.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -900,8 +992,8 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_35>
-        <Image_36>
+        </Image_39>
+        <Image_40>
             <Name>gachaScript1</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -915,13 +1007,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>Ω∫≈©∏≥∆Æ ¿‘∑¬</Name>
+                <Name>Ïä§ÌÅ¨Î¶ΩÌä∏ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
-                <Param>Script( gachaScript1_tkwv6 if SSR_LOTS == true then\n 	print("-----STARTING SSR GACHA-----")\n \n 	loopcount = 0\n 	loopcount_max = 12\n 	while loopcount &lt;= loopcount_max \n 	do\n 		if IsStop() == 1 then\n 			print("isstop")\n )</Param>
-                <Attr LuaFile="gachaScript1_tkwv6" Text="if SSR_LOTS == true then\n 	print(&quot;-----STARTING SSR GACHA-----&quot;)\n \n 	loopcount = 0\n 	loopcount_max = 12\n 	while loopcount &lt;= loopcount_max \n 	do\n 		if IsStop() == 1 then\n 			print(&quot;isstop&quot;)\n"/>
+                <Param>Script( gachaScript1_tkwv6 print("-----STARTING PLAIN GACHA-----")\n \n loopcount = 0\n loopcount_max = 12\n while loopcount &lt;= loopcount_max\n do\n 	ret, acc, ix, iy, sx, sy = ImageSearch("support")\n 	\n 	-- Search until pro )</Param>
+                <Attr LuaFile="gachaScript1_tkwv6" Text="print(&quot;-----STARTING PLAIN GACHA-----&quot;)\n \n loopcount = 0\n loopcount_max = 12\n while loopcount &lt;= loopcount_max\n do\n 	ret, acc, ix, iy, sx, sy = ImageSearch(&quot;support&quot;)\n 	\n 	-- Search until pro"/>
             </Act_1>
-        </Image_36>
-        <Image_37>
+        </Image_40>
+        <Image_41>
             <Name>ssrGuaranteed</Name>
             <Rect>(134, 403, 86, 25)</Rect>
             <ROI>(134, 403, 86, 25)</ROI>
@@ -929,31 +1021,31 @@
             <Param1>12845056</Param1>
             <Param2>1326033</Param2>
             <Param3>0</Param3>
-            <Param4>1658648654</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>3</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
             <Act_3>
-                <Name>Ω∫≈©∏≥∆Æ ¿‘∑¬</Name>
+                <Name>Ïä§ÌÅ¨Î¶ΩÌä∏ ÏûÖÎ†•</Name>
                 <Enable>0</Enable>
                 <Param>Script( ssrGuaranteed_j416x ret, acc, ix, iy, sx, sy = ImageSearch('ssrGuarateed')\n \n print(ret) )</Param>
                 <Attr LuaFile="ssrGuaranteed_j416x" Text="ret, acc, ix, iy, sx, sy = ImageSearch(&apos;ssrGuarateed&apos;)\n \n print(ret)"/>
             </Act_3>
-        </Image_37>
-        <Image_38>
+        </Image_41>
+        <Image_42>
             <Name>pickOnce</Name>
             <Rect>(165, 552, 69, 21)</Rect>
             <ROI>(165, 552, 69, 21)</ROI>
@@ -961,25 +1053,25 @@
             <Param1>11862016</Param1>
             <Param2>932859</Param2>
             <Param3>0</Param3>
-            <Param4>1658640494</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_38>
-        <Image_39>
+        </Image_42>
+        <Image_43>
             <Name>support</Name>
             <Rect>(42, 61, 49, 20)</Rect>
             <ROI>(42, 61, 49, 20)</ROI>
@@ -987,25 +1079,25 @@
             <Param1>12648448</Param1>
             <Param2>80872</Param2>
             <Param3>0</Param3>
-            <Param4>1658643452</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_39>
-        <Image_40>
+        </Image_43>
+        <Image_44>
             <Name>pick10</Name>
             <Rect>(283, 552, 75, 20)</Rect>
             <ROI>(283, 552, 75, 20)</ROI>
@@ -1013,25 +1105,25 @@
             <Param1>9568256</Param1>
             <Param2>932853</Param2>
             <Param3>0</Param3>
-            <Param4>1658643653</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_40>
-        <Image_41>
+        </Image_44>
+        <Image_45>
             <Name>supportInfo</Name>
             <Rect>(137, 24, 126, 23)</Rect>
             <ROI>(137, 24, 126, 23)</ROI>
@@ -1039,25 +1131,25 @@
             <Param1>9175040</Param1>
             <Param2>736176</Param2>
             <Param3>0</Param3>
-            <Param4>1658641757</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_41>
-        <Image_42>
+        </Image_45>
+        <Image_46>
             <Name>gachaSkip</Name>
             <Rect>(353, 666, 25, 21)</Rect>
             <ROI>(353, 666, 25, 21)</ROI>
@@ -1065,25 +1157,25 @@
             <Param1>12320768</Param1>
             <Param2>80882</Param2>
             <Param3>0</Param3>
-            <Param4>1658641341</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_42>
-        <Image_43>
+        </Image_46>
+        <Image_47>
             <Name>ssrGacha.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1096,8 +1188,8 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_43>
-        <Image_44>
+        </Image_47>
+        <Image_48>
             <Name>ssrGachaScript1</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1111,13 +1203,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>Ω∫≈©∏≥∆Æ ¿‘∑¬</Name>
+                <Name>Ïä§ÌÅ¨Î¶ΩÌä∏ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
-                <Param>Script( ssrGachaScript1_crnhi err = loopstep("ssrPick", "gachaSkip", 30, {true, 0,0})\n if err_judge(err) &gt; 0 then return 0 end\n \n err = loopstep("gachaSkip", "ssrResult", 30, {true, 0,0})\n if err_judge(err) &gt; 0 then return 0  )</Param>
-                <Attr LuaFile="ssrGachaScript1_crnhi" Text="err = loopstep(&quot;ssrPick&quot;, &quot;gachaSkip&quot;, 30, {true, 0,0})\n if err_judge(err) &gt; 0 then return 0 end\n \n err = loopstep(&quot;gachaSkip&quot;, &quot;ssrResult&quot;, 30, {true, 0,0})\n if err_judge(err) &gt; 0 then return 0 "/>
+                <Param>Script( ssrGachaScript1_crnhi err = Loopstep("ssrPick", "gachaSkip", 30, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return 0 end\n \n err = Loopstep("gachaSkip", "ssrResult", 30, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return  )</Param>
+                <Attr LuaFile="ssrGachaScript1_crnhi" Text="err = Loopstep(&quot;ssrPick&quot;, &quot;gachaSkip&quot;, 30, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return 0 end\n \n err = Loopstep(&quot;gachaSkip&quot;, &quot;ssrResult&quot;, 30, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return "/>
             </Act_1>
-        </Image_44>
-        <Image_45>
+        </Image_48>
+        <Image_49>
             <Name>ssrConfirm</Name>
             <Rect>(161, 219, 79, 22)</Rect>
             <ROI>(161, 219, 79, 22)</ROI>
@@ -1125,25 +1217,25 @@
             <Param1>9371648</Param1>
             <Param2>736220</Param2>
             <Param3>0</Param3>
-            <Param4>1658640964</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_45>
-        <Image_46>
+        </Image_49>
+        <Image_50>
             <Name>ssrPick</Name>
             <Rect>(268, 454, 42, 22)</Rect>
             <ROI>(268, 454, 42, 22)</ROI>
@@ -1151,25 +1243,25 @@
             <Param1>9240576</Param1>
             <Param2>605177</Param2>
             <Param3>0</Param3>
-            <Param4>1658640983</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_46>
-        <Image_47>
+        </Image_50>
+        <Image_51>
             <Name>ssrResult</Name>
             <Rect>(173, 168, 53, 17)</Rect>
             <ROI>(173, 168, 53, 17)</ROI>
@@ -1177,25 +1269,25 @@
             <Param1>13828097</Param1>
             <Param2>343030</Param2>
             <Param3>0</Param3>
-            <Param4>1658641387</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_47>
-        <Image_48>
+        </Image_51>
+        <Image_52>
             <Name>closeInfo</Name>
             <Rect>(172, 643, 53, 30)</Rect>
             <ROI>(172, 643, 53, 30)</ROI>
@@ -1203,25 +1295,25 @@
             <Param1>14942209</Param1>
             <Param2>801764</Param2>
             <Param3>0</Param3>
-            <Param4>1658642901</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_48>
-        <Image_49>
+        </Image_52>
+        <Image_53>
             <Name>closeOk</Name>
             <Rect>(174, 491, 52, 29)</Rect>
             <ROI>(174, 491, 52, 29)</ROI>
@@ -1229,25 +1321,25 @@
             <Param1>8192000</Param1>
             <Param2>932844</Param2>
             <Param3>0</Param3>
-            <Param4>1658642924</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_49>
-        <Image_50>
+        </Image_53>
+        <Image_54>
             <Name>toSelectGacha2</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1261,25 +1353,25 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>3</ActCount>
             <Act_1>
-                <Name>¿ŒΩƒ »∞º∫/∫Ò»∞º∫</Name>
+                <Name>Ïù∏Ïãù ÌôúÏÑ±/ÎπÑÌôúÏÑ±</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 34 selectGacha 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="34" ImageName="selectGacha" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 38 selectGacha 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="38" ImageName="selectGacha" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_1>
             <Act_2>
-                <Name>¿ŒΩƒ »∞º∫/∫Ò»∞º∫</Name>
+                <Name>Ïù∏Ïãù ÌôúÏÑ±/ÎπÑÌôúÏÑ±</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 42 ssrGacha 0 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="42" ImageName="ssrGacha" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 46 ssrGacha 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="46" ImageName="ssrGacha" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_2>
             <Act_3>
-                <Name>¿ŒΩƒ º¯º≠ ∫Ø∞Ê</Name>
+                <Name>Ïù∏Ïãù ÏàúÏÑú Î≥ÄÍ≤Ω</Name>
                 <Enable>1</Enable>
-                <Param>Goto( 34 selectGacha 0 )</Param>
-                <Attr ImageSelect="34" ImageName="selectGacha" GotoCount="0"/>
+                <Param>Goto( 38 selectGacha 0 )</Param>
+                <Attr ImageSelect="38" ImageName="selectGacha" GotoCount="0"/>
             </Act_3>
-        </Image_50>
-        <Image_51>
+        </Image_54>
+        <Image_55>
             <Name>supportGacha.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1292,8 +1384,8 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_51>
-        <Image_52>
+        </Image_55>
+        <Image_56>
             <Name>supportCycle</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1307,13 +1399,45 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>Ω∫≈©∏≥∆Æ ¿‘∑¬</Name>
+                <Name>Ïä§ÌÅ¨Î¶ΩÌä∏ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
-                <Param>Script( supportCycle_gk56d function main_algorithm()\n \n 	ret_SSR = {}\n 	ret_SR = {}\n 	ret_R = {}\n 		\n 	SSR = "SSR"\n 	SR = "SR"\n 	R = "R"\n 	\n 	print("-----SUPPORT CARD RECOGNITION START-----")\n 	cycle_total = 0\n 	ER )</Param>
-                <Attr LuaFile="supportCycle_gk56d" Text="function main_algorithm()\n \n 	ret_SSR = {}\n 	ret_SR = {}\n 	ret_R = {}\n 		\n 	SSR = &quot;SSR&quot;\n 	SR = &quot;SR&quot;\n 	R = &quot;R&quot;\n 	\n 	print(&quot;-----SUPPORT CARD RECOGNITION START-----&quot;)\n 	cycle_total = 0\n 	ER"/>
+                <Param>Script( supportCycle_gk56d AGAIN = true\n \n while AGAIN == true do\n 	err = Loopstep("supportPick", "gachaSkip", LOOP_ERR_MEDIUM, {true, 0,0})\n 	if ErrorJudge(err) &gt; 0 then return 0 end\n     \n 	err = Loopstep("gachaSkip",  )</Param>
+                <Attr LuaFile="supportCycle_gk56d" Text="AGAIN = true\n \n while AGAIN == true do\n 	err = Loopstep(&quot;supportPick&quot;, &quot;gachaSkip&quot;, LOOP_ERR_MEDIUM, {true, 0,0})\n 	if ErrorJudge(err) &gt; 0 then return 0 end\n     \n 	err = Loopstep(&quot;gachaSkip&quot;, "/>
             </Act_1>
-        </Image_52>
-        <Image_53>
+        </Image_56>
+        <Image_57>
+            <Name>toRecordRoom</Name>
+            <Rect>(0, 0, 0, 0)</Rect>
+            <ROI>(0, 0, 0, 0)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>0</Param1>
+            <Param2>0</Param2>
+            <Param3>0</Param3>
+            <Param4>0</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>3</ActCount>
+            <Act_1>
+                <Name>Ïù∏Ïãù ÌôúÏÑ±/ÎπÑÌôúÏÑ±</Name>
+                <Enable>1</Enable>
+                <Param>Enable( 62 recordRoom 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="62" ImageName="recordRoom" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+            </Act_1>
+            <Act_2>
+                <Name>Ïù∏Ïãù ÌôúÏÑ±/ÎπÑÌôúÏÑ±</Name>
+                <Enable>1</Enable>
+                <Param>Enable( 54 supportGacha 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="54" ImageName="supportGacha" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+            </Act_2>
+            <Act_3>
+                <Name>Ïù∏Ïãù ÌôúÏÑ±/ÎπÑÌôúÏÑ±</Name>
+                <Enable>1</Enable>
+                <Param>Enable( 56 toRecordRoom 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="56" ImageName="toRecordRoom" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+            </Act_3>
+        </Image_57>
+        <Image_58>
             <Name>toAssess</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1327,25 +1451,25 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>3</ActCount>
             <Act_1>
-                <Name>¿ŒΩƒ »∞º∫/∫Ò»∞º∫</Name>
+                <Name>Ïù∏Ïãù ÌôúÏÑ±/ÎπÑÌôúÏÑ±</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 57 umaAssess 1 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="57" ImageName="umaAssess" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 73 umaAssess 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="73" ImageName="umaAssess" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_1>
             <Act_2>
-                <Name>¿ŒΩƒ »∞º∫/∫Ò»∞º∫</Name>
+                <Name>Ïù∏Ïãù ÌôúÏÑ±/ÎπÑÌôúÏÑ±</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 50 supportGacha 0 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="50" ImageName="supportGacha" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 54 supportGacha 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="54" ImageName="supportGacha" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_2>
             <Act_3>
-                <Name>¿ŒΩƒ »∞º∫/∫Ò»∞º∫</Name>
+                <Name>Ïù∏Ïãù ÌôúÏÑ±/ÎπÑÌôúÏÑ±</Name>
                 <Enable>1</Enable>
-                <Param>Enable( 52 toAssess 0 0  0 0 0  0 0 0 0  0 )</Param>
-                <Attr ImageSelect="52" ImageName="toAssess" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+                <Param>Enable( 57 toAssess 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="57" ImageName="toAssess" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_3>
-        </Image_53>
-        <Image_54>
+        </Image_58>
+        <Image_59>
             <Name>supportPick</Name>
             <Rect>(267, 453, 43, 22)</Rect>
             <ROI>(267, 453, 43, 22)</ROI>
@@ -1353,25 +1477,25 @@
             <Param1>9306112</Param1>
             <Param2>670712</Param2>
             <Param3>0</Param3>
-            <Param4>1658643936</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_54>
-        <Image_55>
+        </Image_59>
+        <Image_60>
             <Name>pickAgain</Name>
             <Rect>(238, 654, 97, 27)</Rect>
             <ROI>(238, 654, 97, 27)</ROI>
@@ -1379,25 +1503,25 @@
             <Param1>8716288</Param1>
             <Param2>605139</Param2>
             <Param3>0</Param3>
-            <Param4>1658646917</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_55>
-        <Image_56>
+        </Image_60>
+        <Image_61>
             <Name>confirmPick</Name>
             <Rect>(167, 215, 69, 27)</Rect>
             <ROI>(167, 215, 69, 27)</ROI>
@@ -1405,25 +1529,25 @@
             <Param1>9306112</Param1>
             <Param2>998362</Param2>
             <Param3>0</Param3>
-            <Param4>1658647497</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_56>
-        <Image_57>
+        </Image_61>
+        <Image_62>
             <Name>noJewel</Name>
             <Rect>(206, 417, 53, 17)</Rect>
             <ROI>(206, 417, 53, 17)</ROI>
@@ -1431,25 +1555,299 @@
             <Param1>14483457</Param1>
             <Param2>277475</Param2>
             <Param3>0</Param3>
-            <Param4>1658647386</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_57>
-        <Image_58>
+        </Image_62>
+        <Image_63>
+            <Name>recordRoom.grp</Name>
+            <Rect>(0, 0, 0, 0)</Rect>
+            <ROI>(0, 0, 0, 0)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>0</Param1>
+            <Param2>0</Param2>
+            <Param3>0</Param3>
+            <Param4>0</Param4>
+            <Enable>0</Enable>
+            <Group>1</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>0</ActCount>
+        </Image_63>
+        <Image_64>
+            <Name>toTheRoom</Name>
+            <Rect>(0, 0, 0, 0)</Rect>
+            <ROI>(0, 0, 0, 0)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>0</Param1>
+            <Param2>0</Param2>
+            <Param3>0</Param3>
+            <Param4>0</Param4>
+            <Enable>1</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>1</ActCount>
+            <Act_1>
+                <Name>Ïä§ÌÅ¨Î¶ΩÌä∏ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Script( toTheRoom_n2k4r err = Loopstep("doNotPick", "exitGacha", LOOP_ERR_SMALL, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return 0 end\n \n err = Loopstep("exitGacha", "toHome", LOOP_ERR_LARGE, {true, 0,0})\n if ErrorJudg )</Param>
+                <Attr LuaFile="toTheRoom_n2k4r" Text="err = Loopstep(&quot;doNotPick&quot;, &quot;exitGacha&quot;, LOOP_ERR_SMALL, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return 0 end\n \n err = Loopstep(&quot;exitGacha&quot;, &quot;toHome&quot;, LOOP_ERR_LARGE, {true, 0,0})\n if ErrorJudg"/>
+            </Act_1>
+        </Image_64>
+        <Image_65>
+            <Name>toSelectGacha3</Name>
+            <Rect>(0, 0, 0, 0)</Rect>
+            <ROI>(0, 0, 0, 0)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>0</Param1>
+            <Param2>0</Param2>
+            <Param3>0</Param3>
+            <Param4>0</Param4>
+            <Enable>1</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>3</ActCount>
+            <Act_1>
+                <Name>Ïù∏Ïãù ÌôúÏÑ±/ÎπÑÌôúÏÑ±</Name>
+                <Enable>1</Enable>
+                <Param>Enable( 38 selectGacha 1 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="38" ImageName="selectGacha" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+            </Act_1>
+            <Act_2>
+                <Name>Ïù∏Ïãù ÌôúÏÑ±/ÎπÑÌôúÏÑ±</Name>
+                <Enable>1</Enable>
+                <Param>Enable( 62 recordRoom 0 0  0 0 0  0 0 0 0  0 )</Param>
+                <Attr ImageSelect="62" ImageName="recordRoom" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
+            </Act_2>
+            <Act_3>
+                <Name>Ïù∏Ïãù ÏàúÏÑú Î≥ÄÍ≤Ω</Name>
+                <Enable>1</Enable>
+                <Param>Goto( 38 selectGacha 0 )</Param>
+                <Attr ImageSelect="38" ImageName="selectGacha" GotoCount="0"/>
+            </Act_3>
+        </Image_65>
+        <Image_66>
+            <Name>toHome</Name>
+            <Rect>(180, 672, 41, 28)</Rect>
+            <ROI>(180, 672, 41, 28)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>10551296</Param1>
+            <Param2>1719293</Param2>
+            <Param3>0</Param3>
+            <Param4>1658761222</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_66>
+        <Image_67>
+            <Name>toMenu</Name>
+            <Rect>(346, 30, 20, 16)</Rect>
+            <ROI>(346, 30, 20, 16)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>8192000</Param1>
+            <Param2>474109</Param2>
+            <Param3>0</Param3>
+            <Param4>1658761252</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_67>
+        <Image_68>
+            <Name>toRecord</Name>
+            <Rect>(111, 333, 39, 26)</Rect>
+            <ROI>(111, 333, 39, 26)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>14221313</Param1>
+            <Param2>1063929</Param2>
+            <Param3>0</Param3>
+            <Param4>1658761277</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_68>
+        <Image_69>
+            <Name>skipRecord</Name>
+            <Rect>(353, 666, 25, 21)</Rect>
+            <ROI>(353, 666, 25, 21)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>12320768</Param1>
+            <Param2>80882</Param2>
+            <Param3>0</Param3>
+            <Param4>1658761310</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_69>
+        <Image_70>
+            <Name>closeRecord</Name>
+            <Rect>(178, 660, 45, 24)</Rect>
+            <ROI>(178, 660, 45, 24)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>14483457</Param1>
+            <Param2>605154</Param2>
+            <Param3>0</Param3>
+            <Param4>1658761330</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_70>
+        <Image_71>
+            <Name>closeReward</Name>
+            <Rect>(179, 589, 45, 23)</Rect>
+            <ROI>(179, 589, 45, 23)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>14548993</Param1>
+            <Param2>670716</Param2>
+            <Param3>0</Param3>
+            <Param4>1658761358</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_71>
+        <Image_72>
+            <Name>exitRecord</Name>
+            <Rect>(21, 589, 47, 22)</Rect>
+            <ROI>(21, 589, 47, 22)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>14155777</Param1>
+            <Param2>670709</Param2>
+            <Param3>0</Param3>
+            <Param4>1658761390</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_72>
+        <Image_73>
+            <Name>closeMenu</Name>
+            <Rect>(179, 644, 44, 24)</Rect>
+            <ROI>(179, 644, 44, 24)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>14614529</Param1>
+            <Param2>736227</Param2>
+            <Param3>0</Param3>
+            <Param4>1658761466</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_73>
+        <Image_74>
             <Name>umaAssess.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1462,8 +1860,8 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_58>
-        <Image_59>
+        </Image_74>
+        <Image_75>
             <Name>primAssess</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1477,13 +1875,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>Ω∫≈©∏≥∆Æ ¿‘∑¬</Name>
+                <Name>Ïä§ÌÅ¨Î¶ΩÌä∏ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
-                <Param>Script( primAssess_qm44c print('MAIN_FLAG = '..tostring(MAIN_FLAG))\n print("MUST : " ..tostring(calculate_mustfind()[1]))\n print("SELECT : " ..tostring(calculate_selectfind()[1]))\n print("SCORE : " ..tostring(calculate_sc )</Param>
-                <Attr LuaFile="primAssess_qm44c" Text="print(&apos;MAIN_FLAG = &apos;..tostring(MAIN_FLAG))\n print(&quot;MUST : &quot; ..tostring(calculate_mustfind()[1]))\n print(&quot;SELECT : &quot; ..tostring(calculate_selectfind()[1]))\n print(&quot;SCORE : &quot; ..tostring(calculate_sc"/>
+                <Param>Script( primAssess_qm44c print('MAIN_FLAG = '..tostring(MAIN_FLAG))\n print("MUST : " ..tostring(CalculateMustfind()[1]))\n print("SELECT : " ..tostring(CalculateSelectfind()[1]))\n print("SCORE : " ..tostring(CalculateScore )</Param>
+                <Attr LuaFile="primAssess_qm44c" Text="print(&apos;MAIN_FLAG = &apos;..tostring(MAIN_FLAG))\n print(&quot;MUST : &quot; ..tostring(CalculateMustfind()[1]))\n print(&quot;SELECT : &quot; ..tostring(CalculateSelectfind()[1]))\n print(&quot;SCORE : &quot; ..tostring(CalculateScore"/>
             </Act_1>
-        </Image_59>
-        <Image_60>
+        </Image_75>
+        <Image_76>
             <Name>saveDat</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1497,13 +1895,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>Ω∫≈©∏≥∆Æ ¿‘∑¬</Name>
+                <Name>Ïä§ÌÅ¨Î¶ΩÌä∏ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
-                <Param>Script( saveDat_zc4l4 err = loopstep("doNotPick", "exitGacha", LOOP_ERR_SMALL, {true, 0,0})\n if err_judge(err) &gt; 0 then return 0 end\n \n err = loopstep("exitGacha", "toInventory", LOOP_ERR_LARGE, {true, 0,0})\n if err_j )</Param>
-                <Attr LuaFile="saveDat_zc4l4" Text="err = loopstep(&quot;doNotPick&quot;, &quot;exitGacha&quot;, LOOP_ERR_SMALL, {true, 0,0})\n if err_judge(err) &gt; 0 then return 0 end\n \n err = loopstep(&quot;exitGacha&quot;, &quot;toInventory&quot;, LOOP_ERR_LARGE, {true, 0,0})\n if err_j"/>
+                <Param>Script( saveDat_zc4l4 err = Loopstep("doNotPick", "exitGacha", LOOP_ERR_SMALL, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return 0 end\n \n err = Loopstep("exitGacha", "toInventory", LOOP_ERR_LARGE, {true, 0,0})\n if Erro )</Param>
+                <Attr LuaFile="saveDat_zc4l4" Text="err = Loopstep(&quot;doNotPick&quot;, &quot;exitGacha&quot;, LOOP_ERR_SMALL, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return 0 end\n \n err = Loopstep(&quot;exitGacha&quot;, &quot;toInventory&quot;, LOOP_ERR_LARGE, {true, 0,0})\n if Erro"/>
             </Act_1>
-        </Image_60>
-        <Image_61>
+        </Image_76>
+        <Image_77>
             <Name>isFinished</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1517,13 +1915,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>Ω∫≈©∏≥∆Æ ¿‘∑¬</Name>
+                <Name>Ïä§ÌÅ¨Î¶ΩÌä∏ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Script( isFinished_c7aqp if SUCCESS == true then\n 	print("All Conditions are met")\n \n 	for k, v in pairs(found_uma_list)\n 	do\n 		if v &gt; 1 then\n 			print(UMA_LIST[k], v)\n 		end\n 	end\n \n 	print('Reset Marthons Done : )</Param>
                 <Attr LuaFile="isFinished_c7aqp" Text="if SUCCESS == true then\n 	print(&quot;All Conditions are met&quot;)\n \n 	for k, v in pairs(found_uma_list)\n 	do\n 		if v &gt; 1 then\n 			print(UMA_LIST[k], v)\n 		end\n 	end\n \n 	print(&apos;Reset Marthons Done :"/>
             </Act_1>
-        </Image_61>
-        <Image_62>
+        </Image_77>
+        <Image_78>
             <Name>doNotPick</Name>
             <Rect>(86, 447, 56, 32)</Rect>
             <ROI>(86, 447, 56, 32)</ROI>
@@ -1531,25 +1929,25 @@
             <Param1>15073281</Param1>
             <Param2>932835</Param2>
             <Param3>0</Param3>
-            <Param4>1658673051</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_62>
-        <Image_63>
+        </Image_78>
+        <Image_79>
             <Name>exitGacha</Name>
             <Rect>(83, 655, 63, 26)</Rect>
             <ROI>(83, 655, 63, 26)</ROI>
@@ -1557,25 +1955,25 @@
             <Param1>13959169</Param1>
             <Param2>670713</Param2>
             <Param3>0</Param3>
-            <Param4>1658673066</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_63>
-        <Image_64>
+        </Image_79>
+        <Image_80>
             <Name>toInventory</Name>
             <Rect>(20, 673, 32, 30)</Rect>
             <ROI>(20, 673, 32, 30)</ROI>
@@ -1583,25 +1981,25 @@
             <Param1>11010048</Param1>
             <Param2>277488</Param2>
             <Param3>0</Param3>
-            <Param4>1658673101</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_64>
-        <Image_65>
+        </Image_80>
+        <Image_81>
             <Name>supportCard</Name>
             <Rect>(234, 504, 84, 17)</Rect>
             <ROI>(234, 504, 84, 17)</ROI>
@@ -1609,25 +2007,25 @@
             <Param1>14221313</Param1>
             <Param2>408524</Param2>
             <Param3>0</Param3>
-            <Param4>1658673116</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_65>
-        <Image_66>
+        </Image_81>
+        <Image_82>
             <Name>cardUpgrade</Name>
             <Rect>(268, 413, 78, 23)</Rect>
             <ROI>(268, 413, 78, 23)</ROI>
@@ -1635,25 +2033,25 @@
             <Param1>13697025</Param1>
             <Param2>408497</Param2>
             <Param3>0</Param3>
-            <Param4>1658673200</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_66>
-        <Image_67>
+        </Image_82>
+        <Image_83>
             <Name>closeBanner</Name>
             <Rect>(171, 659, 55, 25)</Rect>
             <ROI>(171, 659, 55, 25)</ROI>
@@ -1661,25 +2059,25 @@
             <Param1>14811137</Param1>
             <Param2>670699</Param2>
             <Param3>0</Param3>
-            <Param4>1658673557</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_67>
-        <Image_68>
+        </Image_83>
+        <Image_84>
             <Name>enteredUpgrade</Name>
             <Rect>(317, 91, 53, 16)</Rect>
             <ROI>(317, 91, 53, 16)</ROI>
@@ -1687,25 +2085,25 @@
             <Param1>9961472</Param1>
             <Param2>211939</Param2>
             <Param3>0</Param3>
-            <Param4>1658673612</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_68>
-        <Image_69>
+        </Image_84>
+        <Image_85>
             <Name>finishAlarm.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1718,8 +2116,8 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_69>
-        <Image_70>
+        </Image_85>
+        <Image_86>
             <Name>alarm1</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1733,13 +2131,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>Ω∫≈©∏≥∆Æ ¿‘∑¬</Name>
+                <Name>Ïä§ÌÅ¨Î¶ΩÌä∏ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Script( alarm1_vyrxo MessageBox(ALARM_MESSAGE)\n SAFELOCK=1\n Stop() )</Param>
                 <Attr LuaFile="alarm1_vyrxo" Text="MessageBox(ALARM_MESSAGE)\n SAFELOCK=1\n Stop()"/>
             </Act_1>
-        </Image_70>
-        <Image_71>
+        </Image_86>
+        <Image_87>
             <Name>alarm2</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1753,19 +2151,19 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>±‚≈∏ æ◊º«</Name>
+                <Name>Í∏∞ÌÉÄ Ïï°ÏÖò</Name>
                 <Enable>1</Enable>
                 <Param>Etc1( 0 0  1 5.000000 alarm.wav  0 -1 0 null null  0 null 0  0 null null null 0  0 null null null 0 )</Param>
                 <Attr CheckEtcScrshot="0" CheckEtcAutoStop="0" CheckEtcAlarm="1" EtcAlarmSec="5" EtcAlarmFilePath="alarm.wav" CheckEtcKatalk="0" ComboEtcKatalk="-1" EtcKatalkTitle="null" EtcKatalkText="null" CheckEtcKatalkScrshot="0" CheckEtcMail="0" EtcMailAddress="null" CheckEtcMailScrshot="0" CheckEtcTelegram="0" EtcTelegramToken="null" EtcTelegramChatID="null" EtcTelegramText="null" CheckEtcTelegramScrshot="0" CheckEtcDiscord="0" EtcDiscordURL="null" EtcDiscordName="null" EtcDiscordText="null" CheckEtcDiscordScrshot="0"/>
             </Act_1>
             <Act_2>
-                <Name>Ω∫≈©∏≥∆Æ ¿‘∑¬</Name>
+                <Name>Ïä§ÌÅ¨Î¶ΩÌä∏ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Script( alarm2_jjsbe SAFELOCK=1\n Stop() )</Param>
                 <Attr LuaFile="alarm2_jjsbe" Text="SAFELOCK=1\n Stop()"/>
             </Act_2>
-        </Image_71>
-        <Image_72>
+        </Image_87>
+        <Image_88>
             <Name>alarm3</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1779,19 +2177,19 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>±‚≈∏ æ◊º«</Name>
+                <Name>Í∏∞ÌÉÄ Ïï°ÏÖò</Name>
                 <Enable>1</Enable>
                 <Param>Etc1( 0 0  1 5.000000 alarm.wav  0 -1 0 null null  0 null 0  0 null null null 0  0 null null null 0 )</Param>
                 <Attr CheckEtcScrshot="0" CheckEtcAutoStop="0" CheckEtcAlarm="1" EtcAlarmSec="5" EtcAlarmFilePath="alarm.wav" CheckEtcKatalk="0" ComboEtcKatalk="-1" EtcKatalkTitle="null" EtcKatalkText="null" CheckEtcKatalkScrshot="0" CheckEtcMail="0" EtcMailAddress="null" CheckEtcMailScrshot="0" CheckEtcTelegram="0" EtcTelegramToken="null" EtcTelegramChatID="null" EtcTelegramText="null" CheckEtcTelegramScrshot="0" CheckEtcDiscord="0" EtcDiscordURL="null" EtcDiscordName="null" EtcDiscordText="null" CheckEtcDiscordScrshot="0"/>
             </Act_1>
             <Act_2>
-                <Name>Ω∫≈©∏≥∆Æ ¿‘∑¬</Name>
+                <Name>Ïä§ÌÅ¨Î¶ΩÌä∏ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Script( alarm3_txtuj MessageBox(ALARM_MESSAGE)\n SAFELOCK=1\n Stop() )</Param>
                 <Attr LuaFile="alarm3_txtuj" Text="MessageBox(ALARM_MESSAGE)\n SAFELOCK=1\n Stop()"/>
             </Act_2>
-        </Image_72>
-        <Image_73>
+        </Image_88>
+        <Image_89>
             <Name>errorCallback.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1804,8 +2202,8 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_73>
-        <Image_74>
+        </Image_89>
+        <Image_90>
             <Name>errorScript</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1819,13 +2217,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>Ω∫≈©∏≥∆Æ ¿‘∑¬</Name>
+                <Name>Ïä§ÌÅ¨Î¶ΩÌä∏ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
-                <Param>Script( errorScript_snl3j Sleep(1000)\n \n if ERR_NETWORK == 1 then\n 	Mouse(LBUTTON, CLICK, 196, 463, 196, 463, 0, 0, 0.5, 1, FASTER, MESSAGE)\n 	Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTER, MESSAGE)\n \n 	err = loop )</Param>
-                <Attr LuaFile="errorScript_snl3j" Text="Sleep(1000)\n \n if ERR_NETWORK == 1 then\n 	Mouse(LBUTTON, CLICK, 196, 463, 196, 463, 0, 0, 0.5, 1, FASTER, MESSAGE)\n 	Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTER, MESSAGE)\n \n 	err = loop"/>
+                <Param>Script( errorScript_snl3j Sleep(2000)\n \n if ERR_NETWORK == 1 then\n 	Mouse(LBUTTON, CLICK, 135, 461, 135, 461, 0, 0, 0.5, 1, FASTER, MESSAGE)\n 	Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTER, MESSAGE)\n \n 	err = Loop )</Param>
+                <Attr LuaFile="errorScript_snl3j" Text="Sleep(2000)\n \n if ERR_NETWORK == 1 then\n 	Mouse(LBUTTON, CLICK, 135, 461, 135, 461, 0, 0, 0.5, 1, FASTER, MESSAGE)\n 	Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTER, MESSAGE)\n \n 	err = Loop"/>
             </Act_1>
-        </Image_74>
-        <Image_75>
+        </Image_90>
+        <Image_91>
             <Name>loginBanner</Name>
             <Rect>(236, 519, 56, 18)</Rect>
             <ROI>(236, 519, 56, 18)</ROI>
@@ -1833,25 +2231,25 @@
             <Param1>11403264</Param1>
             <Param2>277503</Param2>
             <Param3>0</Param3>
-            <Param4>1658638378</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_75>
-        <Image_76>
+        </Image_91>
+        <Image_92>
             <Name>supportList.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -1864,580 +2262,606 @@
             <Group>1</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_76>
-        <Image_77>
-            <Name>∞ÒµÂΩ√∆º</Name>
+        </Image_92>
+        <Image_93>
+            <Name>Í≥®ÎìúÏãúÌã∞</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
             <Param1>9240576</Param1>
             <Param2>474061</Param2>
             <Param3>0</Param3>
-            <Param4>1658649992</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
-                <Enable>1</Enable>
-                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_2>
-        </Image_77>
-        <Image_78>
-            <Name>ªÁ¿œ∑±Ω∫Ω∫¡Óƒ´</Name>
-            <Rect>(28, 73, 109, 144)</Rect>
-            <ROI>(28, 73, 109, 144)</ROI>
-            <FullROI>0</FullROI>
-            <Param1>10682368</Param1>
-            <Param2>736173</Param2>
-            <Param3>0</Param3>
-            <Param4>1658642709</Param4>
-            <Enable>0</Enable>
-            <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
-            <ActCount>2</ActCount>
-            <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
-                <Enable>1</Enable>
-                <Param/>
-                <Attr/>
-            </Act_1>
-            <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
-                <Enable>1</Enable>
-                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_2>
-        </Image_78>
-        <Image_79>
-            <Name>ºº¿ÃøÓΩ∫ƒ´¿Ã</Name>
-            <Rect>(28, 74, 109, 144)</Rect>
-            <ROI>(28, 73, 109, 144)</ROI>
-            <FullROI>0</FullROI>
-            <Param1>12386304</Param1>
-            <Param2>539562</Param2>
-            <Param3>0</Param3>
-            <Param4>1658649225</Param4>
-            <Enable>0</Enable>
-            <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
-            <ActCount>2</ActCount>
-            <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
-                <Enable>1</Enable>
-                <Param/>
-                <Attr/>
-            </Act_1>
-            <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
-                <Enable>1</Enable>
-                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_2>
-        </Image_79>
-        <Image_80>
-            <Name>Ω∫∏∂∆Æ∆»ƒ‹</Name>
-            <Rect>(28, 73, 109, 144)</Rect>
-            <ROI>(28, 73, 109, 144)</ROI>
-            <FullROI>0</FullROI>
-            <Param1>12255232</Param1>
-            <Param2>342987</Param2>
-            <Param3>0</Param3>
-            <Param4>1658645356</Param4>
-            <Enable>0</Enable>
-            <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
-            <ActCount>2</ActCount>
-            <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
-                <Enable>1</Enable>
-                <Param/>
-                <Attr/>
-            </Act_1>
-            <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
-                <Enable>1</Enable>
-                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_2>
-        </Image_80>
-        <Image_81>
-            <Name>ø°æÓª˛ƒø</Name>
-            <Rect>(28, 73, 109, 144)</Rect>
-            <ROI>(28, 73, 109, 144)</ROI>
-            <FullROI>0</FullROI>
-            <Param1>8978432</Param1>
-            <Param2>474030</Param2>
-            <Param3>0</Param3>
-            <Param4>1658648878</Param4>
-            <Enable>0</Enable>
-            <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
-            <ActCount>2</ActCount>
-            <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
-                <Enable>1</Enable>
-                <Param/>
-                <Attr/>
-            </Act_1>
-            <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
-                <Enable>1</Enable>
-                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_2>
-        </Image_81>
-        <Image_82>
-            <Name>≈∞≈∏ªÍ∫Ì∑¢</Name>
-            <Rect>(28, 73, 109, 144)</Rect>
-            <ROI>(28, 73, 109, 144)</ROI>
-            <FullROI>0</FullROI>
-            <Param1>9109504</Param1>
-            <Param2>736173</Param2>
-            <Param3>0</Param3>
-            <Param4>1658645564</Param4>
-            <Enable>0</Enable>
-            <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
-            <ActCount>2</ActCount>
-            <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
-                <Enable>1</Enable>
-                <Param/>
-                <Attr/>
-            </Act_1>
-            <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
-                <Enable>1</Enable>
-                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_2>
-        </Image_82>
-        <Image_83>
-            <Name>≈∏∏∂∏≈©∑ŒΩ∫</Name>
-            <Rect>(28, 73, 109, 144)</Rect>
-            <ROI>(28, 73, 109, 144)</ROI>
-            <FullROI>0</FullROI>
-            <Param1>10420224</Param1>
-            <Param2>605098</Param2>
-            <Param3>0</Param3>
-            <Param4>1658649849</Param4>
-            <Enable>0</Enable>
-            <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
-            <ActCount>2</ActCount>
-            <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
-                <Enable>1</Enable>
-                <Param/>
-                <Attr/>
-            </Act_1>
-            <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
-                <Enable>1</Enable>
-                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_2>
-        </Image_83>
-        <Image_84>
-            <Name>∆Æ¿©≈Õ∫∏</Name>
-            <Rect>(28, 73, 109, 144)</Rect>
-            <ROI>(28, 73, 109, 144)</ROI>
-            <FullROI>0</FullROI>
-            <Param1>9109504</Param1>
-            <Param2>736173</Param2>
-            <Param3>0</Param3>
-            <Param4>1658645564</Param4>
-            <Enable>0</Enable>
-            <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
-            <ActCount>2</ActCount>
-            <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
-                <Enable>1</Enable>
-                <Param/>
-                <Attr/>
-            </Act_1>
-            <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
-                <Enable>1</Enable>
-                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_2>
-        </Image_84>
-        <Image_85>
-            <Name>∆ƒ¿Œ∏º«</Name>
-            <Rect>(28, 73, 109, 144)</Rect>
-            <ROI>(28, 73, 109, 144)</ROI>
-            <FullROI>0</FullROI>
-            <Param1>10420224</Param1>
-            <Param2>408536</Param2>
-            <Param3>0</Param3>
-            <Param4>1658649378</Param4>
-            <Enable>0</Enable>
-            <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
-            <ActCount>2</ActCount>
-            <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
-                <Enable>1</Enable>
-                <Param/>
-                <Attr/>
-            </Act_1>
-            <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
-                <Enable>0</Enable>
-                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_2>
-        </Image_85>
-        <Image_86>
-            <Name>«œæﬂƒ´øÕ≈∏¡Ó≥™</Name>
-            <Rect>(28, 73, 109, 144)</Rect>
-            <ROI>(28, 73, 109, 144)</ROI>
-            <FullROI>0</FullROI>
-            <Param1>10223616</Param1>
-            <Param2>801783</Param2>
-            <Param3>0</Param3>
-            <Param4>1658649525</Param4>
-            <Enable>0</Enable>
-            <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
-            <ActCount>2</ActCount>
-            <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
-                <Enable>1</Enable>
-                <Param/>
-                <Attr/>
-            </Act_1>
-            <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
-                <Enable>0</Enable>
-                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_2>
-        </Image_86>
-        <Image_87>
-            <Name>±◊∑°Ω∫ø¯¥ı</Name>
-            <Rect>(28, 73, 109, 144)</Rect>
-            <ROI>(28, 73, 109, 144)</ROI>
-            <FullROI>0</FullROI>
-            <Param1>9043968</Param1>
-            <Param2>539605</Param2>
-            <Param3>0</Param3>
-            <Param4>1658651079</Param4>
-            <Enable>0</Enable>
-            <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
-            <ActCount>2</ActCount>
-            <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
-                <Enable>1</Enable>
-                <Param/>
-                <Attr/>
-            </Act_1>
-            <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
-                <Enable>0</Enable>
-                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_2>
-        </Image_87>
-        <Image_88>
-            <Name>Ω∫∆‰º»¿ß≈©</Name>
-            <Rect>(28, 73, 109, 144)</Rect>
-            <ROI>(28, 73, 109, 144)</ROI>
-            <FullROI>0</FullROI>
-            <Param1>11927552</Param1>
-            <Param2>343001</Param2>
-            <Param3>0</Param3>
-            <Param4>1658652389</Param4>
-            <Enable>0</Enable>
-            <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
-            <ActCount>2</ActCount>
-            <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
-                <Enable>1</Enable>
-                <Param/>
-                <Attr/>
-            </Act_1>
-            <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
-                <Enable>1</Enable>
-                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_2>
-        </Image_88>
-        <Image_89>
-            <Name>Ω¥∆€≈©∏Ø</Name>
-            <Rect>(28, 73, 109, 144)</Rect>
-            <ROI>(28, 73, 109, 144)</ROI>
-            <FullROI>0</FullROI>
-            <Param1>10551296</Param1>
-            <Param2>605098</Param2>
-            <Param3>0</Param3>
-            <Param4>1658661869</Param4>
-            <Enable>0</Enable>
-            <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
-            <ActCount>2</ActCount>
-            <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
-                <Enable>1</Enable>
-                <Param/>
-                <Attr/>
-            </Act_1>
-            <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
-                <Enable>1</Enable>
-                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_2>
-        </Image_89>
-        <Image_90>
-            <Name>æ∆¿Ã≥◊Ω∫»ƒ¡¯</Name>
-            <Rect>(28, 73, 109, 144)</Rect>
-            <ROI>(28, 73, 109, 144)</ROI>
-            <FullROI>0</FullROI>
-            <Param1>11862016</Param1>
-            <Param2>605102</Param2>
-            <Param3>0</Param3>
-            <Param4>1658662152</Param4>
-            <Enable>0</Enable>
-            <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
-            <ActCount>2</ActCount>
-            <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
-                <Enable>1</Enable>
-                <Param/>
-                <Attr/>
-            </Act_1>
-            <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
-                <Enable>1</Enable>
-                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_2>
-        </Image_90>
-        <Image_91>
-            <Name>ªÁƒÌ∂ÛπŸƒÌΩ≈ø¿</Name>
-            <Rect>(28, 73, 109, 144)</Rect>
-            <ROI>(28, 73, 109, 144)</ROI>
-            <FullROI>0</FullROI>
-            <Param1>10878976</Param1>
-            <Param2>736173</Param2>
-            <Param3>0</Param3>
-            <Param4>1658662574</Param4>
-            <Enable>0</Enable>
-            <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
-            <ActCount>2</ActCount>
-            <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
-                <Enable>1</Enable>
-                <Param/>
-                <Attr/>
-            </Act_1>
-            <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
-                <Enable>1</Enable>
-                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_2>
-        </Image_91>
-        <Image_92>
-            <Name>∫Òƒ⁄∆‰∞°ºˆΩ∫</Name>
-            <Rect>(28, 73, 109, 144)</Rect>
-            <ROI>(28, 73, 109, 144)</ROI>
-            <FullROI>0</FullROI>
-            <Param1>10747904</Param1>
-            <Param2>736173</Param2>
-            <Param3>0</Param3>
-            <Param4>1658663260</Param4>
-            <Enable>0</Enable>
-            <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
-            <ActCount>2</ActCount>
-            <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
-                <Enable>1</Enable>
-                <Param/>
-                <Attr/>
-            </Act_1>
-            <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
-                <Enable>1</Enable>
-                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
-                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
-            </Act_2>
-        </Image_92>
-        <Image_93>
-            <Name>∏ﬁ¡ˆ∑Œ∆ƒ∏”</Name>
-            <Rect>(28, 73, 109, 144)</Rect>
-            <ROI>(28, 73, 109, 144)</ROI>
-            <FullROI>0</FullROI>
-            <Param1>10223616</Param1>
-            <Param2>605102</Param2>
-            <Param3>0</Param3>
-            <Param4>1658663337</Param4>
-            <Enable>0</Enable>
-            <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
-            <ActCount>2</ActCount>
-            <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
-                <Enable>1</Enable>
-                <Param/>
-                <Attr/>
-            </Act_1>
-            <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_93>
         <Image_94>
-            <Name>∞ÒµÂΩ±</Name>
+            <Name>ÏÇ¨ÏùºÎü∞Ïä§Ïä§Ï¶àÏπ¥</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
-            <Param1>9830400</Param1>
-            <Param2>342977</Param2>
+            <Param1>10682368</Param1>
+            <Param2>736173</Param2>
             <Param3>0</Param3>
-            <Param4>1658666019</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_94>
         <Image_95>
-            <Name>ø¿±∏∏Æƒ∏</Name>
-            <Rect>(28, 73, 109, 144)</Rect>
+            <Name>ÏÑ∏Ïù¥Ïö¥Ïä§Ïπ¥Ïù¥</Name>
+            <Rect>(28, 74, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
-            <Param1>11796480</Param1>
-            <Param2>408493</Param2>
+            <Param1>15728641</Param1>
+            <Param2>4537335</Param2>
             <Param3>0</Param3>
-            <Param4>1658666090</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_95>
         <Image_96>
-            <Name>ø§ƒ‹µµ∏£∆ƒªÁ</Name>
+            <Name>Ïä§ÎßàÌä∏ÌåîÏΩò</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
-            <Param1>10616832</Param1>
-            <Param2>408493</Param2>
+            <Param1>12255232</Param1>
+            <Param2>342987</Param2>
             <Param3>0</Param3>
-            <Param4>1658671991</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_96>
         <Image_97>
-            <Name>¥œΩ√≥Î«√∂Ûøˆ</Name>
+            <Name>ÏóêÏñ¥ÏÉ§Ïª§</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
-            <Param1>11010048</Param1>
-            <Param2>736173</Param2>
+            <Param1>8978432</Param1>
+            <Param2>474030</Param2>
             <Param3>0</Param3>
-            <Param4>1658672730</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_97>
         <Image_98>
-            <Name>≈‰ƒ´¿Ã≈◊¿Ãø¿</Name>
+            <Name>ÌÉÄÎßàÎ™®ÌÅ¨Î°úÏä§</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
-            <Param1>10944512</Param1>
-            <Param2>474044</Param2>
+            <Param1>10420224</Param1>
+            <Param2>605098</Param2>
             <Param3>0</Param3>
-            <Param4>1658673809</Param4>
+            <Param4>1658748795</Param4>
             <Enable>0</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_98>
         <Image_99>
+            <Name>Ìä∏ÏúàÌÑ∞Î≥¥</Name>
+            <Rect>(28, 73, 109, 144)</Rect>
+            <ROI>(28, 73, 109, 144)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>9109504</Param1>
+            <Param2>736173</Param2>
+            <Param3>0</Param3>
+            <Param4>1658748795</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_99>
+        <Image_100>
+            <Name>ÌååÏù∏Î™®ÏÖò</Name>
+            <Rect>(28, 73, 109, 144)</Rect>
+            <ROI>(28, 73, 109, 144)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>10420224</Param1>
+            <Param2>408536</Param2>
+            <Param3>0</Param3>
+            <Param4>1658748795</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>0</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_100>
+        <Image_101>
+            <Name>ÌïòÏïºÏπ¥ÏôÄÌÉÄÏ¶àÎÇò</Name>
+            <Rect>(28, 73, 109, 144)</Rect>
+            <ROI>(28, 73, 109, 144)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>10223616</Param1>
+            <Param2>801783</Param2>
+            <Param3>0</Param3>
+            <Param4>1658748795</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>0</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_101>
+        <Image_102>
+            <Name>Í∑∏ÎûòÏä§ÏõêÎçî</Name>
+            <Rect>(28, 73, 109, 144)</Rect>
+            <ROI>(28, 73, 109, 144)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>9043968</Param1>
+            <Param2>539605</Param2>
+            <Param3>0</Param3>
+            <Param4>1658748795</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>0</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_102>
+        <Image_103>
+            <Name>Ïä§ÌéòÏÖúÏúÑÌÅ¨</Name>
+            <Rect>(28, 73, 109, 144)</Rect>
+            <ROI>(28, 73, 109, 144)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>11927552</Param1>
+            <Param2>343001</Param2>
+            <Param3>0</Param3>
+            <Param4>1658748795</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_103>
+        <Image_104>
+            <Name>ÏäàÌçºÌÅ¨Î¶≠</Name>
+            <Rect>(28, 73, 109, 144)</Rect>
+            <ROI>(28, 73, 109, 144)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>10551296</Param1>
+            <Param2>605098</Param2>
+            <Param3>0</Param3>
+            <Param4>1658748795</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_104>
+        <Image_105>
+            <Name>ÏïÑÏù¥ÎÑ§Ïä§ÌõÑÏßÑ</Name>
+            <Rect>(28, 73, 109, 144)</Rect>
+            <ROI>(28, 73, 109, 144)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>11862016</Param1>
+            <Param2>605102</Param2>
+            <Param3>0</Param3>
+            <Param4>1658748795</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_105>
+        <Image_106>
+            <Name>ÏÇ¨Ïø†ÎùºÎ∞îÏø†Ïã†Ïò§</Name>
+            <Rect>(28, 73, 109, 144)</Rect>
+            <ROI>(28, 73, 109, 144)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>10878976</Param1>
+            <Param2>736173</Param2>
+            <Param3>0</Param3>
+            <Param4>1658748795</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_106>
+        <Image_107>
+            <Name>ÎπÑÏΩîÌéòÍ∞ÄÏàòÏä§</Name>
+            <Rect>(28, 73, 109, 144)</Rect>
+            <ROI>(28, 73, 109, 144)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>10747904</Param1>
+            <Param2>736173</Param2>
+            <Param3>0</Param3>
+            <Param4>1658748795</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_107>
+        <Image_108>
+            <Name>Î©îÏßÄÎ°úÌååÎ®∏</Name>
+            <Rect>(28, 73, 109, 144)</Rect>
+            <ROI>(28, 73, 109, 144)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>10223616</Param1>
+            <Param2>605102</Param2>
+            <Param3>0</Param3>
+            <Param4>1658748795</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_108>
+        <Image_109>
+            <Name>Í≥®ÎìúÏâΩ</Name>
+            <Rect>(28, 73, 109, 144)</Rect>
+            <ROI>(28, 73, 109, 144)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>9830400</Param1>
+            <Param2>342977</Param2>
+            <Param3>0</Param3>
+            <Param4>1658748795</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_109>
+        <Image_110>
+            <Name>Ïò§Íµ¨Î¶¨Ï∫°</Name>
+            <Rect>(28, 73, 109, 144)</Rect>
+            <ROI>(28, 73, 109, 144)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>11796480</Param1>
+            <Param2>408493</Param2>
+            <Param3>0</Param3>
+            <Param4>1658748795</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_110>
+        <Image_111>
+            <Name>ÏóòÏΩòÎèÑÎ•¥ÌååÏÇ¨</Name>
+            <Rect>(28, 73, 109, 144)</Rect>
+            <ROI>(28, 73, 109, 144)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>10616832</Param1>
+            <Param2>408493</Param2>
+            <Param3>0</Param3>
+            <Param4>1658748795</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_111>
+        <Image_112>
+            <Name>ÎãàÏãúÎÖ∏ÌîåÎùºÏõå</Name>
+            <Rect>(28, 73, 109, 144)</Rect>
+            <ROI>(28, 73, 109, 144)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>11010048</Param1>
+            <Param2>736173</Param2>
+            <Param3>0</Param3>
+            <Param4>1658748795</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_112>
+        <Image_113>
+            <Name>ÌÜ†Ïπ¥Ïù¥ÌÖåÏù¥Ïò§</Name>
+            <Rect>(28, 73, 109, 144)</Rect>
+            <ROI>(28, 73, 109, 144)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>10944512</Param1>
+            <Param2>474044</Param2>
+            <Param3>0</Param3>
+            <Param4>1658748795</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_113>
+        <Image_114>
+            <Name>ÏÇ¨ÌÜ†ÎÖ∏Îã§Ïù¥ÏïÑÎ™¨Îìú</Name>
+            <Rect>(28, 73, 109, 144)</Rect>
+            <ROI>(28, 73, 109, 144)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>10813440</Param1>
+            <Param2>605098</Param2>
+            <Param3>0</Param3>
+            <Param4>1658757371</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_114>
+        <Image_115>
+            <Name>ÌÇ§ÌÉÄÏÇ∞Î∏îÎûô</Name>
+            <Rect>(28, 73, 109, 144)</Rect>
+            <ROI>(28, 73, 109, 144)</ROI>
+            <FullROI>0</FullROI>
+            <Param1>10354688</Param1>
+            <Param2>736173</Param2>
+            <Param3>0</Param3>
+            <Param4>1658757831</Param4>
+            <Enable>0</Enable>
+            <Group>2</Group>
+            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <ActCount>2</ActCount>
+            <Act_1>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
+                <Enable>1</Enable>
+                <Param/>
+                <Attr/>
+            </Act_1>
+            <Act_2>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
+                <Enable>1</Enable>
+                <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
+                <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
+            </Act_2>
+        </Image_115>
+        <Image_116>
             <Name>grade.grp</Name>
             <Rect>(0, 0, 0, 0)</Rect>
             <ROI>(0, 0, 0, 0)</ROI>
@@ -2450,34 +2874,34 @@
             <Group>1</Group>
             <Trg Interval="0.5" CheckInherit1="1" Acc="50" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>0</ActCount>
-        </Image_99>
-        <Image_100>
+        </Image_116>
+        <Image_117>
             <Name>SSR</Name>
             <Rect>(285, 79, 21, 14)</Rect>
             <ROI>(225, 483, 21, 14)</ROI>
             <FullROI>0</FullROI>
-            <Param1>14090241</Param1>
+            <Param1>16384001</Param1>
             <Param2>736227</Param2>
             <Param3>0</Param3>
-            <Param4>1658645515</Param4>
+            <Param4>1658748795</Param4>
             <Enable>1</Enable>
             <Group>2</Group>
             <Trg Interval="1" CheckInherit1="1" Acc="45" CheckInherit2="0" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>0</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_100>
-        <Image_101>
+        </Image_117>
+        <Image_118>
             <Name>SR</Name>
             <Rect>(225, 483, 21, 13)</Rect>
             <ROI>(225, 483, 21, 13)</ROI>
@@ -2485,50 +2909,50 @@
             <Param1>11993088</Param1>
             <Param2>277503</Param2>
             <Param3>0</Param3>
-            <Param4>1658655646</Param4>
+            <Param4>1658748795</Param4>
             <Enable>1</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="50" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>0</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_101>
-        <Image_102>
+        </Image_118>
+        <Image_119>
             <Name>R</Name>
             <Rect>(45, 79, 21, 14)</Rect>
             <ROI>(45, 347, 21, 14)</ROI>
             <FullROI>0</FullROI>
-            <Param1>12255232</Param1>
-            <Param2>80894</Param2>
+            <Param1>15597569</Param1>
+            <Param2>539646</Param2>
             <Param3>0</Param3>
-            <Param4>1658644752</Param4>
+            <Param4>1658748795</Param4>
             <Enable>1</Enable>
             <Group>2</Group>
-            <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
+            <Trg Interval="1" CheckInherit1="1" Acc="50" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>¿ÃπÃ¡ˆ «•Ω√</Name>
+                <Name>Ïù¥ÎØ∏ÏßÄ ÌëúÏãú</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>∏∂øÏΩ∫ ¿‘∑¬</Name>
+                <Name>ÎßàÏö∞Ïä§ ÏûÖÎ†•</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
-        </Image_102>
+        </Image_119>
     </GENERAL>
     <SO>
         <CheckImageName>1</CheckImageName>

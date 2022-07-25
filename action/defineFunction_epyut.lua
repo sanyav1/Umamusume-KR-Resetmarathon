@@ -318,7 +318,7 @@ function MainAlgorithm()
 	cycle_total = 0
 	ERR_CHECK = 0
 
-	while cycle_total < 10 do
+	while cycle_total < 6 do
 		for i=1, 10 do
 			ret, acc, ix, iy, sx, sy = ImSearch('SSR', roi[i])
 			if ret == 0 then
@@ -326,12 +326,12 @@ function MainAlgorithm()
 			else
 				ret_SSR[i] = ret
 			end			
-			Sleep(100)
+			Sleep(50)
 		end
 
 		cycle_total = cycle_total + 1
 		
-		Sleep(100)
+		Sleep(50)
 	end
 
 	Sleep(100)
@@ -357,8 +357,43 @@ function MainAlgorithm()
 			if ErrorJudge(err) > 0 then return 0 end
 		end
 	end
-  
+
 	return 0
+end
+
+
+function ResetAddress(timeStamp,duration,deviceThether)
+
+	timeEllapsed = os.time() - timeStamp
+	print("지난 IP 재설정 이후 경과 시간 (초): "..timeEllapsed)
+
+	if timeEllapsed >= duration then
+		headCmd = "cd ../../ADB && "
+		adbCmd_1 = "adb -s "..deviceThether.." shell svc data disable && "
+		adbCmd_2 = "adb -s "..deviceThether.." shell settings put global airplane_mode_on 1"
+		appCmd = headCmd..adbCmd_1..adbCmd_2
+	
+		local f = io.popen(appCmd)
+		f:close()
+		
+		print("비행기 모드 활성화")
+		
+		Sleep(500)
+		
+		headCmd = "cd ../../ADB && "
+		adbCmd_1 = "adb -s "..deviceThether.." shell svc data enable && "
+		adbCmd_2 = "adb -s "..deviceThether.." shell settings put global airplane_mode_on 0"
+		appCmd = headCmd..adbCmd_1..adbCmd_2
+	
+		local f = io.popen(appCmd)
+		f:close()
+	
+		print("비행기 모드 비활성화")
+
+		return os.time()
+	else
+		return timeStamp
+	end
 end
 
 
