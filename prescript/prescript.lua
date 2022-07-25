@@ -7,8 +7,7 @@ STR_NAME = 'name'
 STR_NUM = 'num'
 IS_OK = true
 SAFELOCK = 0
-START_ERR_MESSAGE_SESSION = "블루스택과 연결해주세요."
-START_ERR_MESSAGE_TETHER = "테더링 기기와 연결해주세요."
+START_ERR_MESSAGE_CONNECT = "블루스택과 연결해주세요."
 START_ERR_MESSAGE_VAR = "정지옵션은 모두 골라야합니다."
 START_ERR_MESSAGE_SCORE = "목표점수 확정 필요"
 START_ERR_MESSAGE_END = "이미 조건을 모두 만족했습니다. 조건을 확인해주세요."
@@ -17,9 +16,10 @@ SAFELOCK_MESSAGE = "SAFELOCK, 잠금해제 필요"
 
 UMA_LIST = {
 	'선택하지않음',
+	'SR스윕토쇼',
 	'골드쉽',
 	'골드시티',
-	'그래스원더',
+	'그라스원더',
 	'나이스네이처',
 	'니시노플라워',
 	'라이스샤워',
@@ -108,10 +108,7 @@ GUIAddButton(x, y+ 60, -1, -1, 'STOP/잠금해제', 'button_stop')
 GUIAddButton(x + 140, y + 60, -1, -1, '연결초기화', 'button_reset_server', 'reset_var')
 TEST_CONNECT_ID = GUIAddButton(x+240, y + 60, -1, -1, '테스트(창열림)', 'button_test_connect', 'test_connect_var')
 
-GUIAddText(x, y + 90, 340, -1, '외부망 기기 ADB 기기명을 확인 후 정확히 입력해주세요')
-GUIAddEdit(x, y + 120, 240, -1, '', nil, 'net_device')
-GUIAddButton(x + 240, y + 120, -1, -1,'네트워크 연결', 'button_connect_net')
-
+GUIAddText(x, y + 105, 340, -1, 'IP 갱신 기능이 없는 버전입니다.')
 GUIAddText(x, y + 150, 340, -1, '■ 중요!!! - 일반 탭의 [인식대상]->[설정]->[대상 창 선택] 확인')
 
 table.insert(GUI_ETC_LIST, TEST_CONNECT_ID)
@@ -366,31 +363,6 @@ function button_connect_device(button_id)
 	end
 
 end
-
-
-function button_connect_net(button_id)
-	
-	if net_device ~=''
-	then
-		net_target = net_device
-		net_head_command = "cd ADB && adb connect "..net_target
-		net_adb_command = 'adb devices -l'
-
-		command = net_head_command..net_adb_command
-		
-		print(net_device)
-		
-		local f = io.popen(command)
-
-		for line in f:lines()do 
-			print(line)
-		end
-	else
-		print("스마트폰 기기명이 입력되지 않았습니다. 포트를 입력해주세요.")
-		return 0
-	end
-end
-
 
 function button_test_connect(button_id)
 print(adb_port)

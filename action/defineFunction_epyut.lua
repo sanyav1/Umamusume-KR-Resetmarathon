@@ -365,38 +365,3 @@ function calculate_selectfind()
 	end
 	return {selectfind_ok, found_index}
 end
-
-
-function resetAdress(timeStamp,duration,deviceThether)
-
-	timeEllapsed = os.time() - timeStamp
-	print("지난 IP 재설정 이후 경과 시간 (초): "..timeEllapsed)
-
-	if timeEllapsed >= duration then
-		head_command = "cd ../../ADB && "
-		adb_command_1 = "adb -s "..deviceThether.." shell svc data disable && "
-		adb_command_2 = "adb -s "..deviceThether.." shell settings put global airplane_mode_on 1"
-		command = head_command..adb_command_1..adb_command_2
-	
-		local f = io.popen(command)
-		f:close()
-		
-		print("비행기 모드 활성화")
-		
-		Sleep(500)
-		
-		head_command = "cd ../../ADB && "
-		adb_command_1 = "adb -s "..deviceThether.." shell svc data enable && "
-		adb_command_2 = "adb -s "..deviceThether.." shell settings put global airplane_mode_on 0"
-		command = head_command..adb_command_1..adb_command_2
-	
-		local f = io.popen(command)
-		f:close()
-	
-		print("비행기 모드 비활성화")
-
-		return os.time()
-	else
-		return timeStamp
-	end
-end

@@ -11,13 +11,10 @@ end
 
 print("_____________________________")
 
--- 세션과 테더링 기기가 연결되었는가
+-- 세션과 연결되었는가
 if device_name == nil then 
 	Stop()
 	MessageBox(START_ERR_MESSAGE_SESSION)
-elseif net_target == nil then
-	Stop()
-	MessageBox(START_ERR_MESSAGE_TETHER)
 end
 
 local date_now = os.date('*t')
