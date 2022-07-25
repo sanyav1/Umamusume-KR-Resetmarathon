@@ -629,3 +629,4 @@ function edit_score_num(edit_id)
 			break
 		end
 	end
+end
