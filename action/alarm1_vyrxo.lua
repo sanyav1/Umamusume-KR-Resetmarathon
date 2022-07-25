@@ -1,0 +1,3 @@
+MessageBox(ALARM_MESSAGE)
+SAFELOCK=1
+Stop()
