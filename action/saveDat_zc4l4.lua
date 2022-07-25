@@ -87,6 +87,6 @@ file:close()
 
 COUNT_CYCLE = COUNT_CYCLE+1
 
-print('¸®¼¼È½¼ö : '..COUNT_CYCLE)
+print('Â¸Â®Â¼Â¼ÃˆÂ½Â¼Ã¶ : '..COUNT_CYCLE)
 
 EnableImage(true,'isFinished')

@@ -73,10 +73,10 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>╫╨е╘╦Ёф╝ ют╥б</Name>
+                <Name>Л┼╓М│╛К╕╫М┼╦ Л·┘К═╔</Name>
                 <Enable>1</Enable>
-                <Param>Script( defineFunction_epyut LOOP_ERR_SMALL	= 50\n LOOP_ERR_MEDIUM = 90\n LOOP_ERR_LARGE	= 160\n GLOBAL_DELAY	= 100\n COUNT_CYCLE		= 0\n \n \n -- ╟Ха╓ ╧И╬В ╟Ф╥н ╩Щ╪╨\n headCmd = "cd ../../ADB &amp;&amp; "\n adbCmd = "adb -s "..device_na )</Param>
-                <Attr LuaFile="defineFunction_epyut" Text="LOOP_ERR_SMALL	= 50\n LOOP_ERR_MEDIUM = 90\n LOOP_ERR_LARGE	= 160\n GLOBAL_DELAY	= 100\n COUNT_CYCLE		= 0\n \n \n -- ╟Ха╓ ╧И╬В ╟Ф╥н ╩Щ╪╨\n headCmd = &quot;cd ../../ADB &amp;&amp; &quot;\n adbCmd = &quot;adb -s &quot;..device_na"/>
+                <Param>Script( defineFunction_epyut LOOP_ERR_SMALL	= 50\n LOOP_ERR_MEDIUM = 90\n LOOP_ERR_LARGE	= 160\n GLOBAL_DELAY	= 100\n COUNT_CYCLE		= 0\n \n \n -- ЙЁ└Л═∙ К╟╠Л≈┘ Й╡╫К║° Л┐²Л└╠\n headCmd = "cd ../../ADB &amp;&amp; "\n adbCmd = "adb -s "..device_na )</Param>
+                <Attr LuaFile="defineFunction_epyut" Text="LOOP_ERR_SMALL	= 50\n LOOP_ERR_MEDIUM = 90\n LOOP_ERR_LARGE	= 160\n GLOBAL_DELAY	= 100\n COUNT_CYCLE		= 0\n \n \n -- ЙЁ└Л═∙ К╟╠Л≈┘ Й╡╫К║° Л┐²Л└╠\n headCmd = &quot;cd ../../ADB &amp;&amp; &quot;\n adbCmd = &quot;adb -s &quot;..device_na"/>
             </Act_1>
         </Image_2>
         <Image_3>
@@ -93,19 +93,19 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>3</ActCount>
             <Act_1>
-                <Name>╫╨е╘╦Ёф╝ ют╥б</Name>
+                <Name>Л┼╓М│╛К╕╫М┼╦ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Script( variableSet_g8cz7 STARTIMAGE = 'guiErrorCheck'\n FIRST_RUN = true\n \n err = 0\n NETWORK_RESET_TIME = 600\n ERR_NETWORK = 0\n \n freeCycle= 1\n \n cycle_total = 0\n \n -- Region of Interest: Grade\n roi = {\n {45, 79, )</Param>
                 <Attr LuaFile="variableSet_g8cz7" Text="STARTIMAGE = &apos;guiErrorCheck&apos;\n FIRST_RUN = true\n \n err = 0\n NETWORK_RESET_TIME = 600\n ERR_NETWORK = 0\n \n freeCycle= 1\n \n cycle_total = 0\n \n -- Region of Interest: Grade\n roi = {\n {45, 79,"/>
             </Act_1>
             <Act_2>
-                <Name>╫╨е╘╦Ёф╝ ют╥б</Name>
+                <Name>Л┼╓М│╛К╕╫М┼╦ Л·┘К═╔</Name>
                 <Enable>1</Enable>
-                <Param>Script( variableSet_y9ysk --ю╞юг╩Ггв!!!!!!\n --combo©║╪╜ ©б index©м ╫га╕ UMA_LISTюг index╢б 1 бВюлЁ╡\n \n -- combo	:: 0 ~ N-1\n -- UMA_LIST :: 1 ~ N\n \n for k, img in pairs(GROUPS)\n do\n 	EnableImage(false, img)\n end\n \n  )</Param>
-                <Attr LuaFile="variableSet_y9ysk" Text="--ю╞юг╩Ггв!!!!!!\n --combo©║╪╜ ©б index©м ╫га╕ UMA_LISTюг index╢б 1 бВюлЁ╡\n \n -- combo	:: 0 ~ N-1\n -- UMA_LIST :: 1 ~ N\n \n for k, img in pairs(GROUPS)\n do\n 	EnableImage(false, img)\n end\n \n "/>
+                <Param>Script( variableSet_y9ysk --Л°═Л²≤Л┌╛М∙╜!!!!!!\n --comboЛ≈░Л└° Л≤╗ indexЛ≥─ Л▀╓Л═° UMA_LISTЛ²≤ indexК┼■ 1 Л╟╗Л²╢К┌╗\n \n -- combo	:: 0 ~ N-1\n -- UMA_LIST :: 1 ~ N\n \n for k, img in pairs(GROUPS)\n do\n 	EnableImage(false, img)\n end\n \n  )</Param>
+                <Attr LuaFile="variableSet_y9ysk" Text="--Л°═Л²≤Л┌╛М∙╜!!!!!!\n --comboЛ≈░Л└° Л≤╗ indexЛ≥─ Л▀╓Л═° UMA_LISTЛ²≤ indexК┼■ 1 Л╟╗Л²╢К┌╗\n \n -- combo	:: 0 ~ N-1\n -- UMA_LIST :: 1 ~ N\n \n for k, img in pairs(GROUPS)\n do\n 	EnableImage(false, img)\n end\n \n "/>
             </Act_2>
             <Act_3>
-                <Name>юн╫д х╟╪╨/╨Ях╟╪╨</Name>
+                <Name>Л²╦Л▀² М≥°Л└╠/К╧└М≥°Л└╠</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 3 define 1 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="3" ImageName="define" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
@@ -125,25 +125,25 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>4</ActCount>
             <Act_1>
-                <Name>╫╨е╘╦Ёф╝ ют╥б</Name>
+                <Name>Л┼╓М│╛К╕╫М┼╦ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Script( define_vld3b GROUPS = {\n 'resetAccount',\n 'gameStart',\n 'errorCallback'\n }\n \n UmaOff()\n \n found_uma_list = {}\n SAVE_SCREENSHOT_TRUE = false\n SSR_ON = false\n SSR_LOTS = true\n SR_SEARCH_ON = true )</Param>
                 <Attr LuaFile="define_vld3b" Text="GROUPS = {\n &apos;resetAccount&apos;,\n &apos;gameStart&apos;,\n &apos;errorCallback&apos;\n }\n \n UmaOff()\n \n found_uma_list = {}\n SAVE_SCREENSHOT_TRUE = false\n SSR_ON = false\n SSR_LOTS = true\n SR_SEARCH_ON = true"/>
             </Act_1>
             <Act_2>
-                <Name>юн╫д х╟╪╨/╨Ях╟╪╨</Name>
+                <Name>Л²╦Л▀² М≥°Л└╠/К╧└М≥°Л└╠</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 4 resetAccount 1 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="4" ImageName="resetAccount" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_2>
             <Act_3>
-                <Name>юн╫д х╟╪╨/╨Ях╟╪╨</Name>
+                <Name>Л²╦Л▀² М≥°Л└╠/К╧└М≥°Л└╠</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 1 defineFunction 0 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="1" ImageName="defineFunction" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_3>
             <Act_4>
-                <Name>юн╫д х╟╪╨/╨Ях╟╪╨</Name>
+                <Name>Л²╦Л▀² М≥°Л└╠/К╧└М≥°Л└╠</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 0 initialize 0 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="0" ImageName="initialize" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
@@ -177,13 +177,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>╫╨е╘╦Ёф╝ ют╥б</Name>
+                <Name>Л┼╓М│╛К╕╫М┼╦ Л·┘К═╔</Name>
                 <Enable>1</Enable>
-                <Param>Script( deleteAccount_gpph0 print('╟Ха╓ цй╠Бх╜ ╫цюш')\n \n headCmd = "cd ../../ADB &amp;&amp; "\n adbCmd = "adb -s "..device_name.." shell /system/xbin/bstk/su -c rm -rf /data/data/com.kakaogames.umamusume/shared_prefs"\n appCmd = head )</Param>
-                <Attr LuaFile="deleteAccount_gpph0" Text="print(&apos;╟Ха╓ цй╠Бх╜ ╫цюш&apos;)\n \n headCmd = &quot;cd ../../ADB &amp;&amp; &quot;\n adbCmd = &quot;adb -s &quot;..device_name..&quot; shell /system/xbin/bstk/su -c rm -rf /data/data/com.kakaogames.umamusume/shared_prefs&quot;\n appCmd = head"/>
+                <Param>Script( deleteAccount_gpph0 print('ЙЁ└Л═∙ Л╢┬Й╦╟М≥■ Л▀°Л·▒')\n \n headCmd = "cd ../../ADB &amp;&amp; "\n adbCmd = "adb -s "..device_name.." shell /system/xbin/bstk/su -c rm -rf /data/data/com.kakaogames.umamusume/shared_prefs"\n appCmd = head )</Param>
+                <Attr LuaFile="deleteAccount_gpph0" Text="print(&apos;ЙЁ└Л═∙ Л╢┬Й╦╟М≥■ Л▀°Л·▒&apos;)\n \n headCmd = &quot;cd ../../ADB &amp;&amp; &quot;\n adbCmd = &quot;adb -s &quot;..device_name..&quot; shell /system/xbin/bstk/su -c rm -rf /data/data/com.kakaogames.umamusume/shared_prefs&quot;\n appCmd = head"/>
             </Act_1>
             <Act_2>
-                <Name>╣Т╥╧юл(аЖ©╛)</Name>
+                <Name>К■°К═┬Л²╢(Л╖─Л≈╟)</Name>
                 <Enable>1</Enable>
                 <Param>Delay( 0 1.000000 0 0 0.000000 )</Param>
                 <Attr DelayMin="0" DelaySec="1" CheckDelayRand="0" DelayRandMin="0" DelayRandSec="0"/>
@@ -203,13 +203,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юн╫д х╟╪╨/╨Ях╟╪╨</Name>
+                <Name>Л²╦Л▀² М≥°Л└╠/К╧└М≥°Л└╠</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 7 gameStart 1 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="7" ImageName="gameStart" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_1>
             <Act_2>
-                <Name>юн╫д х╟╪╨/╨Ях╟╪╨</Name>
+                <Name>Л²╦Л▀² М≥°Л└╠/К╧└М≥°Л└╠</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 4 resetAccount 0 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="4" ImageName="resetAccount" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
@@ -243,7 +243,7 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>╫╨е╘╦Ёф╝ ют╥б</Name>
+                <Name>Л┼╓М│╛К╕╫М┼╦ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Script( startScript1_n103s -- Assign initial prevTime\n if prevTime == nil\n then\n 	prevTime = os.time()\n end\n \n -- Reset network after given time\n prevTime = ResetAddress(prevTime,NETWORK_RESET_TIME,net_device)\n \n -- F )</Param>
                 <Attr LuaFile="startScript1_n103s" Text="-- Assign initial prevTime\n if prevTime == nil\n then\n 	prevTime = os.time()\n end\n \n -- Reset network after given time\n prevTime = ResetAddress(prevTime,NETWORK_RESET_TIME,net_device)\n \n -- F"/>
@@ -263,7 +263,7 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>╫╨е╘╦Ёф╝ ют╥б</Name>
+                <Name>Л┼╓М│╛К╕╫М┼╦ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Script( startScript2_htvre Sleep(1000)\n \n err = LoopstepBoth("syncAccount", "skipSync", LOOP_ERR_LARGE, {true, 0, 0})\n if ErrorJudge(err) &gt; 0 then return 0 end\n \n err = Loopstep("skipSync", "skipTutorial", LOOP_ERR_LARGE, )</Param>
                 <Attr LuaFile="startScript2_htvre" Text="Sleep(1000)\n \n err = LoopstepBoth(&quot;syncAccount&quot;, &quot;skipSync&quot;, LOOP_ERR_LARGE, {true, 0, 0})\n if ErrorJudge(err) &gt; 0 then return 0 end\n \n err = Loopstep(&quot;skipSync&quot;, &quot;skipTutorial&quot;, LOOP_ERR_LARGE,"/>
@@ -283,7 +283,7 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>╫╨е╘╦Ёф╝ ют╥б</Name>
+                <Name>Л┼╓М│╛К╕╫М┼╦ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Script( errCheck_8i6na ERR_CHECK = 0 )</Param>
                 <Attr LuaFile="errCheck_8i6na" Text="ERR_CHECK = 0"/>
@@ -317,13 +317,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юн╫д х╟╪╨/╨Ях╟╪╨</Name>
+                <Name>Л²╦Л▀² М≥°Л└╠/К╧└М≥°Л└╠</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 38 selectGacha 1 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="38" ImageName="selectGacha" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_1>
             <Act_2>
-                <Name>юн╫д х╟╪╨/╨Ях╟╪╨</Name>
+                <Name>Л²╦Л▀² М≥°Л└╠/К╧└М≥°Л└╠</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 7 gameStart 0 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="7" ImageName="gameStart" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
@@ -343,13 +343,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -369,13 +369,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -395,13 +395,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -421,13 +421,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -447,13 +447,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -473,13 +473,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -499,13 +499,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -525,13 +525,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>0</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -551,13 +551,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -577,13 +577,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -603,13 +603,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -629,13 +629,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -655,13 +655,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -681,13 +681,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -707,13 +707,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -733,13 +733,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -759,13 +759,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -785,13 +785,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -811,13 +811,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -837,13 +837,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -863,13 +863,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -889,13 +889,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -915,13 +915,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -941,13 +941,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -967,13 +967,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1007,7 +1007,7 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>╫╨е╘╦Ёф╝ ют╥б</Name>
+                <Name>Л┼╓М│╛К╕╫М┼╦ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Script( gachaScript1_tkwv6 print("-----STARTING PLAIN GACHA-----")\n \n loopcount = 0\n loopcount_max = 12\n while loopcount &lt;= loopcount_max\n do\n 	ret, acc, ix, iy, sx, sy = ImageSearch("support")\n 	\n 	-- Search until pro )</Param>
                 <Attr LuaFile="gachaScript1_tkwv6" Text="print(&quot;-----STARTING PLAIN GACHA-----&quot;)\n \n loopcount = 0\n loopcount_max = 12\n while loopcount &lt;= loopcount_max\n do\n 	ret, acc, ix, iy, sx, sy = ImageSearch(&quot;support&quot;)\n 	\n 	-- Search until pro"/>
@@ -1027,19 +1027,19 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>3</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
             <Act_3>
-                <Name>╫╨е╘╦Ёф╝ ют╥б</Name>
+                <Name>Л┼╓М│╛К╕╫М┼╦ Л·┘К═╔</Name>
                 <Enable>0</Enable>
                 <Param>Script( ssrGuaranteed_j416x ret, acc, ix, iy, sx, sy = ImageSearch('ssrGuarateed')\n \n print(ret) )</Param>
                 <Attr LuaFile="ssrGuaranteed_j416x" Text="ret, acc, ix, iy, sx, sy = ImageSearch(&apos;ssrGuarateed&apos;)\n \n print(ret)"/>
@@ -1059,13 +1059,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1085,13 +1085,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1111,13 +1111,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1137,13 +1137,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1163,13 +1163,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1203,7 +1203,7 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>╫╨е╘╦Ёф╝ ют╥б</Name>
+                <Name>Л┼╓М│╛К╕╫М┼╦ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Script( ssrGachaScript1_crnhi err = Loopstep("ssrPick", "gachaSkip", 30, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return 0 end\n \n err = Loopstep("gachaSkip", "ssrResult", 30, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return  )</Param>
                 <Attr LuaFile="ssrGachaScript1_crnhi" Text="err = Loopstep(&quot;ssrPick&quot;, &quot;gachaSkip&quot;, 30, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return 0 end\n \n err = Loopstep(&quot;gachaSkip&quot;, &quot;ssrResult&quot;, 30, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return "/>
@@ -1223,13 +1223,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1249,13 +1249,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1275,13 +1275,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1301,13 +1301,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1327,13 +1327,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1353,19 +1353,19 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>3</ActCount>
             <Act_1>
-                <Name>юн╫д х╟╪╨/╨Ях╟╪╨</Name>
+                <Name>Л²╦Л▀² М≥°Л└╠/К╧└М≥°Л└╠</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 38 selectGacha 1 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="38" ImageName="selectGacha" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_1>
             <Act_2>
-                <Name>юн╫д х╟╪╨/╨Ях╟╪╨</Name>
+                <Name>Л²╦Л▀² М≥°Л└╠/К╧└М≥°Л└╠</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 46 ssrGacha 0 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="46" ImageName="ssrGacha" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_2>
             <Act_3>
-                <Name>юн╫д ╪Ь╪╜ ╨╞╟Ф</Name>
+                <Name>Л²╦Л▀² Л┬°Л└° КЁ─Й╡╫</Name>
                 <Enable>1</Enable>
                 <Param>Goto( 38 selectGacha 0 )</Param>
                 <Attr ImageSelect="38" ImageName="selectGacha" GotoCount="0"/>
@@ -1399,7 +1399,7 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>╫╨е╘╦Ёф╝ ют╥б</Name>
+                <Name>Л┼╓М│╛К╕╫М┼╦ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Script( supportCycle_gk56d AGAIN = true\n \n while AGAIN == true do\n 	err = Loopstep("supportPick", "gachaSkip", LOOP_ERR_MEDIUM, {true, 0,0})\n 	if ErrorJudge(err) &gt; 0 then return 0 end\n     \n 	err = Loopstep("gachaSkip",  )</Param>
                 <Attr LuaFile="supportCycle_gk56d" Text="AGAIN = true\n \n while AGAIN == true do\n 	err = Loopstep(&quot;supportPick&quot;, &quot;gachaSkip&quot;, LOOP_ERR_MEDIUM, {true, 0,0})\n 	if ErrorJudge(err) &gt; 0 then return 0 end\n     \n 	err = Loopstep(&quot;gachaSkip&quot;, "/>
@@ -1419,19 +1419,19 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>3</ActCount>
             <Act_1>
-                <Name>юн╫д х╟╪╨/╨Ях╟╪╨</Name>
+                <Name>Л²╦Л▀² М≥°Л└╠/К╧└М≥°Л└╠</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 62 recordRoom 1 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="62" ImageName="recordRoom" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_1>
             <Act_2>
-                <Name>юн╫д х╟╪╨/╨Ях╟╪╨</Name>
+                <Name>Л²╦Л▀² М≥°Л└╠/К╧└М≥°Л└╠</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 54 supportGacha 0 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="54" ImageName="supportGacha" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_2>
             <Act_3>
-                <Name>юн╫д х╟╪╨/╨Ях╟╪╨</Name>
+                <Name>Л²╦Л▀² М≥°Л└╠/К╧└М≥°Л└╠</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 56 toRecordRoom 0 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="56" ImageName="toRecordRoom" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
@@ -1451,19 +1451,19 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>3</ActCount>
             <Act_1>
-                <Name>юн╫д х╟╪╨/╨Ях╟╪╨</Name>
+                <Name>Л²╦Л▀² М≥°Л└╠/К╧└М≥°Л└╠</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 73 umaAssess 1 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="73" ImageName="umaAssess" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_1>
             <Act_2>
-                <Name>юн╫д х╟╪╨/╨Ях╟╪╨</Name>
+                <Name>Л²╦Л▀² М≥°Л└╠/К╧└М≥°Л└╠</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 54 supportGacha 0 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="54" ImageName="supportGacha" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_2>
             <Act_3>
-                <Name>юн╫д х╟╪╨/╨Ях╟╪╨</Name>
+                <Name>Л²╦Л▀² М≥°Л└╠/К╧└М≥°Л└╠</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 57 toAssess 0 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="57" ImageName="toAssess" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
@@ -1483,13 +1483,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1509,13 +1509,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1535,13 +1535,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1561,13 +1561,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="70" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1601,7 +1601,7 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>╫╨е╘╦Ёф╝ ют╥б</Name>
+                <Name>Л┼╓М│╛К╕╫М┼╦ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Script( toTheRoom_n2k4r err = Loopstep("doNotPick", "exitGacha", LOOP_ERR_SMALL, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return 0 end\n \n err = Loopstep("exitGacha", "toHome", LOOP_ERR_LARGE, {true, 0,0})\n if ErrorJudg )</Param>
                 <Attr LuaFile="toTheRoom_n2k4r" Text="err = Loopstep(&quot;doNotPick&quot;, &quot;exitGacha&quot;, LOOP_ERR_SMALL, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return 0 end\n \n err = Loopstep(&quot;exitGacha&quot;, &quot;toHome&quot;, LOOP_ERR_LARGE, {true, 0,0})\n if ErrorJudg"/>
@@ -1621,19 +1621,19 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>3</ActCount>
             <Act_1>
-                <Name>юн╫д х╟╪╨/╨Ях╟╪╨</Name>
+                <Name>Л²╦Л▀² М≥°Л└╠/К╧└М≥°Л└╠</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 38 selectGacha 1 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="38" ImageName="selectGacha" Enable="1" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_1>
             <Act_2>
-                <Name>юн╫д х╟╪╨/╨Ях╟╪╨</Name>
+                <Name>Л²╦Л▀² М≥°Л└╠/К╧└М≥°Л└╠</Name>
                 <Enable>1</Enable>
                 <Param>Enable( 62 recordRoom 0 0  0 0 0  0 0 0 0  0 )</Param>
                 <Attr ImageSelect="62" ImageName="recordRoom" Enable="0" DisableCurImage="0" CheckEnableTimer="0" EnableTimerMin="0" EnableTimerSec="0" CheckEnableOnTime="0" EnableOnTimeHH="0" EnableOnTimeMM="0" EnableOnTimeSS="0" CheckEnableTimeCancel="0"/>
             </Act_2>
             <Act_3>
-                <Name>юн╫д ╪Ь╪╜ ╨╞╟Ф</Name>
+                <Name>Л²╦Л▀² Л┬°Л└° КЁ─Й╡╫</Name>
                 <Enable>1</Enable>
                 <Param>Goto( 38 selectGacha 0 )</Param>
                 <Attr ImageSelect="38" ImageName="selectGacha" GotoCount="0"/>
@@ -1653,13 +1653,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1679,13 +1679,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1705,13 +1705,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1731,13 +1731,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1757,13 +1757,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1783,13 +1783,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1809,13 +1809,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1835,13 +1835,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1875,7 +1875,7 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>╫╨е╘╦Ёф╝ ют╥б</Name>
+                <Name>Л┼╓М│╛К╕╫М┼╦ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Script( primAssess_qm44c print('MAIN_FLAG = '..tostring(MAIN_FLAG))\n print("MUST : " ..tostring(CalculateMustfind()[1]))\n print("SELECT : " ..tostring(CalculateSelectfind()[1]))\n print("SCORE : " ..tostring(CalculateScore )</Param>
                 <Attr LuaFile="primAssess_qm44c" Text="print(&apos;MAIN_FLAG = &apos;..tostring(MAIN_FLAG))\n print(&quot;MUST : &quot; ..tostring(CalculateMustfind()[1]))\n print(&quot;SELECT : &quot; ..tostring(CalculateSelectfind()[1]))\n print(&quot;SCORE : &quot; ..tostring(CalculateScore"/>
@@ -1895,7 +1895,7 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>╫╨е╘╦Ёф╝ ют╥б</Name>
+                <Name>Л┼╓М│╛К╕╫М┼╦ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Script( saveDat_zc4l4 err = Loopstep("doNotPick", "exitGacha", LOOP_ERR_SMALL, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return 0 end\n \n err = Loopstep("exitGacha", "toInventory", LOOP_ERR_LARGE, {true, 0,0})\n if Erro )</Param>
                 <Attr LuaFile="saveDat_zc4l4" Text="err = Loopstep(&quot;doNotPick&quot;, &quot;exitGacha&quot;, LOOP_ERR_SMALL, {true, 0,0})\n if ErrorJudge(err) &gt; 0 then return 0 end\n \n err = Loopstep(&quot;exitGacha&quot;, &quot;toInventory&quot;, LOOP_ERR_LARGE, {true, 0,0})\n if Erro"/>
@@ -1915,7 +1915,7 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>╫╨е╘╦Ёф╝ ют╥б</Name>
+                <Name>Л┼╓М│╛К╕╫М┼╦ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Script( isFinished_c7aqp if SUCCESS == true then\n 	print("All Conditions are met")\n \n 	for k, v in pairs(found_uma_list)\n 	do\n 		if v &gt; 1 then\n 			print(UMA_LIST[k], v)\n 		end\n 	end\n \n 	print('Reset Marthons Done : )</Param>
                 <Attr LuaFile="isFinished_c7aqp" Text="if SUCCESS == true then\n 	print(&quot;All Conditions are met&quot;)\n \n 	for k, v in pairs(found_uma_list)\n 	do\n 		if v &gt; 1 then\n 			print(UMA_LIST[k], v)\n 		end\n 	end\n \n 	print(&apos;Reset Marthons Done :"/>
@@ -1935,13 +1935,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1961,13 +1961,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -1987,13 +1987,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -2013,13 +2013,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -2039,13 +2039,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -2065,13 +2065,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -2091,13 +2091,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -2131,7 +2131,7 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>╫╨е╘╦Ёф╝ ют╥б</Name>
+                <Name>Л┼╓М│╛К╕╫М┼╦ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Script( alarm1_vyrxo MessageBox(ALARM_MESSAGE)\n SAFELOCK=1\n Stop() )</Param>
                 <Attr LuaFile="alarm1_vyrxo" Text="MessageBox(ALARM_MESSAGE)\n SAFELOCK=1\n Stop()"/>
@@ -2151,13 +2151,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>╠Бе╦ ╬в╪г</Name>
+                <Name>Й╦╟М┐─ Л∙║Л┘≤</Name>
                 <Enable>1</Enable>
                 <Param>Etc1( 0 0  1 5.000000 alarm.wav  0 -1 0 null null  0 null 0  0 null null null 0  0 null null null 0 )</Param>
                 <Attr CheckEtcScrshot="0" CheckEtcAutoStop="0" CheckEtcAlarm="1" EtcAlarmSec="5" EtcAlarmFilePath="alarm.wav" CheckEtcKatalk="0" ComboEtcKatalk="-1" EtcKatalkTitle="null" EtcKatalkText="null" CheckEtcKatalkScrshot="0" CheckEtcMail="0" EtcMailAddress="null" CheckEtcMailScrshot="0" CheckEtcTelegram="0" EtcTelegramToken="null" EtcTelegramChatID="null" EtcTelegramText="null" CheckEtcTelegramScrshot="0" CheckEtcDiscord="0" EtcDiscordURL="null" EtcDiscordName="null" EtcDiscordText="null" CheckEtcDiscordScrshot="0"/>
             </Act_1>
             <Act_2>
-                <Name>╫╨е╘╦Ёф╝ ют╥б</Name>
+                <Name>Л┼╓М│╛К╕╫М┼╦ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Script( alarm2_jjsbe SAFELOCK=1\n Stop() )</Param>
                 <Attr LuaFile="alarm2_jjsbe" Text="SAFELOCK=1\n Stop()"/>
@@ -2177,13 +2177,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>╠Бе╦ ╬в╪г</Name>
+                <Name>Й╦╟М┐─ Л∙║Л┘≤</Name>
                 <Enable>1</Enable>
                 <Param>Etc1( 0 0  1 5.000000 alarm.wav  0 -1 0 null null  0 null 0  0 null null null 0  0 null null null 0 )</Param>
                 <Attr CheckEtcScrshot="0" CheckEtcAutoStop="0" CheckEtcAlarm="1" EtcAlarmSec="5" EtcAlarmFilePath="alarm.wav" CheckEtcKatalk="0" ComboEtcKatalk="-1" EtcKatalkTitle="null" EtcKatalkText="null" CheckEtcKatalkScrshot="0" CheckEtcMail="0" EtcMailAddress="null" CheckEtcMailScrshot="0" CheckEtcTelegram="0" EtcTelegramToken="null" EtcTelegramChatID="null" EtcTelegramText="null" CheckEtcTelegramScrshot="0" CheckEtcDiscord="0" EtcDiscordURL="null" EtcDiscordName="null" EtcDiscordText="null" CheckEtcDiscordScrshot="0"/>
             </Act_1>
             <Act_2>
-                <Name>╫╨е╘╦Ёф╝ ют╥б</Name>
+                <Name>Л┼╓М│╛К╕╫М┼╦ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Script( alarm3_txtuj MessageBox(ALARM_MESSAGE)\n SAFELOCK=1\n Stop() )</Param>
                 <Attr LuaFile="alarm3_txtuj" Text="MessageBox(ALARM_MESSAGE)\n SAFELOCK=1\n Stop()"/>
@@ -2217,7 +2217,7 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>1</ActCount>
             <Act_1>
-                <Name>╫╨е╘╦Ёф╝ ют╥б</Name>
+                <Name>Л┼╓М│╛К╕╫М┼╦ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Script( errorScript_snl3j Sleep(2000)\n \n if ERR_NETWORK == 1 then\n 	Mouse(LBUTTON, CLICK, 135, 461, 135, 461, 0, 0, 0.5, 1, FASTER, MESSAGE)\n 	Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTER, MESSAGE)\n \n 	err = Loop )</Param>
                 <Attr LuaFile="errorScript_snl3j" Text="Sleep(2000)\n \n if ERR_NETWORK == 1 then\n 	Mouse(LBUTTON, CLICK, 135, 461, 135, 461, 0, 0, 0.5, 1, FASTER, MESSAGE)\n 	Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTER, MESSAGE)\n \n 	err = Loop"/>
@@ -2237,13 +2237,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -2264,7 +2264,7 @@
             <ActCount>0</ActCount>
         </Image_92>
         <Image_93>
-            <Name>╟Я╣Е╫цф╪</Name>
+            <Name>ЙЁ╗К⌠°Л▀°М▀╟</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
@@ -2277,20 +2277,20 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_93>
         <Image_94>
-            <Name>╩Гюо╥╠╫╨╫╨аНд╚</Name>
+            <Name>Л┌╛Л²╪К÷╟Л┼╓Л┼╓Л╕┬Л╧╢</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
@@ -2303,20 +2303,20 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_94>
         <Image_95>
-            <Name>╪╪юл©Н╫╨д╚юл</Name>
+            <Name>Л└╦Л²╢Л ╢Л┼╓Л╧╢Л²╢</Name>
             <Rect>(28, 74, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
@@ -2329,20 +2329,20 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_95>
         <Image_96>
-            <Name>╫╨╦╤ф╝фхдэ</Name>
+            <Name>Л┼╓К╖┬М┼╦М▄■Л╫≤</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
@@ -2355,20 +2355,20 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_96>
         <Image_97>
-            <Name>©║╬Н╩Чд©</Name>
+            <Name>Л≈░Л√╢Л┐╓Л╩╓</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
@@ -2381,20 +2381,20 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_97>
         <Image_98>
-            <Name>е╦╦╤╦Пе╘╥н╫╨</Name>
+            <Name>М┐─К╖┬К╙╗М│╛К║°Л┼╓</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
@@ -2407,20 +2407,20 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_98>
         <Image_99>
-            <Name>ф╝ю╘ем╨╦</Name>
+            <Name>М┼╦Л°┬М└╟КЁ╢</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
@@ -2433,20 +2433,20 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_99>
         <Image_100>
-            <Name>фдюн╦П╪г</Name>
+            <Name>М▄▄Л²╦К╙╗Л┘≤</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
@@ -2459,20 +2459,20 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>0</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_100>
         <Image_101>
-            <Name>го╬ъд╚©ме╦аНЁ╙</Name>
+            <Name>М∙≤Л∙╪Л╧╢Л≥─М┐─Л╕┬К┌≤</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
@@ -2485,20 +2485,20 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>0</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_101>
         <Image_102>
-            <Name>╠в╥║╫╨©Ь╢У</Name>
+            <Name>Й╥╦К·≤Л┼╓Л⌡░К█■</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
@@ -2511,20 +2511,20 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>0</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_102>
         <Image_103>
-            <Name>╫╨фД╪хю╖е╘</Name>
+            <Name>Л┼╓М▌≤Л┘°Л°└М│╛</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
@@ -2537,20 +2537,20 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_103>
         <Image_104>
-            <Name>╫╢фше╘╦╞</Name>
+            <Name>Л┼┬М█╪М│╛К╕╜</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
@@ -2563,20 +2563,20 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_104>
         <Image_105>
-            <Name>╬фюлЁв╫╨хдаЬ</Name>
+            <Name>Л∙└Л²╢К└╓Л┼╓М⌡└Л╖└</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
@@ -2589,20 +2589,20 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_105>
         <Image_106>
-            <Name>╩ГдМ╤С╧ыдМ╫е©ю</Name>
+            <Name>Л┌╛Л©═К²╪К╟■Л©═Л▀═Л≤╓</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
@@ -2615,20 +2615,20 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_106>
         <Image_107>
-            <Name>╨ЯдзфД╟║╪Ж╫╨</Name>
+            <Name>К╧└Л╫■М▌≤Й╟─Л┬≤Л┼╓</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
@@ -2641,20 +2641,20 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_107>
         <Image_108>
-            <Name>╦чаЖ╥нфд╦с</Name>
+            <Name>К╘■Л╖─К║°М▄▄К╗╦</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
@@ -2667,20 +2667,20 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_108>
         <Image_109>
-            <Name>╟Я╣Е╫╠</Name>
+            <Name>ЙЁ╗К⌠°Л┴╫</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
@@ -2693,20 +2693,20 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_109>
         <Image_110>
-            <Name>©ю╠╦╦╝д╦</Name>
+            <Name>Л≤╓Й╣╛К╕╛Л╨║</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
@@ -2719,20 +2719,20 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_110>
         <Image_111>
-            <Name>©╓дэ╣╣╦ёфд╩Г</Name>
+            <Name>Л≈≤Л╫≤К▐└К╔╢М▄▄Л┌╛</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
@@ -2745,20 +2745,20 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_111>
         <Image_112>
-            <Name>╢о╫цЁКгц╤С©Ж</Name>
+            <Name>К▀┬Л▀°К┘╦М■▄К²╪Л⌡▄</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
@@ -2771,20 +2771,20 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_112>
         <Image_113>
-            <Name>еДд╚юлевюл©ю</Name>
+            <Name>М├═Л╧╢Л²╢М┘▄Л²╢Л≤╓</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
@@ -2797,20 +2797,20 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_113>
         <Image_114>
-            <Name>╩ГеДЁК╢ыюл╬ф╦С╣Е</Name>
+            <Name>Л┌╛М├═К┘╦К▀╓Л²╢Л∙└К╙╛К⌠°</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
@@ -2823,20 +2823,20 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
             </Act_2>
         </Image_114>
         <Image_115>
-            <Name>е╟е╦╩Й╨М╥╒</Name>
+            <Name>М┌╓М┐─Л┌╟К╦■К·≥</Name>
             <Rect>(28, 73, 109, 144)</Rect>
             <ROI>(28, 73, 109, 144)</ROI>
             <FullROI>0</FullROI>
@@ -2849,13 +2849,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="80" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -2889,13 +2889,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="45" CheckInherit2="0" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>0</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -2915,13 +2915,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="50" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>0</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
@@ -2941,13 +2941,13 @@
             <Trg Interval="1" CheckInherit1="1" Acc="50" CheckInherit2="1" CheckShade="1" CheckEdge="0" CheckGauge="0" Gauge="70" ComboGauge="0" CheckAnimated="0" AnimatedSec="2" CheckLuaVar="0" LuaVar="" CheckNotFound="0" CheckPrint="0" ComboPrint="1"/>
             <ActCount>2</ActCount>
             <Act_1>
-                <Name>юл╧лаЖ г╔╫ц</Name>
+                <Name>Л²╢К╞╦Л╖─ М▒°Л▀°</Name>
                 <Enable>1</Enable>
                 <Param/>
                 <Attr/>
             </Act_1>
             <Act_2>
-                <Name>╦╤©Л╫╨ ют╥б</Name>
+                <Name>К╖┬Л ╟Л┼╓ Л·┘К═╔</Name>
                 <Enable>1</Enable>
                 <Param>Mouse( 0 0 1  0 0 0 0 0  5 5  0.000000 0.000000  0.500000 1 )</Param>
                 <Attr Input="0" Button="0" Speed="1" Base="0" Coord_x1="0" Coord_y1="0" Coord_x2="0" Coord_y2="0" Rand_x="5" Rand_y="5" PressSec1="0" PressSec2="0" Delay="0.5" Iter="1"/>
