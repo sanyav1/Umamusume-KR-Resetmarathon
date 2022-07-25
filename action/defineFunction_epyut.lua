@@ -310,6 +310,58 @@ function LoopstepOr(now_img, next_img, loopcount_max, loopdelay)
 end
 
 
+function MainAlgorithm()
+
+	ret_SSR = {}
+	
+	print("-----SUPPORT CARD RECOGNITION START-----")
+	cycle_total = 0
+	ERR_CHECK = 0
+
+	while cycle_total < 10 do
+		for i=1, 10 do
+			ret, acc, ix, iy, sx, sy = ImSearch('SSR', roi[i])
+			if ret == 0 then
+				ret_SSR[i] = 2
+			else
+				ret_SSR[i] = ret
+			end			
+			Sleep(100)
+		end
+
+		cycle_total = cycle_total + 1
+		
+		Sleep(100)
+	end
+
+	Sleep(100)
+
+	for i=1, 10 do
+		if ret_SSR[i] == 1 then
+			SSR_ON = true
+
+			Mouse(LBUTTON, CLICK, roi[i][1], roi[i][2], roi[i][1], roi[i][2], 0, 0, 0.3, 1, FASTER, MESSAGE)
+			Mouse(LBUTTON, UP, 0, 0, 0, 0, 0, 0, 0.2, 1, FASTEST, MESSAGE)
+
+			Sleep(1000)
+			
+			acc_index = FindBestAcc(detail_roi)
+
+			if (found_uma_list[acc_index] == nil) or (found_uma_list[acc_index] == 0) then
+				found_uma_list[acc_index] = 1
+			else
+				found_uma_list[acc_index] = found_uma_list[acc_index] + 1
+			end
+
+			err = Loopstep("closeInfo", "pickAgain", LOOP_ERR_MEDIUM, {true, 0,0})
+			if ErrorJudge(err) > 0 then return 0 end
+		end
+	end
+
+	return 0
+end
+
+
 function ResetAddress(timeStamp,duration,deviceThether)
 
 	timeEllapsed = os.time() - timeStamp

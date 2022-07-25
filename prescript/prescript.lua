@@ -238,7 +238,6 @@ GUIAddText(5, 0, 350, -1, 'FAQ1: 블루스택이 연결이 안돼요!')
 GUIAddText(5, 20, 350, -1, '--> 블루스택의 설정에서 ADB 설정을 켜주세요.')
 GUIAddText(5, 40, 350, -1, '--> 만일 켜져있다면 PC 재부팅 해주세요.')
 
-
 GUIAddText(5, 70, 350, -1, 'FAQ2: 매크로가 끝났는데도 버튼선택이 안돼요!')
 GUIAddText(5, 90, 350, -1, '--> 사용자 탭의 "STOP/잠금해제" 눌러주세요.')
 
@@ -250,8 +249,8 @@ GUIAddText(5, 200, 350, -1, '--> 문서/Screenshot/Uma/저장당시날짜/저장당시날짜시
 
 GUIAddText(5, 230, 350, -1, 'FAQ4: 불러오기가 안돼요!')
 GUIAddText(5, 250, 350, -1, '--> 연결한 블루스택이 파일이름의 device명과 같은지 확인')
-GUIAddText(5, 270, 350, -1, '--> 파일명 예) emulator-5554_220624_071427_516')
-GUIAddText(5, 290, 350, -1, '--> emulator-5554 에 해당하는 블루스택으로 실행')
+GUIAddText(5, 270, 350, -1, '--> 파일명 예) 8200_220624_071427_516')
+GUIAddText(5, 290, 350, -1, '--> 이전에 연결했던 블루스택 세션으로 실행')
 
 
 
@@ -275,8 +274,6 @@ GUISetCurTab('연결')
 
 
 -- ######################### 비활성화 GUI 설정
-
-
 function LIST_enable(constlist, bool)
 	if constlist == STR_SCOREFIND_LIST
 	then
@@ -326,8 +323,6 @@ GUIItemEnable(device_combo_id, false)
 
 
 -- ############################## Functions
-
-
 function button_reset_server(button_id)
 	
 	headCmd = "cd ADB && "
@@ -465,24 +460,7 @@ function button_load(button_id)
 	
 	Stop()
 	MessageBox("게스트 계정 복구를 시도했습니다. 앱을 켜서 확인해주세요.\n복구가 안됐을 경우 디바이스 확인바람.")
---[[
-	-- 앱 실행
-	
-	headCmd = "cd ADB && "
-	adbCmd = "adb -s "..selected_device.." shell am start -n com.kakaogames.umamusume/kr.co.kakaogames.umamusume_activity.UmamusumeActivity"
-	appCmd = headCmd..adbCmd
-	
-	local f = io.popen(appCmd)
-
-	f:close()	
---]]
 end
-
-
-
-
-
-
 
 
 function radio_mainrule(radio_id)
@@ -508,7 +486,6 @@ function button_stop(button_id)
 	GUI_enable(true)
 	
 end
-
 
 
 function combo_mustSelect_name(combo_id)
@@ -537,6 +514,7 @@ function combo_mustSelect_num(combo_id)
 		end
 	end
 end
+
 
 function combo_select_name(combo_id)
 	
@@ -611,6 +589,7 @@ function button_confirm(button_id)
 	GUISetCurTab('점수')
 	
 end
+
 
 function button_edit(button_id)
 	if (IsStop() == '1' or IsStop() == 1)
